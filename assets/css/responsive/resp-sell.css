@@ -1,0 +1,96 @@
+@media (min-width: 768px) {
+    .three-mobile{
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    .sell-space {
+        height: auto;
+        padding-bottom: 46px;
+    }
+    .fact-sell h2 {
+        margin-top: 30px;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    }
+
+    @media (max-width: 767px) {
+    .expect-sell .wrapp-icon {
+        padding-top: 15px;
+        margin: 0;
+        height: 81vw;
+    }
+    .sell-space .wrapper-title {
+        width: 100%;
+    }
+    .fact-sell {
+        padding: 40px 10px;
+    }
+    .book-appoint .col-md-6{
+        margin-bottom: 15px;
+    }
+    .sell-space h1 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .wrapper-img-fact img {
+        height: calc(90vw/16*9);
+    }
+    .btn-book {
+        font-size: 14px;
+    }
+    .expect-sell h2{
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .expect-sell .line-title {
+        height: 1px;
+    }
+    .wrapp-book-img img {
+        height: 190px;
+        border-radius: 14px 14px 0 0;
+    }
+    .card-book {
+        border-radius: 14px;
+    }
+    .wrapp-book-capt h3 {
+        font-weight: 700;
+    }
+    .btn-book-2 {
+        font-size: 14px;
+    }
+    .title-wrapp .icon-capt {
+        font-weight: 700;
+        font-size: 21px;
+    }
+    .img-wrapp img{
+        width: 25%;
+        margin-top: 14vw;
+    }
+    .title-wrapp {
+        width: 70%;
+    }
+    .three-mobile{
+        display: block;
+    }
+    .three-desktop{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,763 @@
+/*------GLOBAL IN THIS PAGE------*/
+@media (max-width: 1170px) {
+    body {
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .pad-ri-2, .pad-ri-8 {
+        padding-right: 15px;
+    }
+    
+    .pad-le-2, .pad-le-8 {
+        padding-left: 15px;
+    }
+}
+
+/*------NAVBAR------*/
+@media only screen and (max-width: 1170px) and (min-width: 575px) {
+    nav .container {
+        max-width: 100% !important;
+    }
+}
+
+/*------HEADER------*/
+@media (max-width: 1200px) {
+    .header .line-spthzn {
+        width: 90%;
+        left: 5%;
+    }
+    
+    .header .box-wh {
+        margin-left: 0;
+        margin-top: 0;
+        left: 10%;
+    }
+    
+    .border-w2 {
+        left: 35%;
+        margin-left: 0;
+    }
+    
+    .pop-buy .arrow-up {
+        right: 49%;
+    }
+    
+    .pop-rent .arrow-up {
+        right: 15%;
+    }
+    
+    .pop-rent, .pop-buy {
+        width: 78%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .btn-sell, .btn-buy, .btn-rent {
+        width: 160px;
+    }
+    
+    .pop-rent, .pop-buy {
+        width: 55%;
+    }
+}
+
+@media (max-width: 992px) {
+    .pop-rent, .pop-buy {
+        width: 73%;
+    }
+    
+    .pop-buy .arrow-up {
+        right: 48%;
+    }
+    
+    .header h1 {
+        font-size: 36px;
+    }
+    
+    .pop-rent .arrow-up {
+        right: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 32px;
+    }
+    
+    .header .find-your h4 {
+        font-size: 16px;
+    }
+    
+    .border-w {
+        width: 50%;
+    }
+    
+    .header .find-your {
+        margin: 0;
+    }
+    
+    .btn-sell {
+        width: 30%;
+    }
+    
+    .btn-buy {
+        width: 30%;
+    }
+    
+    .btn-rent {
+        width: 30%;
+    }
+    
+    .border-w2 {
+        text-align: center;
+        position: absolute;
+        margin-left: 0;
+        left: 25%;
+        width: 50%;
+    }
+    
+    .pop-buy .arrow-up {
+        right: 48%;
+    }
+    
+    .pop-rent .arrow-up {
+        right: 65px;
+    }
+    
+    .pop-rent, .pop-buy {
+        width: 90%;
+    }
+}
+
+@media (max-width: 575px) {
+    .pop-buy .arrow-up {
+        right: 47%;
+    }
+    
+    .pop-rent .arrow-up {
+        right: 13%;
+    }
+    
+    .pop-buy .btn-search, .pop-rent .btn-search {
+        padding: 12px 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .easy-autocomplete.eac-square {
+        width: 76% !important;
+    }
+    
+    .header .box-wh {
+        width: 190px;
+        height: 164px;
+        top: 180px;
+        left: 5%;
+    }
+    
+    .pop-buy .btn-search span, .pop-rent .btn-search span  {
+        display: none;
+    }
+    
+    .pop-buy .btn-search i, .pop-rent .btn-search i  {
+        display: block;
+    }
+    
+    .pop-buy .btn-search, .pop-rent .btn-search {
+        padding: 16px 28px;
+    }
+}
+
+@media (max-width: 470px) {
+    .easy-autocomplete.eac-square {
+        
+    }
+}
+
+@media (max-width: 460px) {
+    .easy-autocomplete.eac-square {
+        width: 74% !important;
+    }
+}
+
+@media (max-width: 433px) {
+    .easy-autocomplete.eac-square {
+        width: 70%!important;
+    }
+}
+
+@media (max-width: 420px) {
+    .header .head-capt {
+        padding-top: 106px;
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 410px) {
+    .easy-autocomplete.eac-square {
+        width: 68% !important;
+    }
+}
+
+@media (max-width: 381px) {
+    .easy-autocomplete.eac-square {
+        width: 66% !important;
+    }
+}
+
+@media (max-width: 378px) {
+    .header .find-your h4 {
+        font-size: 14px;
+    }
+    
+    .header .head-capt {
+        padding-top: 104px;
+        margin-bottom: 40px;
+    }
+    
+    .btn-sell {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+    
+    .btn-buy {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+    
+    .btn-rent, .btn-buy, .btn-sell {
+        width: 28%;
+        height: 34px;
+        font-size: 12px;
+        margin: 4px 2px;
+    }
+    
+    .pop-buy .arrow-up {
+        right: 46%;
+    }
+    
+    .header .box-wh {
+        left: 5%;
+    }
+    
+    .pop-buy .btn-search, .pop-rent .btn-search {
+        padding: 13px 16px;
+        font-size: 12px;
+    }
+    
+    .pop-buy .form-srch::-webkit-input-placeholder {
+        font-size: 12px;
+    }
+    
+    .pop-buy .form-srch::-moz-placeholder {
+        font-size: 12px;
+    }
+    
+    .pop-buy .form-srch:-ms-input-placeholder {
+        font-size: 12px;
+    }
+    
+    .pop-buy .form-srch::placeholder {
+        font-size: 12px;
+    }
+    
+    .btn-office, .btn-apart {
+        width: 120px;
+    }
+    
+    .pop-buy {
+        top: -10px;
+    }
+    
+    .pop-rent .form-srch::-webkit-input-placeholder {
+        font-size: 12px;
+    }
+    
+    .pop-rent .form-srch::-moz-placeholder {
+        font-size: 12px;
+    }
+    
+    .pop-rent .form-srch:-ms-input-placeholder {
+        font-size: 12px;
+    }
+    
+    .pop-rent .form-srch::placeholder {
+        font-size: 12px;
+    }
+    
+    .pop-rent .arrow-up {
+        right: 15%;
+    }
+    
+    .pop-rent {
+        top: -10px;
+    }
+    
+    .pop-buy .input-group img, .pop-rent .input-group img {
+        top: 10px;
+    }
+    
+    .easy-autocomplete.eac-square {
+        width: 80% !important;
+    }
+    
+    .easy-autocomplete.eac-square input, .easy-autocomplete.eac-square input:focus {
+        padding: 10px 43px 10px 41px;
+        font-size: 12px;
+    }
+    
+    .pop-buy, .pop-rent {
+        padding: 2px 0 2px 8px;
+    }
+    
+    .easy-autocomplete.eac-square ul li, .easy-autocomplete.eac-square ul .eac-category {
+        font-size: 12px;
+    }
+    
+    .eac-description .eac-item span {
+    color: black !important;
+        font-size: 12px;
+    }
+    
+    .left-blpop {
+        width: 6px;
+    }
+}
+
+@media (max-width: 333px) {
+    .easy-autocomplete.eac-square {
+        width: 78% !important;
+    }
+}
+
+/*------DISCOVER YOUR DREAM SPACE------*/
+@media (max-width: 1200px) {
+    .phone-mockup img {
+        margin: 52px auto 0 auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .phone-mockup img {
+        margin: 142px auto 0 auto;
+        float: right;
+    }
+    
+    .tellus-capt {
+        padding-top: 86px;
+    }
+    
+    .whytrust .nav-pills .nav-link {
+        padding: 40px 0 40px 16px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .tellus {
+        height: auto;
+        margin: auto;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    .tellus-capt {
+        padding-top: 0;
+    }
+    
+    .phone-mockup img {
+        margin: auto;
+        float: none;
+    }
+    
+    .phone-mockup {
+        float: none;
+        margin: 60px auto 0 auto;
+        display: none;
+    }
+    
+    .bg-trustleft {
+        height: 100vh;
+        background-position: center;
+    }
+}
+
+/*------THE SPACESTOCK SEVICE------*/
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+    .whytrust .nav-pills .nav-link {
+        padding: 40px 0 40px 20px;
+    }
+}
+
+/*------ WHAT CUSTOMERS SAY ------*/
+@media (max-width: 1200px) {
+    .testimo-card .logo-client {
+        width: 117%;
+    }
+    
+    .img-testimo {
+        right: -34px;
+        width: 90px;
+    }
+    
+    .img-testimo img {
+        width: 90px;
+    }
+    
+    .nine-container {
+        width: 65%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .testimo-card p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 992px) {
+    .testimo-card .logo-client {
+        width: 124%;
+    }
+    
+    .img-testimo {
+        right: -30px;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .testimo-card {
+        padding-bottom: 62%;
+    }
+}
+
+@media (max-width: 768px) {
+    .testimo-card .logo-client {
+        width: 110%;
+    }
+    
+    .testimo-card p {
+        font-size: 16px;
+    }
+    
+    .testimo-card {
+        margin: 40px auto 20px auto;
+        height: 440px;
+        width: 90%;
+        padding: 0;
+    }
+    
+    .testimo {
+        padding-bottom: 76px;
+    }
+    
+    .testimo-capt {
+        width: 90%;
+        margin: 20px auto;
+        height: auto;
+    }
+    
+    .testimo-card .wrapper-abs { 
+        width: 100%;
+        bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    .img-testimo {
+        right: -20px;
+        width: 100px;
+    }
+    
+    .img-testimo img {
+        width: 100px;
+    }
+    
+    .nine-container {
+        margin: 0 0 0 15px;
+    }
+}
+
+@media (max-width: 438px) {
+    .testimo-card .logo-client {
+        width: 112%;
+    }
+}
+
+@media (max-width: 390px) {
+    .testimo-card .logo-client {
+        width: 114%;
+    }
+}
+
+@media (max-width: 345px) {
+    .testimo-card .logo-client {
+        width: 117%;
+    }
+}
+
+/*------ SPACESTOCK VS OTHERS ------*/
+@media (max-width: 768px) {
+    .mid-vs {
+        display: none;
+    }
+    
+    .wrapper-space {
+        margin: 40px auto;
+    }
+    
+    .wrapper-vs1 {
+        margin: 40px auto;
+    }
+    
+    .img-space {
+        width: 100%;
+    }
+    
+    .img-vs {
+        width: 100%;
+    }
+    
+    .spacevs h2 {
+        display: none;
+    }
+    
+    .spacevs h2.how {
+        display: none;
+    }
+    
+    .spacevs .disp-768 {
+        display: none;
+    }
+}
+
+/*------ SUBSCRIBE OUR NEWSLETTER ------*/
+@media (max-width: 992px) {
+    .subs-form input[type=email] {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .subs-form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+   .subs-form input[type=email] {
+        width: 100%;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+    
+    .subs-form input[type=submit] {
+        display: none;
+    }
+    
+    .subs-form .subs-btn {
+        display: block;
+    }
+    
+    .subs-form {
+        margin-top: 10px;
+        display: inline-flex;
+    }
+    
+    .subs-sect {
+        height: 240px;
+        padding-top: 40px;
+    }
+}
+
+/*------ WHY SPACESTOCK ------*/
+@media (max-width: 1200px) {
+    .whyspace .line-spthzn2 {
+        width: 931px;
+    }
+}
+
+@media (max-width: 992px) {
+    .wrapper-whyspace {
+        margin-top: 128px;
+    }
+    
+    .whyspace .line-spthzn2 {
+        width: 691px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper-whyspace {
+        text-align: center;
+        background: #eef1f6;
+    }
+    
+    .whyspace .line-spthzn2 {
+        width: 511px;
+    }
+}
+
+@media (max-width: 575px) {
+    .whyspace .line-spthzn2 {
+        width: 95%;
+    }
+}
+
+@media (max-width: 480px) {
+    .whyspace {
+        height: 100%;
+    }
+    
+    .whyspace .line-spthzn2 {
+        height: 100%;
+        width: 94%;
+    }
+    
+    .bg-whyspace {
+        height: 100%;
+        margin-top: 0;
+        width: 100%;
+    }
+    
+    .whyspace .line-sptvrt2 {
+        height: 90%;
+        margin-top: 20px;
+    }
+    
+    .wrapper-whyspace {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 378px) {
+    .wrapper-whyspace {
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    .wrapper-whyspace {
+        margin-top: 36px;
+        margin-bottom: 48px;
+    }
+    
+    .whyspace .line-spthzn2 {
+        height: 100%;
+        width: 90%;
+    }
+}
+
+/*------NEWS------*/
+@media (max-width: 1200px) {
+    .wrapper-blog-1 {
+        height: 374px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper-blog-1 {
+        margin: auto;
+        height: 342px;
+        padding: 0 0 20px 0;
+    }
+}
+
+/*------POPULAR APARTMENT------*/
+@media (max-width: 768px) {
+    
+    .popular-apart, .popular-area {
+        padding: 40px 0 20px 0;
+    }
+    .mar-min-top {
+        margin-top: 0;
+    }
+    
+    .pad-ri-gallery {
+        padding-right: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .pad-le-gallery {
+        padding-left: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+/*------WALK THROUGH HOMES ONLINE------*/
+@media (max-width: 768px) {
+    .pad-ri-2 {
+        padding-right: 15px;
+    }
+    
+    .pad-le-2 {
+        padding-left: 15px;
+    }
+    
+    .pad-ri-8 {
+        padding-right: 15px;
+    }
+    
+    .pad-le-8 {
+        padding-left: 15px;
+    }
+    
+    .servyou .pad-le-2 {
+        display: none;
+    }
+    
+    .servyou p {
+        margin: 30px auto 0 auto;
+        text-align: center;
+    }
+}
+
+/*------NEWS------*/
+@media (max-width: 768px) {    
+    .news-apart .disp-none, .whytrust .disp-none {
+        display: none;
+    }
+}
+
+/*------TESTIMONI SLIDER------*/
+@media (max-width: 768px) {
+    .testimo .disp-none {
+        display: none;
+    }
+}
+
+/*------SWIPER SLIDER------*/
+@media (max-width: 768px) {
+    .swiper-container {
+        display: block;
+    }
+    
+    .whytrust, .news-apart, .testimo {
+        padding: 40px 0 26px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

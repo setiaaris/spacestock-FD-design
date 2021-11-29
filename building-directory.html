@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BUILDING DIRECTORY</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/select2.min.css">
+        <link rel="stylesheet" href="assets/css/general.css">
+        <link rel="stylesheet" href="assets/css/responsive/resp-general.css">
+        <link rel="stylesheet" href="assets/css/building-directory.css">
+        <link rel="stylesheet" href="assets/css/responsive/resp-building-directory.css">
+        <link rel="stylesheet" href="assets/easy-autocomplete/autocomplete.css">
+        <link rel="stylesheet" href="assets/easy-autocomplete/autocomplete-themes.css">
+    </head>
+    
+    <body>
+        
+        <!------ NAVBAR ------>
+        <nav>
+            <div class="close-dropdown"></div>
+            <div class="close-dropdown-2"></div>
+            <div class="close-dropdown-3"></div>
+            <div class="close-dropdown-4"></div>
+            <div id="mynavbar" class="mynavbar navbar-fixed-top">
+                <div class="toggle-nav">
+                    <div class="span1" id="one"></div>
+                    <div class="span2" id="two"></div>
+                    <div class="span3" id="three"></div>
+                </div>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/img/logo.png">
+                    </a>
+                </div>
+                <div class="wrapper-resp-nav">
+                    <div class="wrapper-profile dropdown">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="display-name" data-toggle="collapse" data-target="#DropRspnsv">
+                                    <div class="wrapper-name">
+                                        <span class="name">Alexanderousy</span>
+                                    </div>
+                                    <i class="fas fa-chevron-down"></i>
+                                    <div class="ico-profile">
+                                        <a href="#">
+                                            <img src="assets/img/icons/profile.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-content profile">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                            <div class="bottom-bl"></div>
+                       </div>
+                       <div id="DropRspnsv" class="dropdown-rspnsv collapse">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                       </div>
+                    </div>
+                    <div class="wrapper-profile resp dropdown">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="display-name">
+                                    <div class="ico-profile">
+                                        <a href="#">
+                                            <img src="assets/img/icons/profile.png">
+                                        </a>
+                                    </div>
+                                    <div class="wrapper-name">
+                                        <span class="name">Alexanderousy</span>
+                                    </div>
+                                    <div class="chev-profile" data-toggle="collapse" data-target="#DropRspnsvProfile">
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-content profile">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                            <div class="bottom-bl"></div>
+                       </div>
+                       <div id="DropRspnsvProfile" class="dropdown-rspnsv profile collapse">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                       </div>
+                    </div>
+                    <div class="wrapper-spt">
+                        <div class="opt-language">
+                            <div class="dropdown drop-lang">
+                                <button class="dropbtn lang">ID 
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                                <div class="dropdown-content lang">
+                                    <div class="arrow-up"></div>
+                                    <a href="#"><img src="assets/img/icons/indonesia.png"> ID</a>
+                                    <a href="#"><img src="assets/img/icons/united-kingdom.png"> EN</a>
+                                    <div class="bottom-bl"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-call">
+                            <img src="assets/img/icons/whatsapp.png">
+                            <span class="phone-call"><a href="#">+62 821 1717 7710</a></span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="dropdown">
+                               <button class="dropbtn office" data-toggle="collapse" data-target="#DropRspnsvOffice"><span class="nav-office" onclick="location.href='index-office.html'">OFFICE</span> 
+                                   <i class="fas fa-chevron-down"></i>
+                               </button>
+                               <div class="dropdown-content office">
+                                    <div class="arrow-up"></div>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell & Lease Your Space</a>
+                                    <div class="bottom-bl"></div>
+                               </div>
+                               <div id="DropRspnsvOffice" class="dropdown-rspnsv collapse">
+                                    <div class="arrow-up"></div>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell & Lease Your Space</a>
+                               </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                               <button class="dropbtn apartment" data-toggle="collapse" data-target="#DropRspnsvApart"><span class="nav-apart" onclick="location.href='index-apartment.html'">APARTMENTS</span> 
+                                   <i class="fas fa-chevron-down"></i>
+                               </button>
+                               <div class="dropdown-content apartment">
+                                 <div class="arrow-up"></div>
+                                    <a href="#">Buy Apartment</a>
+                                    <a href="apartment-detail-lease.html">Lease Apartment</a>
+                                    <a href="#">Sell & Lease Your Unit</a>
+                                 <div class="bottom-bl"></div>
+                               </div>
+                                <div id="DropRspnsvApart" class="dropdown-rspnsv collapse">
+                                    <div class="arrow-up"></div>
+                                    <a href="#">Buy Apartment</a>
+                                    <a href="apartment-detail-lease.html">Lease Apartment</a>
+                                    <a href="#">Sell & Lease Your Unit</a>
+                               </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="li-news" href="#">NEWS</a>
+                        </li>
+                    </ul>
+                    <div class="opt-language rspv">
+                        <div class="dropdown drop-lang">
+                            <button class="dropbtn lang" data-toggle="collapse" data-target="#DropRspnsvLang">ID 
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="dropdown-content lang">
+                                <div class="arrow-up"></div>
+                                <a href="#"><img src="assets/img/icons/indonesia.png"> ID</a>
+                                <a href="#"><img src="assets/img/icons/united-kingdom.png"> EN</a>
+                                <div class="bottom-bl"></div>
+                            </div>
+                            <div id="DropRspnsvLang" class="dropdown-rspnsv-lang collapse">
+                                <div class="arrow-up"></div>
+                                <a href="#"><img src="assets/img/icons/indonesia.png"> ID</a>
+                                <a href="#"><img src="assets/img/icons/united-kingdom.png"> EN</a>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="main-call rspv">
+                        <img src="assets/img/icons/whatsapp.png">
+                        <span class="phone-call"><a href="#">+62 821 1717 7710</a></span>
+                    </div>
+                </div>
+                <div class="wrapper-search-nav">
+                    <div class="search-navbar">
+                        <form autocomplete="off">
+                          <div class="">
+                            <input id="" class="myinput example-heroes1" type="text" name="myCountry" placeholder="">
+                            <div class="ico-srch">
+                                <i class="fas fa-search"></i>
+                            </div>
+                          </div>
+                        </form>
+                        <button class="btn-buys">BUY</button>
+                        <button class="btn-leases">LEASE</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <!------ BREADCRUMB ------>
+        <div id="bc-building" class="bc-building">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="wrapper-bc-building">
+                            <p><i class="fas fa-circle"></i> <a href="index.html">Home</a> > <a href="building-directory.html">Building Directory</a></p>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ BODY BUILDING DIRECTORY ------>
+        <div id="body-building" class="body-building">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 col-sm-12">
+                        <div class="title-building bord-btm">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="title-bd-building">
+                                        <h2>Building Directory</h2>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="wrapper-btns">
+                                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                          <li class="nav-item">
+                                            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">OFFICE</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">APARTMENT</a>
+                                          </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                <div class="menu-alpha">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <a href="#">A</a>
+                                            <a href="#">B</a>
+                                            <a href="#">C</a>
+                                            <a href="#">D</a>
+                                            <a href="#">E</a>
+                                            <a href="#">F</a>
+                                            <a href="#">G</a>
+                                            <a href="#">H</a>
+                                            <a href="#">I</a>
+                                            <a href="#">J</a>
+                                            <a href="#">K</a>
+                                            <a href="#">L</a>
+                                            <a href="#">M</a>
+                                            <a href="#">N</a>
+                                            <a href="#">O</a>
+                                            <a href="#">P</a>
+                                            <a href="#">Q</a>
+                                            <a href="#">R</a>
+                                            <a href="#">S</a>
+                                            <a href="#">T</a>
+                                            <a href="#">U</a>
+                                            <a href="#">V</a>
+                                            <a href="#">W</a>
+                                            <a href="#">X</a>
+                                            <a href="#">Y</a>
+                                            <a href="#">Z</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list-alpha">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-12">
+                                            <div class="a-list">
+                                                <div class="title">
+                                                    <h3>A</h3>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>AD Premiere</h3>
+                                                    <span class="address">Jl. T.B. Simatupang No. 5 Pasar Minggu
+                                                    Jakarta Selatan - 12540</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>AIA Central</h3>
+                                                    <span class="address">Jl. Jend Sudirman Kav.48A Setiabudi
+                                                    Jakarta Selatan - 12930</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>AJN Center</h3>
+                                                    <span class="address">Jl. HOS. Cokroaminoto No.49, RT.6/RW.4
+                                                    Gondangdia, Menteng Menteng,
+                                                    Jakarta Pusat - 10350</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>AKR Tower</h3>
+                                                    <span class="address">Jl. Panjang No.5, Kebon Jeruk Kebon Jeruk
+                                                    Jakarta Barat - 115300</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>ANZ Tower</h3>
+                                                    <span class="address">Jl. Jend Sudirman Kav 33A Tanah Abang
+                                                    Jakarta Pusat - 10220</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>APL Tower</h3>
+                                                    <span class="address">Jl. Tanjung Duren Raya Kav. 5-9 Grogol
+                                                    petamburan, Jakarta Barat</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>AXA Tower</h3>
+                                                    <span class="address">Jl. Dr. Satrio No. 18 Setiabudi
+                                                    Jakarta Selatan - 12940</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Alamanda Tower</h3>
+                                                    <span class="address">Jl. T.B. Simatupang No. 23-24, Cilandak Barat
+                                                    Jakarta Selatan</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Alfa Tower</h3>
+                                                    <span class="address">Jl. Jalur Sutera, Alam Sutera Barat Kav. 7 & 9
+                                                    Serpong Tangerang Pinang, Tangerang - 15143</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Allianz Tower</h3>
+                                                    <span class="address">Jl. HR. Rasuna Said Super Blok 2 Setiabudi
+                                                    Jakarta Selatan - 12950</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Altira Office Park (Mini Office)</h3>
+                                                    <span class="address">Jl. Yos Sudarso Kav.85 Sunter
+                                                    Jakarta Utara 14350 Sunter Jaya
+                                                    Jakarta Utara - 14350</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Altira Office Tower</h3>
+                                                    <span class="address">Jl. Yos Sudarso Kav.85 Sunter
+                                                    14350 Sunter Jaya, Jakarta Utara - 14350</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Antam Tower A</h3>
+                                                    <span class="address">Jl. T.B. Simatupang No. 1 Jagakarsa
+                                                    Jakarta Selatan - 12530</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Antam Tower B</h3>
+                                                    <span class="address">Jl. T.B. Simatupang No. 1 Jagakarsa
+                                                    Jakarta Selatan - 12530</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Ariobimo Sentral</h3>
+                                                    <span class="address">Jl. HR. Rasuna Said Kav X-2 No 5 Setiabudi
+                                                    Jakarta Selatan - 12950</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Arkadia Tower A</h3>
+                                                    <span class="address">Jl. T.B. Simatupang No. 88 Pasar Minggu
+                                                    Jakarta Selatan - 12520</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Arkadia Tower B</h3>
+                                                    <span class="address">Jl. T.B. Simatupang No. 88 Pasar Minggu
+                                                    Jakarta Selatan - 12520</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Arkadia Tower C</h3>
+                                                    <span class="address">Jl. T.B. Simatupang No. 88 Pasar Minggu
+                                                    Jakarta Selatan - 12520</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Arkadia Tower D</h3>
+                                                    <span class="address">Jl. T.B. Simatupang No. 88 Pasar Minggu
+                                                    Jakarta Selatan - 12520</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Arkadia Tower E</h3>
+                                                    <span class="address">Jl. T.B. Simatupang No. 88 Pasar Minggu
+                                                    Jakarta Selatan - 12520</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Arkadia Tower F</h3>
+                                                    <span class="address">Jl. T.B. Simatupang No. 88 Pasar Minggu, 
+                                                    Jakarta Selatan - 12520</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Arkadia Tower G</h3>
+                                                    <span class="address">Jl. T.B. Simatupang No. 88 Pasar Minggu
+                                                    Jakarta Selatan - 12520</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Arrtu Agro Nusantara</h3>
+                                                    <span class="address">Jl. R.S. Mata Aini Kav.BC No 1 Setiabudi
+                                                    Jakarta Selatan - 12920</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Askrida Tower</h3>
+                                                    <span class="address">Jl. Pramuka Raya Kav. 151 Matraman
+                                                    Jakarta Timur - 13120</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Atrium Setiabudi</h3>
+                                                    <span class="address">Jl. HR.Rasuna Said Kav 62 Setiabudi
+                                                    Jakarta Selatan - 12920</span>
+                                                </div>
+                                            </div>
+                                            <div class="b-list">
+                                                <div class="title">
+                                                    <h3>B</h3>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Bakrie Tower</h3>
+                                                    <span class="address">Jl. H.R. Rasuna Said Setiabudi
+                                                    Jakarta Selatan - 12940</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Bangkok Bank</h3>
+                                                    <span class="address">Jalan MH. Thamrin No. 3 Menteng
+                                                    Jakarta Pusat - 10350</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Bellezza Shopping Arcade</h3>
+                                                    <span class="address">Jl. HOS. Cokroaminoto No.49, RT.6/RW.4
+                                                    Gondangdia, Menteng Menteng,
+                                                    Jakarta Pusat - 10350</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Beltway Office Park Tower A</h3>
+                                                    <span class="address">Jl. Ampera Raya No. 9-10, TB Simatupang Pasar Minggu, Jakarta Selatan - 12550</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-12">
+                                            <div class="c-list">
+                                                <div class="title">
+                                                    <h3>C</h3>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>CIBIS Nine</h3>
+                                                    <span class="address">Jl. Cilandak KKO Pasar Minggu
+                                                    Jakarta Selatan - 12560</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>CIMB Plaza</h3>
+                                                    <span class="address">Jl. Jend Sudirman Kav 25 Setiabudi
+                                                    Jakarta Selatan - 12920</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Capital Place</h3>
+                                                    <span class="address">Jl. Jend. Gatot Subroto 18 Mampang Prapatan, Jakarta Selatan - 12710</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Cengkareng Business City</h3>
+                                                    <span class="address">Jl. Atang Sanjaya No.21 Tangerang, Benda
+                                                    Tanggerang - 15125</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Centennial Tower</h3>
+                                                    <span class="address">Jl. Jend Gatot Subroto No 27 Setiabudi, Jakarta Selatan - 12950</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Chase Plaza Podium</h3>
+                                                    <span class="address">Jl. Jend Sudirman Kav 21 Setiabudi, Jakarta
+                                                    Selatan - 12910</span>
+                                                </div>
+                                            </div>
+                                            <div class="d-list">
+                                                <div class="title">
+                                                    <h3>D</h3>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>DBS Bank Tower</h3>
+                                                    <span class="address">Jl. Dr. Satrio No. 3-5 Setiabudi
+                                                    Jakarta Selatan - 12950</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Daswin Office Tower</h3>
+                                                    <span class="address">Jl Rasuna Said Setiabudi, Jakarta Selatan
+                                                    12950</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>De Ploeit Centrale</h3>
+                                                    <span class="address">Jl. Jend. Gatot Subroto 18 Mampang Prapatan, Jakarta Selatan - 12710</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>De Ritz Building</h3>
+                                                    <span class="address">Jalan HOS. Cokroaminoto No.91 Menteng
+                                                    Jakarta Pusat - 10310</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Deltomed Office</h3>
+                                                    <span class="address">Jl Alam Utama kav 6 Alam Sutera
+                                                    Tangerang - 15143</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Desa Altel Office</h3>
+                                                    <span class="address">Jl. T.B Simatupang No 35 Cilandak, Jakarta
+                                                    Selatan - 12430</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Deutsche Bank Building</h3>
+                                                    <span class="address">Jl. Imam Bonjol No.80 Menteng, Jakarta Pusat 10310</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Dipo Tower</h3>
+                                                    <span class="address">Jalan Jenderal Gatot Subroto Kav. 51-52 Tanah Abang, Jakarta Pusat - 10260</span>
+                                                </div>
+                                            </div>
+                                            <div class="f-list">
+                                                <div class="title">
+                                                    <h3>F</h3>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Femina Building </h3>
+                                                    <span class="address">Jl. Dr. Satrio No. 3-5 Setiabudi
+                                                    Jakarta Selatan - 12950</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Fontana Office Tower</h3>
+                                                    <span class="address">Jl. Trembesi Blok D, Kompleks Bandar Baru
+                                                    Kemayoran, Daerah Khusus Ibukota Jakarta
+                                                    Indonesia 14410 Pademangan
+                                                    Jakarta Utara - 14410</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Foresta Business Loft 1</h3>
+                                                    <span class="address">Lengkong Kulon Pagedangan
+                                                    Tangerang - 15331</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Foresta Business Loft 2</h3>
+                                                    <span class="address">Lengkong Kulon Pagedangan
+                                                    Tangerang - 15331</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Foresta Business Loft 3</h3>
+                                                    <span class="address">Lengkong Kulon Pagedangan
+                                                    Tangerang - 15331</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Foresta Business Loft Signature</h3>
+                                                    <span class="address">Lengkong Kulon Pagedangan
+                                                    Tangerang - 15331</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Fuse Tower</h3>
+                                                    <span class="address">Jl. Imam Bonjol No.80 Menteng, Jakarta Pusat 10310</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Fudge Emerald</h3>
+                                                    <span class="address">Jalan Jenderal Gatot Subroto Kav. 51-52 Tanah Abang, Jakarta Pusat - 10260</span>
+                                                </div>
+                                            </div>
+                                            <div class="h-list">
+                                                <div class="title">
+                                                    <h3>H</h3>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>HDI Hive</h3>
+                                                    <span class="address">Jl. Probolinggo No 18 Menteng
+                                                    Jakarta Pusat - 10350</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Haery Building</h3>
+                                                    <span class="address">Jl. Kemang Selatan No 151 Pasar Minggu
+                                                    Jakarta Selatan - 12760</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Harton Tower</h3>
+                                                    <span class="address">Jl. Boulevard Artha Gading Kelapa Gading
+                                                    Jakarta utara - 12920</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Hermina Office Building</h3>
+                                                    <span class="address">Jl. HBR Motik No.4, Kemayoran Sawah Besar
+                                                    Jakarta Pusat - 10720</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Honeylady Tower</h3>
+                                                    <span class="address">Jl. Pluit Sel. No.1, RT.21/RW.8 Penjaringan
+                                                    Jakarta Utara - 144501</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                <div class="menu-alpha">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <a href="#">A</a>
+                                            <a href="#">B</a>
+                                            <a href="#">C</a>
+                                            <a href="#">D</a>
+                                            <a href="#">E</a>
+                                            <a href="#">F</a>
+                                            <a href="#">G</a>
+                                            <a href="#">H</a>
+                                            <a href="#">I</a>
+                                            <a href="#">J</a>
+                                            <a href="#">K</a>
+                                            <a href="#">L</a>
+                                            <a href="#">M</a>
+                                            <a href="#">N</a>
+                                            <a href="#">O</a>
+                                            <a href="#">P</a>
+                                            <a href="#">Q</a>
+                                            <a href="#">R</a>
+                                            <a href="#">S</a>
+                                            <a href="#">T</a>
+                                            <a href="#">U</a>
+                                            <a href="#">V</a>
+                                            <a href="#">W</a>
+                                            <a href="#">X</a>
+                                            <a href="#">Y</a>
+                                            <a href="#">Z</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list-alpha">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-12">
+                                            <div class="a-list">
+                                                <div class="title">
+                                                    <h3>A</h3>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>AD Premiere</h3>
+                                                    <span class="address">Jl. T.B. Simatupang No. 5 Pasar Minggu
+                                                    Jakarta Selatan - 12540</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>AIA Central</h3>
+                                                    <span class="address">Jl. Jend Sudirman Kav.48A Setiabudi
+                                                    Jakarta Selatan - 12930</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>AJN Center</h3>
+                                                    <span class="address">Jl. HOS. Cokroaminoto No.49, RT.6/RW.4
+                                                    Gondangdia, Menteng Menteng,
+                                                    Jakarta Pusat - 10350</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Alfa Tower</h3>
+                                                    <span class="address">Jl. Jalur Sutera, Alam Sutera Barat Kav. 7 & 9
+                                                    Serpong Tangerang Pinang, Tangerang - 15143</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Allianz Tower</h3>
+                                                    <span class="address">Jl. HR. Rasuna Said Super Blok 2 Setiabudi
+                                                    Jakarta Selatan - 12950</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Altira Office Park (Mini Office)</h3>
+                                                    <span class="address">Jl. Yos Sudarso Kav.85 Sunter
+                                                    Jakarta Utara 14350 Sunter Jaya
+                                                    Jakarta Utara - 14350</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Altira Office Tower</h3>
+                                                    <span class="address">Jl. Yos Sudarso Kav.85 Sunter
+                                                    14350 Sunter Jaya, Jakarta Utara - 14350</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Antam Tower A</h3>
+                                                    <span class="address">Jl. T.B. Simatupang No. 1 Jagakarsa
+                                                    Jakarta Selatan - 12530</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Antam Tower B</h3>
+                                                    <span class="address">Jl. T.B. Simatupang No. 1 Jagakarsa
+                                                    Jakarta Selatan - 12530</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Ariobimo Sentral</h3>
+                                                    <span class="address">Jl. HR. Rasuna Said Kav X-2 No 5 Setiabudi
+                                                    Jakarta Selatan - 12950</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Arkadia Tower A</h3>
+                                                    <span class="address">Jl. T.B. Simatupang No. 88 Pasar Minggu
+                                                    Jakarta Selatan - 12520</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Arkadia Tower B</h3>
+                                                    <span class="address">Jl. T.B. Simatupang No. 88 Pasar Minggu
+                                                    Jakarta Selatan - 12520</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Arkadia Tower C</h3>
+                                                    <span class="address">Jl. T.B. Simatupang No. 88 Pasar Minggu
+                                                    Jakarta Selatan - 12520</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Arkadia Tower D</h3>
+                                                    <span class="address">Jl. T.B. Simatupang No. 88 Pasar Minggu
+                                                    Jakarta Selatan - 12520</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Arkadia Tower E</h3>
+                                                    <span class="address">Jl. T.B. Simatupang No. 88 Pasar Minggu
+                                                    Jakarta Selatan - 12520</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Arkadia Tower F</h3>
+                                                    <span class="address">Jl. T.B. Simatupang No. 88 Pasar Minggu, 
+                                                    Jakarta Selatan - 12520</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Arkadia Tower G</h3>
+                                                    <span class="address">Jl. T.B. Simatupang No. 88 Pasar Minggu
+                                                    Jakarta Selatan - 12520</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Arrtu Agro Nusantara</h3>
+                                                    <span class="address">Jl. R.S. Mata Aini Kav.BC No 1 Setiabudi
+                                                    Jakarta Selatan - 12920</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Askrida Tower</h3>
+                                                    <span class="address">Jl. Pramuka Raya Kav. 151 Matraman
+                                                    Jakarta Timur - 13120</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Atrium Setiabudi</h3>
+                                                    <span class="address">Jl. HR.Rasuna Said Kav 62 Setiabudi
+                                                    Jakarta Selatan - 12920</span>
+                                                </div>
+                                            </div>
+                                            <div class="b-list">
+                                                <div class="title">
+                                                    <h3>B</h3>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Bakrie Tower</h3>
+                                                    <span class="address">Jl. H.R. Rasuna Said Setiabudi
+                                                    Jakarta Selatan - 12940</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Bangkok Bank</h3>
+                                                    <span class="address">Jalan MH. Thamrin No. 3 Menteng
+                                                    Jakarta Pusat - 10350</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Bellezza Shopping Arcade</h3>
+                                                    <span class="address">Jl. HOS. Cokroaminoto No.49, RT.6/RW.4
+                                                    Gondangdia, Menteng Menteng,
+                                                    Jakarta Pusat - 10350</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Beltway Office Park Tower A</h3>
+                                                    <span class="address">Jl. Ampera Raya No. 9-10, TB Simatupang Pasar Minggu, Jakarta Selatan - 12550</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-12">
+                                            <div class="c-list">
+                                                <div class="title">
+                                                    <h3>C</h3>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>CIBIS Nine</h3>
+                                                    <span class="address">Jl. Cilandak KKO Pasar Minggu
+                                                    Jakarta Selatan - 12560</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>CIMB Plaza</h3>
+                                                    <span class="address">Jl. Jend Sudirman Kav 25 Setiabudi
+                                                    Jakarta Selatan - 12920</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Capital Place</h3>
+                                                    <span class="address">Jl. Jend. Gatot Subroto 18 Mampang Prapatan, Jakarta Selatan - 12710</span>
+                                                </div>
+                                            </div>
+                                            <div class="d-list">
+                                                <div class="title">
+                                                    <h3>D</h3>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>DBS Bank Tower</h3>
+                                                    <span class="address">Jl. Dr. Satrio No. 3-5 Setiabudi
+                                                    Jakarta Selatan - 12950</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Daswin Office Tower</h3>
+                                                    <span class="address">Jl Rasuna Said Setiabudi, Jakarta Selatan
+                                                    12950</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>De Ploeit Centrale</h3>
+                                                    <span class="address">Jl. Jend. Gatot Subroto 18 Mampang Prapatan, Jakarta Selatan - 12710</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>De Ritz Building</h3>
+                                                    <span class="address">Jalan HOS. Cokroaminoto No.91 Menteng
+                                                    Jakarta Pusat - 10310</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Deltomed Office</h3>
+                                                    <span class="address">Jl Alam Utama kav 6 Alam Sutera
+                                                    Tangerang - 15143</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Desa Altel Office</h3>
+                                                    <span class="address">Jl. T.B Simatupang No 35 Cilandak, Jakarta
+                                                    Selatan - 12430</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Deutsche Bank Building</h3>
+                                                    <span class="address">Jl. Imam Bonjol No.80 Menteng, Jakarta Pusat 10310</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Dipo Tower</h3>
+                                                    <span class="address">Jalan Jenderal Gatot Subroto Kav. 51-52 Tanah Abang, Jakarta Pusat - 10260</span>
+                                                </div>
+                                            </div>
+                                            <div class="f-list">
+                                                <div class="title">
+                                                    <h3>F</h3>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Femina Building </h3>
+                                                    <span class="address">Jl. Dr. Satrio No. 3-5 Setiabudi
+                                                    Jakarta Selatan - 12950</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Fontana Office Tower</h3>
+                                                    <span class="address">Jl. Trembesi Blok D, Kompleks Bandar Baru
+                                                    Kemayoran, Daerah Khusus Ibukota Jakarta
+                                                    Indonesia 14410 Pademangan
+                                                    Jakarta Utara - 14410</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Foresta Business Loft 1</h3>
+                                                    <span class="address">Lengkong Kulon Pagedangan
+                                                    Tangerang - 15331</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Foresta Business Loft 2</h3>
+                                                    <span class="address">Lengkong Kulon Pagedangan
+                                                    Tangerang - 15331</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Foresta Business Loft 3</h3>
+                                                    <span class="address">Lengkong Kulon Pagedangan
+                                                    Tangerang - 15331</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Foresta Business Loft Signature</h3>
+                                                    <span class="address">Lengkong Kulon Pagedangan
+                                                    Tangerang - 15331</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Fuse Tower</h3>
+                                                    <span class="address">Jl. Imam Bonjol No.80 Menteng, Jakarta Pusat 10310</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Fudge Emerald</h3>
+                                                    <span class="address">Jalan Jenderal Gatot Subroto Kav. 51-52 Tanah Abang, Jakarta Pusat - 10260</span>
+                                                </div>
+                                            </div>
+                                            <div class="h-list">
+                                                <div class="title">
+                                                    <h3>H</h3>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>HDI Hive</h3>
+                                                    <span class="address">Jl. Probolinggo No 18 Menteng
+                                                    Jakarta Pusat - 10350</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Haery Building</h3>
+                                                    <span class="address">Jl. Kemang Selatan No 151 Pasar Minggu
+                                                    Jakarta Selatan - 12760</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Harton Tower</h3>
+                                                    <span class="address">Jl. Boulevard Artha Gading Kelapa Gading
+                                                    Jakarta utara - 12920</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Hermina Office Building</h3>
+                                                    <span class="address">Jl. HBR Motik No.4, Kemayoran Sawah Besar
+                                                    Jakarta Pusat - 10720</span>
+                                                </div>
+                                                <div class="detail">
+                                                    <h3>Honeylady Tower</h3>
+                                                    <span class="address">Jl. Pluit Sel. No.1, RT.21/RW.8 Penjaringan
+                                                    Jakarta Utara - 144501</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <div class="title-more bord-btm">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <span class="more">More About</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="building-list">
+                            <div class="row">
+                                <div class="col-2">
+                                    <i class="fas fa-circle"></i>
+                                </div>
+                                <div class="col-10 pad-le-building">
+                                    <p><a href="terms-and-condition.html">Terms & Condition</a></p>
+                                </div>
+                            </div>
+                            <div class="row martp-min12">
+                                <div class="col-2">
+                                    <i class="fas fa-circle"></i>
+                                </div>
+                                <div class="col-10 pad-le-building">
+                                    <p><a href="privacy-poilcy.html">Privacy Policy</a></p>
+                                </div>
+                            </div>
+                            <div class="row martp-min12">
+                                <div class="col-2">
+                                    <i class="fas fa-circle"></i>
+                                </div>
+                                <div class="col-10 pad-le-building">
+                                    <p><a href="faq.html">FAQ</a></p>
+                                </div>
+                            </div>
+                            <div class="row martp-min12">
+                                <div class="col-2">
+                                    <i class="fas fa-circle"></i>
+                                </div>
+                                <div class="col-10 pad-le-building">
+                                    <p><a href="building-directory.html">Building Directory</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="title-news bord-btm">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <span class="news">News</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-blog">
+                            <img src="assets/img/blog3.jpg">
+                            <div class="container">
+                                <h3>Architectural Atta Hallilintar $25 Mansion Going Skrrt</h3>
+                                <span class="date">Aug, 27 2018</span>
+                                <div class="border-dot"></div>
+                                <div class="blog">
+                                    <div class="row">
+                                        <div class="col-md-5 col-sm-12 pad-ri-blog">
+                                            <img src="assets/img/blog1.jpg">
+                                        </div>
+                                        <div class="col-md-7 col-sm-12 pad-le-blog">
+                                            <h4>AD Magazine Kicking Off Of Newest Them Article in 2019</h4>
+                                            <span class="date">Aug, 27 2018</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border-dot-mar20"></div>
+                                <div class="blog">
+                                    <div class="row">
+                                        <div class="col-md-5 col-sm-12 pad-ri-blog">
+                                            <img src="assets/img/blog1.jpg">
+                                        </div>
+                                        <div class="col-md-7 col-sm-12 pad-le-blog">
+                                            <h4>AD Magazine Kicking Off Of Newest Them Article in 2019</h4>
+                                            <span class="date">Aug, 27 2018</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ FOOTER ------>
+        <div id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12">
+                        <img class="foot-logo" src="assets/img/logo.png">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12">
+                                <div class="foot-uper">
+                                    <h6>OFFICE</h6>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell/Lease Your Space</a>
+                                </div>
+                                <div class="space-info disp-768">
+                                    <div class="row">
+                                        <div class="col-2 flex-o pad-ri">
+                                            <img src="assets/img/icons/loct.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">Graha MIR lt. 9, Jl. Pemuda No. 9, Rawamangun,
+                                            Jakarta Timur, Daerah Khusus Ibukota Jakarta</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 flex-o pad-ri">
+                                            <img src="assets/img/icons/call.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">Customer Service:  021-2956 9852</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 flex-o pad-ri">
+                                            <img src="assets/img/icons/mail.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">info@spacestock.com</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 flex-o pad-ri">
+                                            <img src="assets/img/icons/whatsapp.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">+62 821 1717 7710</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="foot-bottom">
+                                    <h6>FOLLOW US</h6>
+                                    <a href="#"><img src="assets/img/icons/twitter.png"></a>
+                                    <a href="#"><img src="assets/img/icons/instagram.png"></a>
+                                    <a href="#"><img src="assets/img/icons/linkedin.png"></a>
+                                    <a href="#"><img src="assets/img/icons/fb.png" class="last-socmed"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-6 rspv">
+                                 <div class="foot-uper">
+                                    <h6>OFFICE</h6>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell/Lease Your Space</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-6">
+                                <div class="foot-apart">
+                                    <h6>APARTMENTS</h6>
+                                    <a href="#">Buy Apartment</a>
+                                    <a href="#">Lease Apartment</a>
+                                    <a href="#">Sell/Lease Your Unit</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="foot-help">
+                                    <h6>HELP</h6>
+                                    <a href="terms-and-condition.html">Terms & Condition</a>
+                                    <a href="privacy-poilcy.html">Privacy Policy</a>
+                                    <a href="faq.html">FAQ</a>
+                                    <a href="contact-us.html">Contact Us</a>
+                                    <a href="#">Blog</a>
+                                    <a href="building-directory.html">Building Directory</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 rspv">
+                                <div class="foot-bottom">
+                                    <h6>FOLLOW US</h6>
+                                    <a href="#"><img src="assets/img/icons/twitter.png"></a>
+                                    <a href="#"><img src="assets/img/icons/instagram.png"></a>
+                                    <a href="#"><img src="assets/img/icons/linkedin.png"></a>
+                                    <a href="#"><img src="assets/img/icons/fb.png" class="last-socmed"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="foot-info">
+                            <img src="assets/img/logo.png">
+                            <div class="space-info">
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/loct.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">Graha MIR lt. 9, Jl. Pemuda No. 9, Rawamangun,
+                                        Jakarta Timur, Daerah Khusus Ibukota Jakarta</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/call.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">Customer Service:  021-2956 9852</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/mail.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">info@spacestock.com</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/whatsapp.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">+62 821 1717 7710</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ FOOTER 2 ------>
+        <div id="footer2" class="footer2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="last-foot">
+                            <p>2018 © PT. Paragon Sewa Kantor | All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/select2.full.min.js"></script>
+        <script src="assets/js/general.js"></script>
+        <script src="assets/easy-autocomplete/jquery.easy-autocomplete.js"></script>
+        <script>
+        var options = {
+            data: 
+            {
+	"marvel": [
+		{"character": "Superman", "realName": "Jakarta Selatan"},
+		{"character": "Batman", "realName": "Bruce Wayne"},
+		{"character": "Wonder Woman", "realName": "Diana Prince"}
+	],
+	"dc-comics": [
+		{"character": "Daredevil", "realName": "Matt Murdock"},
+		{"character": "Captain America", "realName": "Steven Rogers"},
+		{"character": "Spider-Man", "realName": "Peter Parker"}
+	]
+}
+            ,
+            categories: [{
+                listLocation: "marvel",
+                maxNumberOfElements: 4,
+                header: "Most Recent Search"
+            }, {
+                listLocation: "dc-comics",
+                maxNumberOfElements: 4,
+                header: "Office"
+            }],
+
+            getValue: function(element) {
+                return element.character;
+            },
+
+            template: {
+                type: "description",
+                fields: {
+                    description: "realName"
+                }
+            },
+
+            list: {
+                maxNumberOfElements: 8,
+                match: {
+                    enabled: true
+                },
+                sort: {
+                    enabled: true
+                }
+            },
+
+            theme: "square"
+        };
+
+        $(".example-heroes1").easyAutocomplete(options);</script>
+    </body>
+</html>

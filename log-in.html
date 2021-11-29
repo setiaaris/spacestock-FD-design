@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>LOG IN</title>
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/log-in.css">
+        <link rel="stylesheet" href="assets/css/general.css">
+        <link rel="stylesheet" href="assets/css/select2.min.css">
+        <link rel="stylesheet" href="assets/css/responsive/resp-general.css">
+        <link rel="stylesheet" href="assets/css/responsive/resp-log-in.css">
+        <link rel="stylesheet" href="assets/easy-autocomplete/autocomplete.css">
+        <link rel="stylesheet" href="assets/easy-autocomplete/autocomplete-themes.css">
+    </head>
+    
+    <body class="pad-o">
+        
+        <!------ NAVBAR ------>
+        <nav class="trsp">
+            <div class="close-dropdown"></div>
+            <div class="close-dropdown-2"></div>
+            <div class="close-dropdown-3"></div>
+            <div class="close-dropdown-4"></div>
+            <div id="mynavbar" class="mynavbar navbar-fixed-top">
+                <div class="toggle-nav">
+                    <div class="span1" id="one"></div>
+                    <div class="span2" id="two"></div>
+                    <div class="span3" id="three"></div>
+                </div>
+                <div class="toggle-srch">
+                    <div class="srch">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="cls">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/img/logo.png">
+                    </a>
+                </div>
+                <div class="wrapper-resp-nav">
+                    <div class="logg-in">
+                        <a href="log-in.html">
+                            <button class="btn-login">LOG IN</button>
+                        </a>
+                    </div>
+                    <div class="wrapper-spt">
+                        <div class="opt-language">
+                            <div class="dropdown drop-lang">
+                                <button class="dropbtn lang" data-toggle="collapse" data-target="#DropRspnsvLang">ID 
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                                <div class="dropdown-content lang">
+                                    <div class="arrow-up"></div>
+                                    <a href="#"><img src="assets/img/icons/indonesia.png"> ID</a>
+                                    <a href="#"><img src="assets/img/icons/united-kingdom.png"> EN</a>
+                                    <div class="bottom-bl"></div>
+                                </div>
+                                <div id="DropRspnsvLang" class="dropdown-rspnsv-lang collapse">
+                                    <div class="arrow-up"></div>
+                                    <a href="#"><img src="assets/img/icons/indonesia.png"> ID</a>
+                                    <a href="#"><img src="assets/img/icons/united-kingdom.png"> EN</a>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="main-call">
+                            <img src="assets/img/icons/whatsapp.png">
+                            <span class="phone-call"><a href="#">+62 821 1717 7710</a></span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="dropdown">
+                               <button class="dropbtn office" data-toggle="collapse" data-target="#DropRspnsv"><span class="nav-office" onclick="location.href='index-office.html'">OFFICE</span> 
+                                   <i class="fas fa-chevron-down"></i>
+                               </button>
+                               <div class="dropdown-content office">
+                                    <div class="arrow-up"></div>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell & Lease Your Space</a>
+                                    <div class="bottom-bl"></div>
+                               </div>
+                               <div id="DropRspnsv" class="dropdown-rspnsv collapse">
+                                    <div class="arrow-up"></div>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell & Lease Your Space</a>
+                               </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                               <button class="dropbtn apartment" data-toggle="collapse" data-target="#DropRspnsvApart"><span class="nav-apart" onclick="location.href='index-apartment.html'">APARTMENTS</span> 
+                                   <i class="fas fa-chevron-down"></i>
+                               </button>
+                               <div class="dropdown-content apartment">
+                                 <div class="arrow-up"></div>
+                                    <a href="#">Buy Apartment</a>
+                                    <a href="#">Lease Apartment</a>
+                                    <a href="#">Sell & Lease Your Unit</a>
+                                 <div class="bottom-bl"></div>
+                               </div>
+                                <div id="DropRspnsvApart" class="dropdown-rspnsv collapse">
+                                    <div class="arrow-up"></div>
+                                    <a href="#">Buy Apartment</a>
+                                    <a href="#">Lease Apartment</a>
+                                    <a href="#">Sell & Lease Your Unit</a>
+                               </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="li-news" href="#">NEWS</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="wrapper-search-nav">
+                    <div class="search-navbar">
+                        <form autocomplete="off">
+                          <div class="">
+                            <input id="" class="myinput example-heroes1" type="text" name="myCountry" placeholder="">
+                            <div class="ico-srch">
+                                <i class="fas fa-search"></i>
+                            </div>
+                          </div>
+                        </form>
+                        <button class="btn-buys">BUY</button>
+                        <button class="btn-leases">LEASE</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <!------ FORM LOG IN ------>
+        <div id="login-form" class="login-form">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                        <div class="wrapper-form">
+                            <h2>REGISTER OR LOG IN TO ACCESS YOUR ACCOUNT</h2>
+                            <div class="lilog-card">
+                                <div class="row">
+                                    <div class="col-6 pad-ri nav-item1">
+                                        <a href="#">
+                                            <button class="btnlogin active">
+                                                <span class="login active">LOGIN</span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 pad-le nav-item2">
+                                        <a href="#">
+                                            <button class="btnregist">
+                                                <span class="regist">REGISTER</span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="login-card active">
+                                    <div class="container">
+                                        <div class="input-group">
+                                              <input type="email" class="form-control form-srch" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
+                                        </div>
+                                        <div class="input-group">
+                                              <input type="password" class="form-control form-srch" placeholder="Password" aria-label="Password" aria-describedby="basic-addon2">
+                                        </div>
+                                        <div class="btn-login">
+                                            <a href="navbar-loggedin.html"><button class="btnlogin">LOG IN</button></a>
+                                            <span class="forgot"><a href="#">Forgot your password?</a></span>
+                                        </div>
+                                        <div class="separat-or">
+                                            <div class="separat"></div>
+                                            <h6>OR</h6>
+                                        </div>
+                                        <div class="btn-socmed">
+                                            <a href="#">
+                                                <button class="conti-fb">
+                                                    <div class="row">
+                                                        <div class="col-3">
+                                                            <i class="fab fa-facebook-f"></i>
+                                                        </div>
+                                                        <div class="col-9 bord-le">
+                                                            <p class="conti">CONTINUE WITH FACEBOOK</p>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </a>
+                                            <a href="#">
+                                                <button class="conti-go">
+                                                    <div class="row">
+                                                        <div class="col-3">
+                                                            <i class="fab fa-google-plus-g"></i>
+                                                        </div>
+                                                        <div class="col-9 bord-le">
+                                                            <p class="conti">CONTINUE WITH<br>
+                                                        GOOGLE PLUS</p>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </a>
+                                            <a href="#">
+                                                <button class="conti-in">
+                                                    <div class="row">
+                                                        <div class="col-3">
+                                                            <i class="fab fa-linkedin-in"></i>
+                                                        </div>
+                                                        <div class="col-9 bord-le">
+                                                            <p class="conti">CONTINUE WITH<br>
+                                                        LINKED IN</p>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="bord-btm"></div>
+                                </div>
+                                <div class="regist-card">
+                                    <div class="container">
+                                        <div class="input-group">
+                                              <input type="text" class="form-control form-srch" placeholder="First Name" aria-label="First Name" aria-describedby="basic-addon2">
+                                        </div>
+                                        <div class="input-group">
+                                              <input type="text" class="form-control form-srch" placeholder="Last Name" aria-label="Last Name" aria-describedby="basic-addon2">
+                                        </div>
+                                        <div class="input-group">
+                                              <input type="email" class="form-control form-srch" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
+                                        </div>
+                                        <div class="input-group">
+                                              <input type="password" class="form-control form-srch" placeholder="Password" aria-label="Password" aria-describedby="basic-addon2">
+                                        </div>
+                                        <div class="btn-regist">
+                                            <a href="#"><button class="btnregist">REGISTER</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="bord-btm"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/select2.full.min.js"></script>
+        <script src="assets/js/general.js"></script>
+        <script src="assets/easy-autocomplete/jquery.easy-autocomplete.js"></script>
+        <script>
+        var options = {
+            data: 
+            {
+	"marvel": [
+		{"character": "Superman", "realName": "Jakarta Selatan"},
+		{"character": "Batman", "realName": "Bruce Wayne"},
+		{"character": "Wonder Woman", "realName": "Diana Prince"}
+	],
+	"dc-comics": [
+		{"character": "Daredevil", "realName": "Matt Murdock"},
+		{"character": "Captain America", "realName": "Steven Rogers"},
+		{"character": "Spider-Man", "realName": "Peter Parker"}
+	]
+}
+            ,
+            categories: [{
+                listLocation: "marvel",
+                maxNumberOfElements: 4,
+                header: "Most Recent Search"
+            }, {
+                listLocation: "dc-comics",
+                maxNumberOfElements: 4,
+                header: "Office"
+            }],
+
+            getValue: function(element) {
+                return element.character;
+            },
+
+            template: {
+                type: "description",
+                fields: {
+                    description: "realName"
+                }
+            },
+
+            list: {
+                maxNumberOfElements: 8,
+                match: {
+                    enabled: true
+                },
+                sort: {
+                    enabled: true
+                }
+            },
+
+            theme: "square"
+        };
+
+        $(".example-heroes1").easyAutocomplete(options);</script>
+    </body>
+</html>

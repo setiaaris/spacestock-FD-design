@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/toast.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <title>Warning Message Popup Spacestock</title>
+</head>
+<body data-spy="scroll" data-target=".navbar" class="has-loading-screen" data-bg-parallax="scroll" data-bg-parallax-speed="3">
+    <section class="n-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <button onclick="msgSuccess()" class="btn btn-success">Show Success Notification</button>
+                    <button onclick="msgInfo()" class="btn btn-info">Show Info Notification</button>
+                    <button onclick="msgWarning()" class="btn btn-warning">Show Warning Notification</button>
+                    <button onclick="msgDanger()" class="btn btn-danger">Show Danger Notification</button>
+                    <button onclick="msgDefault()" class="btn btn-default">Show Default Notification</button>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- toast message -->
+    <div class="snackbar" id="toast-success">
+        <div class="row">
+            <div class="col-3 col-sm-2">
+                <div class="ico-alert">
+                    <div class="ico-wrapper">
+                        <i class="fa fa-check"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9 col-sm-10">
+                <div class="span-alert">
+                    Login successfully
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="snackbar" id="toast-info">
+        <div class="row">
+            <div class="col-3 col-sm-2">
+                <div class="ico-alert">
+                    <div class="ico-wrapper">
+                        <i class="fa fa-info"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9 col-sm-10">
+                <div class="span-alert">
+                    You have 120 new notification, click on this toast to show the new notification.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="snackbar" id="toast-warning">
+        <div class="row">
+            <div class="col-3 col-sm-2">
+                <div class="ico-alert">
+                    <div class="ico-wrapper">
+                        <i class="fa fa-exclamation-triangle"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9 col-sm-10">
+                <div class="span-alert">
+                    Your account is deactived, please check your email for re-actived your account.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="snackbar" id="toast-danger">
+        <div class="row">
+            <div class="col-3 col-sm-2">
+                <div class="ico-alert">
+                    <div class="ico-wrapper">
+                        <i class="fa fa-exclamation"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9 col-sm-10">
+                <div class="span-alert">
+                    Failed to Login, please re-check your login information.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="snackbar" id="toast-default">
+        <div class="row">
+            <div class="col-3 col-sm-2">
+                <div class="ico-alert">
+                    <div class="ico-wrapper">
+                        <i class="fa fa-info"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9 col-sm-10">
+                <div class="span-alert">
+                    "Your password must be at least 10 characters as well as contain at least one uppercase, one lowercase, one_number, and one special character."
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end of toast message -->
+    <script>
+        if( document.getElementsByClassName("ts-full-screen").length ) {
+            document.getElementsByClassName("ts-full-screen")[0].style.height = window.innerHeight + "px";
+        }
+    </script>
+    <script>
+            function readURL(input) {
+               if (input.files && input.files[0]) {
+                   var reader = new FileReader();
+   
+                   reader.onload = function (e) {
+                       $('#brandlogo')
+                           .attr('src', e.target.result);
+                   };
+   
+                   reader.readAsDataURL(input.files[0]);
+               }
+           }
+       </script>
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+	<script src="assets/js/isInViewport.jquery.js"></script>
+	<script src="assets/js/jquery.particleground.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/scrolla.jquery.min.js"></script>
+	<script src="assets/js/jquery.validate.min.js"></script>
+	<script src="assets/js/jquery-validate.bootstrap-tooltip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+    <script src="assets/js/select2.full.min.js"></script>
+    <script src="assets/js/jquery.wavify.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        function msgSuccess() {
+            var toast = document.getElementById("toast-success");
+            toast.className = "show";
+            setTimeout(function(){ toast.className = toast.className.replace("show", ""); }, 3000);
+        }
+        function msgInfo() {
+            var toast = document.getElementById("toast-info");
+            toast.className = "show";
+            setTimeout(function(){ toast.className = toast.className.replace("show", ""); }, 3000);
+        }
+        function msgWarning() {
+            var toast = document.getElementById("toast-warning");
+            toast.className = "show";
+            setTimeout(function(){ toast.className = toast.className.replace("show", ""); }, 3000);
+        }
+        function msgDanger() {
+            var toast = document.getElementById("toast-danger");
+            toast.className = "show";
+            setTimeout(function(){ toast.className = toast.className.replace("show", ""); }, 3000);
+        }
+        function msgDefault() {
+            var toast = document.getElementById("toast-default");
+            toast.className = "show";
+            setTimeout(function(){ toast.className = toast.className.replace("show", ""); }, 3000);
+        }
+    </script>
+</body>
+</html>

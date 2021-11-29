@@ -1,0 +1,20 @@
+/*------ACCOUNT SETING------*/
+@media (max-width: 768px) {
+    .header-office.bbp{
+        height: auto;
+        padding: 20px;
+    }
+    .book-phone-form {
+        padding: 15px;
+    }
+    button.btn-call {
+        width: 100%;
+    }
+    .agreement-p {
+        padding: 0;
+    }
+    .bbp h1 {
+        padding: 40px 0;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>APPOINTMENT-3</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/appointment.css">
+        <link rel="stylesheet" href="assets/css/general.css">
+        <link rel="stylesheet" href="assets/css/responsive/resp-general.css">
+        <link rel="stylesheet" href="assets/css/select2.min.css">
+        <link rel="stylesheet" href="assets/css/responsive/resp-favorites.css">
+        <link rel="stylesheet" href="assets/css/appointment-2.css">
+        <link rel="stylesheet" href="assets/css/responsive/resp-appointment.css">
+        <link rel="stylesheet" href="assets/easy-autocomplete/autocomplete.css">
+        <link rel="stylesheet" href="assets/easy-autocomplete/autocomplete-themes.css">
+    </head>
+    
+    <body>
+        
+         <!------ NAVBAR ------>
+         <nav>
+            <div class="close-dropdown"></div>
+            <div class="close-dropdown-2"></div>
+            <div class="close-dropdown-3"></div>
+            <div class="close-dropdown-4"></div>
+            <div id="mynavbar" class="mynavbar navbar-fixed-top">
+                <div class="toggle-nav">
+                    <div class="span1" id="one"></div>
+                    <div class="span2" id="two"></div>
+                    <div class="span3" id="three"></div>
+                </div>
+                <div class="toggle-srch">
+                    <div class="srch">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="cls">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/img/logo.png">
+                    </a>
+                </div>
+                <div class="wrapper-resp-nav">
+                    <div class="wrapper-profile dropdown">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="display-name" data-toggle="collapse" data-target="#DropRspnsv">
+                                    <div class="wrapper-name">
+                                        <span class="name">Alexanderousy</span>
+                                    </div>
+                                    <i class="fas fa-chevron-down"></i>
+                                    <div class="ico-profile">
+                                        <a href="#">
+                                            <img src="assets/img/icons/profile.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-content profile">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                            <div class="bottom-bl"></div>
+                       </div>
+                       <div id="DropRspnsv" class="dropdown-rspnsv collapse">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                       </div>
+                    </div>
+                    <div class="wrapper-spt">
+                        <div class="opt-language">
+                            <div class="dropdown drop-lang">
+                                <button class="dropbtn lang" data-toggle="collapse" data-target="#DropRspnsvLang">ID 
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                                <div class="dropdown-content lang">
+                                    <div class="arrow-up"></div>
+                                    <a href="#"><img src="assets/img/icons/indonesia.png"> ID</a>
+                                    <a href="#"><img src="assets/img/icons/united-kingdom.png"> EN</a>
+                                    <div class="bottom-bl"></div>
+                                </div>
+                                <div id="DropRspnsvLang" class="dropdown-rspnsv-lang collapse">
+                                    <div class="arrow-up"></div>
+                                    <a href="#"><img src="assets/img/icons/indonesia.png"> ID</a>
+                                    <a href="#"><img src="assets/img/icons/united-kingdom.png"> EN</a>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="main-call">
+                            <img src="assets/img/icons/whatsapp.png">
+                            <span class="phone-call"><a href="#">+62 821 1717 7710</a></span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="dropdown">
+                               <button class="dropbtn office" data-toggle="collapse" data-target="#DropRspnsvOffice"><span class="nav-office" onclick="location.href='index-office.html'">OFFICE</span> 
+                                   <i class="fas fa-chevron-down"></i>
+                               </button>
+                               <div class="dropdown-content office">
+                                    <div class="arrow-up"></div>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell & Lease Your Space</a>
+                                    <div class="bottom-bl"></div>
+                               </div>
+                               <div id="DropRspnsvOffice" class="dropdown-rspnsv collapse">
+                                    <div class="arrow-up"></div>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell & Lease Your Space</a>
+                               </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                               <button class="dropbtn apartment" data-toggle="collapse" data-target="#DropRspnsvApart"><span class="nav-apart" onclick="location.href='index-apartment.html'">APARTMENTS</span> 
+                                   <i class="fas fa-chevron-down"></i>
+                               </button>
+                               <div class="dropdown-content apartment">
+                                 <div class="arrow-up"></div>
+                                    <a href="#">Buy Apartment</a>
+                                    <a href="#">Lease Apartment</a>
+                                    <a href="#">Sell & Lease Your Unit</a>
+                                 <div class="bottom-bl"></div>
+                               </div>
+                                <div id="DropRspnsvApart" class="dropdown-rspnsv collapse">
+                                    <div class="arrow-up"></div>
+                                    <a href="#">Buy Apartment</a>
+                                    <a href="#">Lease Apartment</a>
+                                    <a href="#">Sell & Lease Your Unit</a>
+                               </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="li-news" href="#">NEWS</a>
+                        </li>
+                    </ul>
+                    <div class="wrapper-profile resp dropdown">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="display-name">
+                                    <div class="ico-profile">
+                                        <a href="#">
+                                            <img src="assets/img/icons/profile.png">
+                                        </a>
+                                    </div>
+                                    <div class="wrapper-name">
+                                        <span class="name">Alexanderousy</span>
+                                    </div>
+                                    <div class="chev-profile" data-toggle="collapse" data-target="#DropRspnsvProfile">
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-content profile">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                            <div class="bottom-bl"></div>
+                       </div>
+                       <div id="DropRspnsvProfile" class="dropdown-rspnsv profile collapse">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                       </div>
+                    </div>
+                </div>
+                <div class="wrapper-search-nav">
+                    <div class="search-navbar">
+                        <form autocomplete="off">
+                          <div class="">
+                            <input id="" class="myinput example-heroes1" type="text" name="myCountry" placeholder="">
+                            <div class="ico-srch">
+                                <i class="fas fa-search"></i>
+                            </div>
+                          </div>
+                        </form>
+                        <button class="btn-buys">BUY</button>
+                        <button class="btn-leases">LEASE</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <!------ APPOINMENT ------>
+        <div id="title-fav">
+            <div class="container">
+                <div class="head-fav appointment-section">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                            <div class="container schedule appointment-form">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2>Detail Confirmation</h2>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="row gutter-top">
+                                            <div class="col-md-6">
+                                                <label>Company Name</label>
+                                                <input type="text" class="form-control form-control-lg">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label>Current Office</label>
+                                                <input type="text" class="form-control form-control-lg">
+                                            </div>
+                                        </div>
+                                        <div class="row gutter-top">
+                                            <div class="col">
+                                                <label>Reason of Moving</label>
+                                                <input type="text" class="form-control form-control-lg">
+                                            </div>
+                                        </div>
+                                        <div class="row gutter-top">
+                                            <div class="col">
+                                                <label>Notes</label>
+                                                <textarea class="form-control form-control-lg"></textarea>
+                                                <label class="terms">By continuing, you agree to our <i>Terms of Service</i> and <i>Privacy Policy</i></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="grey-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 info">
+                            <small><img src="assets/img/icons/location-marker.png" class="info-icons">  meeting location</small>
+                            <h2>Mayapada Tower</h2>
+                        </div>
+                        <div class="col-lg-3 info">
+                            <small><img src="assets/img/icons/date.png" class="info-icons">  date</small>
+                            <h2>Thu, Aug 23</h2>
+                        </div>
+                        <div class="col-lg-2 info">
+                            <small><img src="assets/img/icons/time.png" class="info-icons">  time</small>
+                            <h2>10.00 AM</h2>
+                        </div>
+                        <div class="col-lg-4 action-button">
+                            <a href="#next" class="btn btn-next">send</a>
+                            <a href="appointment-2.html" class="btn btn-back">back</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ FOOTER ------>
+        <div id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12">
+                                <div class="foot-uper">
+                                    <h6>OFFICE</h6>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell/Lease Your Space</a>
+                                </div>
+                                <div class="space-info disp-768">
+                                    <div class="row">
+                                        <div class="col-2 flex-o">
+                                            <img src="assets/img/icons/loct.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">Graha MIR lt. 9, Jl. Pemuda No. 9, Rawamangun,
+                                            Jakarta Timur, Daerah Khusus Ibukota Jakarta</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 flex-o">
+                                            <img src="assets/img/icons/call.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">Customer Service:  021-2956 9852</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 flex-o">
+                                            <img src="assets/img/icons/mail.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">info@spacestock.com</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 flex-o">
+                                            <img src="assets/img/icons/whatsapp.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">+62 821 1717 7710</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="foot-bottom">
+                                    <h6>FOLLOW US</h6>
+                                    <a href="#"><img src="assets/img/icons/twitter.png"></a>
+                                    <a href="#"><img src="assets/img/icons/instagram.png"></a>
+                                    <a href="#"><img src="assets/img/icons/linkedin.png"></a>
+                                    <a href="#"><img src="assets/img/icons/fb.png" class="last-socmed"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="foot-apart">
+                                    <h6>APARTMENTS</h6>
+                                    <a href="#">Buy Apartment</a>
+                                    <a href="#">Lease Apartment</a>
+                                    <a href="#">Sell/Lease Your Unit</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="foot-help">
+                                    <h6>HELP</h6>
+                                    <a href="terms-and-condition.html">Terms & Condition</a>
+                                    <a href="privacy-poilcy.html">Privacy Policy</a>
+                                    <a href="faq.html">FAQ</a>
+                                    <a href="contact-us.html">Contact Us</a>
+                                    <a href="#">Blog</a>
+                                    <a href="building-directory.html">Building Directory</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="foot-info">
+                            <img src="assets/img/logo.png">
+                            <div class="space-info">
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/loct.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">Graha MIR lt. 9, Jl. Pemuda No. 9, Rawamangun,
+                                        Jakarta Timur, Daerah Khusus Ibukota Jakarta</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/call.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">Customer Service:  021-2956 9852</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/mail.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">info@spacestock.com</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/whatsapp.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">+62 821 1717 7710</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ FOOTER 2 ------>
+        <div id="footer2" class="footer2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="last-foot">
+                            <p>2018 © PT. Paragon Sewa Kantor | All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/select2.full.min.js"></script>
+        <script src="assets/js/general.js"></script>
+        <script src="assets/easy-autocomplete/jquery.easy-autocomplete.js"></script>
+        <script>
+        var options = {
+            data: 
+            {
+	"marvel": [
+		{"character": "Superman", "realName": "Jakarta Selatan"},
+		{"character": "Batman", "realName": "Bruce Wayne"},
+		{"character": "Wonder Woman", "realName": "Diana Prince"}
+	],
+	"dc-comics": [
+		{"character": "Daredevil", "realName": "Matt Murdock"},
+		{"character": "Captain America", "realName": "Steven Rogers"},
+		{"character": "Spider-Man", "realName": "Peter Parker"}
+	]
+}
+            ,
+            categories: [{
+                listLocation: "marvel",
+                maxNumberOfElements: 4,
+                header: "Most Recent Search"
+            }, {
+                listLocation: "dc-comics",
+                maxNumberOfElements: 4,
+                header: "Office"
+            }],
+
+            getValue: function(element) {
+                return element.character;
+            },
+
+            template: {
+                type: "description",
+                fields: {
+                    description: "realName"
+                }
+            },
+
+            list: {
+                maxNumberOfElements: 8,
+                match: {
+                    enabled: true
+                },
+                sort: {
+                    enabled: true
+                }
+            },
+
+            theme: "square"
+        };
+
+        $(".example-heroes1").easyAutocomplete(options);</script>
+        <script>
+            // smooth scrolling
+            $(function() {
+              $('a[href*="#"]:not([href="#"])').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                  var target = $(this.hash);
+                  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                  if (target.length) {
+                    $('html, body').animate({
+                      scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                  }
+                }
+              });
+            });
+        </script>
+    </body>
+</html>

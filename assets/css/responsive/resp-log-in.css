@@ -1,0 +1,84 @@
+/*------NAVBAR------*/
+@media (max-width: 1170px) {
+    nav.trsp {
+        background: #133555;
+    }
+}
+
+/*------TAB MENU LOG IN------*/
+@media (max-width: 992px) {
+    .login-form .wrapper-form .lilog-card {
+        width: 100%;
+    }
+}
+
+/*------LOG IN------*/
+@media (max-width: 992px) {
+    .login-form .wrapper-form .login-card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .login-form .wrapper-form .login-card .btn-socmed .conti-go i {
+        margin-left: 1px;
+    }
+    
+    .login-form .wrapper-form .login-card .btn-socmed .conti-fb i {
+        margin-left: 6px;
+    }
+    
+    .login-form .wrapper-form .login-card .btn-socmed .conti-in i {
+        margin-left: 2px;
+    }
+}
+
+@media (max-width: 520px) {
+    .login-form .wrapper-form .login-card .btn-socmed .conti-fb, .login-form .wrapper-form .login-card .btn-socmed .conti-go {
+        width: 45%;
+    }
+    
+    .login-form .wrapper-form .login-card .btn-socmed .conti-in {
+        width: 45%;
+        margin-top: 4px;
+    }
+}
+
+@media (max-width: 414px) {
+    .login-form .wrapper-form .login-card .btn-login .btnlogin, .login-form .wrapper-form .login-card .btn-login .forgot {
+        margin: 10px;
+        width: 80%;
+    }
+    
+    .login-form {
+        height: 100%;
+    }
+}
+
+@media (max-width: 360px) {
+    .login-form .wrapper-form .login-card .btn-socmed .conti-fb, .login-form .wrapper-form .login-card .btn-socmed .conti-go, .login-form .wrapper-form .login-card .btn-socmed .conti-in {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    
+    .login-form .wrapper-form .login-card .btn-socmed .conti-go br, .login-form .wrapper-form .login-card .btn-socmed .conti-in br {
+        display: none;
+    }
+    
+    .login-form .wrapper-form .login-card .btn-socmed .conti-fb .conti, .login-form .wrapper-form .login-card .btn-socmed .conti-go .conti, .login-form .wrapper-form .login-card .btn-socmed .conti-in .conti {
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 346px) {
+    .login-form .wrapper-form .login-card .btn-socmed .conti-fb .conti, .login-form .wrapper-form .login-card .btn-socmed .conti-go .conti, .login-form .wrapper-form .login-card .btn-socmed .conti-in .conti {
+        font-size: 10px;
+    }
+}
+
+/*------REGISTER------*/
+@media (max-width: 992px) {
+    .login-form .wrapper-form .regist-card.active {
+        width: 100%;
+    }
+}

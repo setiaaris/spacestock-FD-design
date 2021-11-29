@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SMARTEST WAY TO FIND SPACES</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/swiper-slider/css/swiper.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/index-apartment.css">
+        <link rel="stylesheet" href="assets/css/general.css">
+        <link rel="stylesheet" href="assets/css/select2.min.css">
+        <link rel="stylesheet" href="assets/css/responsive/resp-general.css">
+        <link rel="stylesheet" href="assets/css/responsive/resp-index-apartment.css">
+    </head>
+    
+    <body>
+        
+        <!------ NAVBAR ------>
+        <nav class="index-only">
+            <div class="close-dropdown"></div>
+            <div class="close-dropdown-2"></div>
+            <div class="close-dropdown-3"></div>
+            <div class="close-dropdown-4"></div>
+            <div class="container">
+                <div id="mynavbar" class="mynavbar navbar-fixed-top">
+                    <div class="toggle-nav">
+                        <div class="span1" id="one"></div>
+                        <div class="span2" id="two"></div>
+                        <div class="span3" id="three"></div>
+                    </div>
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="assets/img/logo.png">
+                        </a>
+                    </div>
+                    <div class="wrapper-resp-nav">
+                        <div class="logg-in">
+                            <a href="log-in.html">
+                                <button class="btn-login">LOG IN</button>
+                            </a>
+                        </div>
+                        <div class="wrapper-spt">
+                            <div class="opt-language">
+                                <div class="dropdown drop-lang">
+                                    <button class="dropbtn lang">ID 
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <div class="dropdown-content lang">
+                                        <div class="arrow-up"></div>
+                                        <a href="#"><img src="assets/img/icons/indonesia.png"> ID</a>
+                                        <a href="#"><img src="assets/img/icons/united-kingdom.png"> EN</a>
+                                        <div class="bottom-bl"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-call">
+                                <img src="assets/img/icons/whatsapp.png">
+                                <span class="phone-call"><a href="#">+62 821 1717 7710</a></span>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="dropdown">
+                                   <button class="dropbtn office" data-toggle="collapse" data-target="#DropRspnsvOffice"><span class="nav-office" onclick="location.href='index-office.html'">OFFICE</span> 
+                                       <i class="fas fa-chevron-down"></i>
+                                   </button>
+                                   <div class="dropdown-content office">
+                                        <div class="arrow-up"></div>
+                                        <a href="#">Buy Office</a>
+                                        <a href="#">Lease Office</a>
+                                        <a href="#">Sell & Lease Your Space</a>
+                                        <div class="bottom-bl"></div>
+                                   </div>
+                                   <div id="DropRspnsvOffice" class="dropdown-rspnsv collapse">
+                                        <div class="arrow-up"></div>
+                                        <a href="#">Buy Office</a>
+                                        <a href="#">Lease Office</a>
+                                        <a href="#">Sell & Lease Your Space</a>
+                                   </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                   <button class="dropbtn apartment" data-toggle="collapse" data-target="#DropRspnsvApart"><span class="nav-apart" onclick="location.href='index-apartment.html'">APARTMENTS</span> 
+                                       <i class="fas fa-chevron-down"></i>
+                                   </button>
+                                   <div class="dropdown-content apartment">
+                                     <div class="arrow-up"></div>
+                                        <a href="#">Buy Apartment</a>
+                                        <a href="apartment-detail-lease.html">Lease Apartment</a>
+                                        <a href="#">Sell & Lease Your Unit</a>
+                                     <div class="bottom-bl"></div>
+                                   </div>
+                                    <div id="DropRspnsvApart" class="dropdown-rspnsv collapse">
+                                        <div class="arrow-up"></div>
+                                        <a href="#">Buy Apartment</a>
+                                        <a href="apartment-detail-lease.html">Lease Apartment</a>
+                                        <a href="#">Sell & Lease Your Unit</a>
+                                   </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="li-news" href="#">NEWS</a>
+                            </li>
+                        </ul>
+                        <div class="opt-language rspv">
+                            <div class="dropdown drop-lang">
+                                <button class="dropbtn lang" data-toggle="collapse" data-target="#DropRspnsvLang">ID 
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                                <div class="dropdown-content lang">
+                                    <div class="arrow-up"></div>
+                                    <a href="#"><img src="assets/img/icons/indonesia.png"> ID</a>
+                                    <a href="#"><img src="assets/img/icons/united-kingdom.png"> EN</a>
+                                    <div class="bottom-bl"></div>
+                                </div>
+                                <div id="DropRspnsvLang" class="dropdown-rspnsv-lang collapse">
+                                    <div class="arrow-up"></div>
+                                    <a href="#"><img src="assets/img/icons/indonesia.png"> ID</a>
+                                    <a href="#"><img src="assets/img/icons/united-kingdom.png"> EN</a>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="main-call rspv">
+                            <img src="assets/img/icons/whatsapp.png">
+                            <span class="phone-call"><a href="#">+62 821 1717 7710</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <!------ HEADER ------>
+        <div id="header" class="header">
+            <div class="line-sptvrt"></div>
+            <div class="container">
+                <div class="line-spthzn"></div>
+                <div class="box-wh"></div>
+                <div class="row head-capt">
+                    <div class="col-md-12">
+                        <h1>PROFESSIONAL AGENT,<br>
+                        MODERN TECHNOLOGY.</h1>
+                    </div>
+                </div>
+                <div class="row find-your">
+                    <div class="col-md-12">
+                        <div class="border-w">
+                            <h4>Find Your Spaces</h4>
+                        </div>
+                        <p>Explore thousands of verified listings - apartments and offices all in one platform.</p>
+                    </div>
+                </div>
+                <div class="row three-btn">
+                    <div class="col-md-12">
+                        <a href="sell.html">
+                            <button type="button" class="btn-sell">SELL</button>
+                        </a>
+                        <button type="button" class="btn-buy active">BUY</button>
+                        <button type="button" class="btn-rent">RENT</button>
+                        <div class="border-w2"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="pop-buy" class="pop-buy active">
+                            <div class="left-blpop"></div>
+                            <div class="arrow-up"></div>
+                            <ul class="nav nav-pills" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link office" data-toggle="pill" href="#pop-office">OFFICE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link a-apart apartment active" data-toggle="pill" href="#pop-apart">APARTMENTS</a>
+                                </li>
+                             </ul>
+                             <div class="tab-content">
+                                 <div id="pop-office" class="container tab-pane active"><br>
+                                     <div class="input-group">
+                                         <input type="text" class="form-control form-srch" placeholder="Search by location area" aria-label="Search by location area" aria-describedby="basic-addon2">
+                                         <img src="assets/img/icons/icomap.png">
+                                         <div class="input-group-append">
+                                             <a href="apartment-search-map.html"><button type="submit" class="btn btn-search" type="button">
+                                                  <span>Search</span>
+                                                  <i class="fas fa-search"></i>
+                                                  </button>
+                                             </a>
+                                         </div>
+                                      </div>
+                                  </div>
+                                  <div id="pop-apart" class="container tab-pane fade"><br>
+                                      <div class="input-group">
+                                          <input type="text" class="form-control form-srch" placeholder="Search by location area" aria-label="Search by location area" aria-describedby="basic-addon2">
+                                          <img src="assets/img/icons/icomap.png">
+                                          <div class="input-group-append">
+                                              <a href="apartment-search-map.html"><button type="submit" class="btn btn-search" type="button">
+                                                  <span>Search</span>
+                                                  <i class="fas fa-search"></i>
+                                                  </button>
+                                              </a>
+                                          </div>
+                                       </div>
+                                   </div>
+                              </div>
+                         </div>
+                        <div id="pop-rent" class="pop-rent">
+                            <div class="left-blpop"></div>
+                            <div class="arrow-up"></div>
+                            <ul class="nav nav-pills" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link office" data-toggle="pill" href="#pop-office">OFFICE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link a-apart apartment active" data-toggle="pill" href="#pop-apart">APARTMENTS</a>
+                                </li>
+                             </ul>
+                             <div class="tab-content">
+                                 <div id="pop-office" class="container tab-pane active"><br>
+                                     <div class="input-group">
+                                         <input type="text" class="form-control form-srch" placeholder="Search by location area" aria-label="Search by location area" aria-describedby="basic-addon2">
+                                         <img src="assets/img/icons/icomap.png">
+                                         <div class="input-group-append">
+                                             <a href="apartment-search-map.html"><button type="submit" class="btn btn-search" type="button">
+                                                  <span>Search</span>
+                                                  <i class="fas fa-search"></i>
+                                                  </button>
+                                             </a>
+                                         </div>
+                                      </div>
+                                  </div>
+                                  <div id="pop-apart" class="container tab-pane fade"><br>
+                                      <div class="input-group">
+                                          <input type="text" class="form-control form-srch" placeholder="Search by location area" aria-label="Search by location area" aria-describedby="basic-addon2">
+                                          <img src="assets/img/icons/icomap.png">
+                                          <div class="input-group-append">
+                                              <a href="apartment-search-map.html"><button type="submit" class="btn btn-search" type="button">
+                                                  <span>Search</span>
+                                                  <i class="fas fa-search"></i>
+                                                  </button>
+                                              </a>
+                                          </div>
+                                       </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ TELL US YOUR DREAM SPACES ------>
+        <div id="tellus" class="tellus">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12">
+                        <div class="tellus-capt">
+                            <h2>DISCOVER YOUR DREAM SPACE</h2>
+                            <p>SpaceStock.com is a full service Agent that is powered
+                            by modern technology. We help you seamlessly discover
+                            any apartment and office through verified listings. Our
+                            expert Agents will also walk you through the
+                            complicated transaction process of apartments and
+                            offices, free of charge.</p>
+                        </div>
+                        <div class="row button-two">
+                            <div class="col-md-12">
+                                <a href="office-search-map.html"><button class="btn-office">OFFICE</button></a>
+                                <a href="apartment-search-map.html"><button class="btn-apart">APARTMENT</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="phone-mockup">
+                            <img src="assets/img/mockphone.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ WHY YOU TRUST ME ------>
+        <div id="whytrust" class="whytrust">
+            <h2>THE SPACESTOCK SERVICE</h2>
+            <div class="container">
+                <div class="row disp-none">
+                    <div class="col-md-8 col-sm-12 whytrust-padd">
+                        <div class="tab-content whytrust-hi" id="v-pills-tabContent">
+                          <div class="tab-pane fade show active bg-trustleft" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                              <img src="assets/img/why.jpg">
+                              <div class="grad-black"></div>
+                              <div class="whytrust-capt">
+                                  <h3>Thousands of verified listings at your fingertips</h3>
+                                  <p>Our website only uploads verified listings, ensuring best in class online experience when searching for apartments or offices.<br>
+                                  </p>
+                              </div>
+                          </div>
+                          <div class="tab-pane fade bg-trustleft" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                              <img src="assets/img/why.jpg">
+                              <div class="grad-black"></div>
+                              <div class="whytrust-capt">
+                                  <h3>Backed by decades of experience</h3>
+                                  <p>Our Agents are some of the most experienced Real Estate agents in your area, each with strong dedication to customers and comprehensive understanding of market knowledge.<br>
+                                  </p>
+                              </div>
+                          </div>
+                          <div class="tab-pane fade bg-trustleft" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                              <img src="assets/img/why.jpg">
+                              <div class="grad-black"></div>
+                              <div class="whytrust-capt">
+                                  <h3>Placing System to Ensure Transparency</h3>
+                                  <p>Our integrated system ensures no real estate is marked up by Agents. We uphold the highest standard of integrity & transparency, and do not tolerate any form of dishonesty.<br>
+                                  </p>
+                              </div>
+                          </div>
+                          <div class="tab-pane fade bg-trustleft" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                              <img src="assets/img/why.jpg">
+                              <div class="grad-black"></div>
+                              <div class="whytrust-capt">
+                                  <h3>Easier Payment Through Credit Cards</h3>
+                                  <p>We work with the major banks & credit lenders to bring you 12x installment on your rent.<br>
+                                  </p>
+                              </div>
+                          </div>
+                            <div class="tab-pane fade bg-trustleft" id="v-pills-settings2" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                <img src="assets/img/why.jpg">
+                              <div class="grad-black"></div>
+                              <div class="whytrust-capt">
+                                  <h3>A commitment to Get the Best Price</h3>
+                                  <p>SpaceStock developed first class online directory for real estate. Then we hired our own agents to put consumers first. SpaceStock Agents are accountable for helping clients buy and sell the right properties, at the best possible price.<br>
+                                  </p>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 ul-whytrust">
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                          <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">COMPREHENSIVE LISTING</a>
+                          <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">EXTENSIVE MARKET KNOWLEDGE</a>
+                          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">TRANSPARENCY AND INTEGRITY</a>
+                          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">INSTALLMENT UP TO 12x</a>
+                          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings2" role="tab" aria-controls="v-pills-settings" aria-selected="false">COMPLETELY ON YOUR SIDE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/img/why.jpg">
+                        <div class="grad-black"></div>
+                        <div class="srvc-content">
+                            <a href="#">COMPREHENSIVE LISTING</a>
+                            <p>Our website only uploads verified listings, ensuring best in class online experience when searching for apartments or offices.<br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/why.jpg">
+                        <div class="grad-black"></div>
+                        <div class="srvc-content">
+                            <a href="#">EXTENSIVE MARKET KNOWLEDGE</a>
+                            <p>Our website only uploads verified listings, ensuring best in class online experience when searching for apartments or offices.<br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/why.jpg">
+                        <div class="grad-black"></div>
+                        <div class="srvc-content">
+                            <a href="#">TRANSPARENCY AND INTEGRITY</a>
+                            <p>Our website only uploads verified listings, ensuring best in class online experience when searching for apartments or offices.<br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/why.jpg">
+                        <div class="grad-black"></div>
+                        <div class="srvc-content">
+                            <a href="#">INSTALLMENT UP TO 12x</a>
+                            <p>Our website only uploads verified listings, ensuring best in class online experience when searching for apartments or offices.<br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/why.jpg">
+                        <div class="grad-black"></div>
+                        <div class="srvc-content">
+                            <a href="#">COMPLETELY ON YOUR SIDE</a>
+                            <p>Our website only uploads verified listings, ensuring best in class online experience when searching for apartments or offices.<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        
+        <!------ POPULAR APARTMENTS ------>
+        <div id="popular-apart" class="popular-apart">
+            <div class="container">
+                <h2>POPULAR APARTMENTS</h2>
+                <div class="wrapper-gallery">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12 pad-ri-gallery">
+                            <div class="wrapp-img-1">
+                                <img src="assets/img/apart-lease.jpg">
+                                <div class="grad-black"></div>
+                                <div class="wrapp-capt">
+                                    <h4>Casablanca</h4>
+                                    <span>Start from Rp. 10.000.000/month</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12 pad-le-gallery pad-ri-gallery">
+                            <div class="wrapp-img-2">
+                                <img src="assets/img/office-blue.jpg">
+                                <div class="grad-black"></div>
+                                <div class="wrapp-capt">
+                                    <h4>SCBD</h4>
+                                    <span>Start from Rp. 1.590.000/month</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12 pad-le-gallery pad-ri-gallery">
+                            <div class="wrapp-img-3">
+                                <img src="assets/img/apartment%202.jpg">
+                                <div class="grad-black"></div>
+                                <div class="wrapp-capt">
+                                    <h4>Thamrin</h4>
+                                    <span>Start from Rp. 6.000.000/month</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12 pad-le-gallery">
+                            <div class="wrapp-img-4">
+                                <img src="assets/img/apartment%203.jpg">
+                                <div class="grad-black"></div>
+                                <div class="wrapp-capt">
+                                    <h4>Sudirman</h4>
+                                    <span>Start from Rp. 1.840.000/month</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between mar-min-top">
+                        <div class="col-md-3 col-sm-12 pad-ri-gallery">
+                            <div class="wrapp-img-5">
+                                <img src="assets/img/apartment%204.jpg">
+                                <div class="grad-black"></div>
+                                <div class="wrapp-capt">
+                                    <h4>Mampang Prapatan</h4>
+                                    <span>Start from Rp. 8.340.000/month</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 pad-le-gallery">
+                            <div class="wrapp-img-6">
+                                <img src="assets/img/apartment-01.jpg">
+                                <div class="grad-black"></div>
+                                <div class="wrapp-capt">
+                                    <h4>Pantai Indah Kapuk</h4>
+                                    <span>Start from Rp. 4.590.000/month</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ POPULAR AREA ------>
+        <div id="popular-area" class="popular-area">
+            <div class="container">
+                <h2>POPULAR AREA</h2>
+                <div class="wrapper-gallery">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12 pad-ri-gallery">
+                            <div class="wrapp-img-1">
+                                <img src="assets/img/apart-lease.jpg">
+                                <div class="grad-black"></div>
+                                <div class="wrapp-capt">
+                                    <h4>Jakarta Selatan</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12 pad-le-gallery pad-ri-gallery">
+                            <div class="wrapp-img-2">
+                                <img src="assets/img/office-blue.jpg">
+                                <div class="grad-black"></div>
+                                <div class="wrapp-capt">
+                                    <h4>SCBD Area</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12 pad-le-gallery pad-ri-gallery">
+                            <div class="wrapp-img-3">
+                                <img src="assets/img/apartment%202.jpg">
+                                <div class="grad-black"></div>
+                                <div class="wrapp-capt">
+                                    <h4>Jakarta Utara</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12 pad-le-gallery">
+                            <div class="wrapp-img-4">
+                                <img src="assets/img/apartment%203.jpg">
+                                <div class="grad-black"></div>
+                                <div class="wrapp-capt">
+                                    <h4>Jakarta Timur</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between mar-min-top">
+                        <div class="col-md-3 col-sm-12 pad-ri-gallery">
+                            <div class="wrapp-img-5">
+                                <img src="assets/img/apartment%204.jpg">
+                                <div class="grad-black"></div>
+                                <div class="wrapp-capt">
+                                    <h4>Jakarta Barat</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 pad-le-gallery">
+                            <div class="wrapp-img-6">
+                                <img src="assets/img/apartment-01.jpg">
+                                <div class="grad-black"></div>
+                                <div class="wrapp-capt">
+                                    <h4>Jakarta Pusat</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ SERVING YOU / WALK THROUGH ------>
+        <div id="servyou" class="servyou">
+            <h2>WALK THROUGH HOMES ONLINE</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 pad-ri-2">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/VSYyvM_Ybyw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md-6 col-sm-12 pad-le-2">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/mhP76ve4Smw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    <p>When you buy or sell with SpaceStock Agents, we use state-of-the-art technology to promote your office & apartments to more buyers, to recommend listings you missed, to schedule tours on the spot, to close without a hitch. SpaceStock delivers unparalleled & seamless customer experience.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <!------ NEWS ------>
+        <div id="news-apart" class="news-apart">
+            <div class="container">
+                <h2>NEWS</h2>
+                <div class="row disp-none">
+                    <div class="col-md-4 pad-ri-8">
+                        <div class="wrapper-blog-1">
+                            <div class="wrapper-news-img">
+                                <img src="assets/img/blog1.jpg">
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3>New Concept 2018 Apartment</h3>
+                                    </div>
+                                </div>
+                                <div class="row mar-min-top">
+                                    <div class="col-md-12">
+                                        <span class="date">Aug, 27 2018</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="bord-bt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum elit eros, sed rutrum niside..</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <a href="#">
+                                        <button class="readmore">Read More</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pad-ri-8 pad-le-8">
+                        <div class="wrapper-blog-1">
+                            <div class="wrapper-news-img">
+                                <img src="assets/img/blog2.jpg">
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3>Zedd inside $16 Millions</h3>
+                                    </div>
+                                </div>
+                                <div class="row mar-min-top">
+                                    <div class="col-md-12">
+                                        <span class="date">Aug, 27 2018</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="bord-bt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum elit eros, sed rutrum niside..</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <a href="#">
+                                        <button class="readmore">Read More</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pad-le-8">
+                        <div class="wrapper-blog-1">
+                            <div class="wrapper-news-img">
+                                <img src="assets/img/blog3.jpg">
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3>DP 0% Go grab it fast!</h3>
+                                    </div>
+                                </div>
+                                <div class="row mar-min-top">
+                                    <div class="col-md-12">
+                                        <span class="date">Aug, 27 2018</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="bord-bt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum elit eros, sed rutrum niside..</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <a href="#">
+                                        <button class="readmore">Read More</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="wrapper-blog-1">
+                            <div class="wrapper-news-img">
+                                <img src="assets/img/blog3.jpg">
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3>DP 0% Go grab it fast!</h3>
+                                    </div>
+                                </div>
+                                <div class="row mar-min-top">
+                                    <div class="col-md-12">
+                                        <span class="date">Aug, 27 2018</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="bord-bt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum elit eros, sed rutrum niside..</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <a href="#">
+                                        <button class="readmore">Read More</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="wrapper-blog-1">
+                            <div class="wrapper-news-img">
+                                <img src="assets/img/blog2.jpg">
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3>Zedd inside $16 Millions</h3>
+                                    </div>
+                                </div>
+                                <div class="row mar-min-top">
+                                    <div class="col-md-12">
+                                        <span class="date">Aug, 27 2018</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="bord-bt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum elit eros, sed rutrum niside..</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <a href="#">
+                                        <button class="readmore">Read More</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="wrapper-blog-1">
+                            <div class="wrapper-news-img">
+                                <img src="assets/img/blog3.jpg">
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3>DP 0% Go grab it fast!</h3>
+                                    </div>
+                                </div>
+                                <div class="row mar-min-top">
+                                    <div class="col-md-12">
+                                        <span class="date">Aug, 27 2018</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="bord-bt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum elit eros, sed rutrum niside..</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <a href="#">
+                                        <button class="readmore">Read More</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        
+        <!------ WHAT CUSTOMER SAY ABOUT SPACESTOCK ------>
+        <div id="testimo" class="testimo">
+            <h2>WHAT CUSTOMERS SAY ABOUT SpaceStock.com</h2>
+            <p class="md">Our customers are already awarding Spacestock 5-star reviews<br>
+            Read all our reviews at <a href="testimoni-apartment.html">www.spacestock.com/testimonial</a></p>
+            <div class="container">
+                <div class="row disp-none">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="testimo-card">
+                            <div class="line-bl">
+                            </div>
+                            <div class="testimo-capt">
+                                <p>Lorem ipsum that's all.</p>
+                            </div>
+                            <div class="wrapper-abs">
+                                <div class="bord-seperate"></div>
+                                <div class="nine-container">
+                                    <h5>Geoof Samantha</h5>
+                                    <span class="jo-desc">Founder</span>
+                                </div>
+                                <div class="img-testimo">
+                                    <img src="assets/img/cust1.jpg" class="rounded-circle">
+                                </div>
+                                <div class="bottom-bl"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="testimo-card">
+                            <div class="line-bl">
+                            </div>
+                            <div class="testimo-capt">
+                                <p>The service was fast, responsive and highly customized to our needs. Spacestock showed genuine interest in helping us find the right place. Spacestock was on our side to ensure we got the right place and the right price. It was also very helpful that Spacestock are very familiar with contractor ser.</p>
+                            </div>
+                            <div class="wrapper-abs">
+                                <div class="bord-seperate"></div>
+                                <div class="nine-container">
+                                    <h5>Geoof Samantha</h5>
+                                    <span class="jo-desc">Founder</span>
+                                </div>
+                                <div class="img-testimo">
+                                    <img src="assets/img/cust1.jpg" class="rounded-circle">
+                                </div>
+                                <div class="bottom-bl"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="testimo-card">
+                            <div class="line-bl">
+                            </div>
+                            <div class="testimo-capt">
+                                <p>The service was fast, responsive and highly customized to our needs. Spacestock showed genuine interest in helping us find the right place. Spacestock was on our side to ensure we got the right place and the right price. It was also very helpful that Spacestock are very familiar with contractor ser.</p>
+                            </div>
+                            <div class="wrapper-abs">
+                                <div class="bord-seperate"></div>
+                                <div class="nine-container">
+                                    <h5>Geoof Samantha</h5>
+                                    <span class="jo-desc">Founder</span>
+                                </div>
+                                <div class="img-testimo">
+                                    <img src="assets/img/cust1.jpg" class="rounded-circle">
+                                </div>
+                                <div class="bottom-bl"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimo-card">
+                            <div class="line-bl">
+                            </div>
+                            <div class="testimo-capt">
+                                <p>The service was fast, responsive and highly customized to our needs. Spacestock showed genuine interest in helping us find the right place. Spacestock was on our side to ensure we got the right place and the right price. It was also very helpful that Spacestock are very familiar with contractor ser.</p>
+                            </div>
+                            <div class="wrapper-abs">
+                                <div class="bord-seperate"></div>
+                                <div class="nine-container">
+                                    <h5>Geoof Samantha</h5>
+                                    <span class="jo-desc">Founder</span>
+                                </div>
+                                <div class="img-testimo">
+                                    <img src="assets/img/cust1.jpg" class="rounded-circle">
+                                </div>
+                                <div class="bottom-bl"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimo-card">
+                            <div class="line-bl">
+                            </div>
+                            <div class="testimo-capt">
+                                <p>The service was fast, responsive and highly customized to our needs. Spacestock showed genuine interest in helping us find the right place. Spacestock was on our side to ensure we got the right place and the right price. It was also very helpful that Spacestock are very familiar with contractor ser.</p>
+                            </div>
+                            <div class="wrapper-abs">
+                                <div class="bord-seperate"></div>
+                                <div class="nine-container">
+                                    <h5>Geoof Samantha</h5>
+                                    <span class="jo-desc">Founder</span>
+                                </div>
+                                <div class="img-testimo">
+                                    <img src="assets/img/cust1.jpg" class="rounded-circle">
+                                </div>
+                                <div class="bottom-bl"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimo-card">
+                            <div class="line-bl">
+                            </div>
+                            <div class="testimo-capt">
+                                <p>Lorem ipsum that's all.</p>
+                            </div>
+                            <div class="wrapper-abs">
+                                <div class="bord-seperate"></div>
+                                <div class="nine-container">
+                                    <h5>Geoof Samantha</h5>
+                                    <span class="jo-desc">Founder</span>
+                                </div>
+                                <div class="img-testimo">
+                                    <img src="assets/img/cust1.jpg" class="rounded-circle">
+                                </div>
+                                <div class="bottom-bl"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        
+        <!------ SPACESTOCK VS OTHERS ------>
+        <div id="spacevs" class="spacevs">
+            <h2>SPACESTOCK VS OTHERS</h2>
+            <h2 class="how">HOW IT WORKS</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-12">
+                        <div class="wrapper-space">
+                            <div class="img-space">
+                                <img src="assets/img/icons/explore.png">
+                            </div>
+                            <div class="space-capt">
+                                <h5>EXPLORE!</h5>
+                                <p>Browse thousands of properties in our database.</p>
+                            </div>
+                        </div>
+                        <div class="wrapper-space">
+                            <div class="img-space">
+                                <img src="assets/img/icons/schedule.png">
+                            </div>
+                            <div class="space-capt">
+                                <h5>SCHEDULE MEETING!</h5>
+                                <p>Discuss your specific requirements with our professional Agents, free of charge</p>
+                            </div>
+                        </div>
+                        <div class="wrapper-space">
+                            <div class="img-space">
+                                <img src="assets/img/icons/building.png">
+                            </div>
+                            <div class="space-capt">
+                                <h5>BUILDING OPTIONS!</h5>
+                                <p>Get dozens of options that fit your requirements. Our local experts will get you the best deal.</p>
+                            </div>
+                        </div>
+                        <div class="wrapper-space">
+                            <div class="img-space">
+                                <img src="assets/img/icons/deal.png">
+                            </div>
+                            <div class="space-capt">
+                                <h5>DEAL!</h5>
+                                <p>We’re completely on your side to ensure a smooth negotiation process.</p>
+                            </div>
+                        </div>
+                        <div class="wrapper-space">
+                            <div class="img-space">
+                                <img src="assets/img/icons/fitout.png">
+                            </div>
+                            <div class="space-capt">
+                                <h5>FIT OUT!</h5>
+                                <p>Our team will assist you to design and
+                                furnish your new property ahead of schedule
+                                and under budget.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-12">
+                        <div class="mid-vs">
+                            <div class="mid-line">
+                                <div class="mid-abst">
+                                    <h6 class="round-vs">VS</h6>
+                                </div>
+                                <div class="mid-abst2">
+                                    <h6 class="round-vs2">VS</h6>
+                                </div>
+                                <div class="mid-abst3">
+                                    <h6 class="round-vs3">VS</h6>
+                                </div>
+                                <div class="mid-abst4">
+                                    <h6 class="round-vs4">VS</h6>
+                                </div>
+                                <div class="mid-abst5">
+                                    <h6 class="round-vs5">VS</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-12 disp-768">
+                        <h3 class="others">Others</h3>
+                        <div class="wrapper-vs1">
+                            <div class="img-vs">
+                                <img src="assets/img/icons/1search.png">
+                            </div>
+                            <div class="vs-capt">
+                                <p>Search for properties, one by one.</p>
+                            </div>
+                        </div>
+                        <div class="wrapper-vs2">
+                            <div class="img-vs">
+                                <img src="assets/img/icons/2call.png">
+                            </div>
+                            <div class="vs-capt">
+                                <p>Call and meet 20 different people for 20 different offices.</p>
+                            </div>
+                        </div>
+                        <div class="wrapper-vs3">
+                            <div class="img-vs">
+                                <img src="assets/img/icons/3dont.png">
+                            </div>
+                            <div class="vs-capt">
+                                <p>Don't know the occupancy rates and unsure which buildings can offer you the best price.</p>
+                            </div>
+                        </div>
+                        <div class="wrapper-vs4">
+                            <div class="img-vs">
+                                <img src="assets/img/icons/4deal.png">
+                            </div>
+                            <div class="vs-capt">
+                                <p>Deal... but is that really the best deal?</p>
+                            </div>
+                        </div>
+                        <div class="wrapper-vs5">
+                            <div class="img-vs">
+                                <img src="assets/img/icons/5go.png">
+                            </div>
+                            <div class="vs-capt">
+                                <p>Go through the trouble looking for suitable contractors.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ SUBSCRIBE OUR NEWSLETTER ------>
+        <div id="subs-sect" class="subs-sect">
+            <div class="bg-blur"></div>
+            <h2>BE THE FIRST TO KNOW</h2>
+            <p>Don’t miss our updates and get exclusive offers by subscribing to our newsletter!</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="subs-form">
+                             <input type="email" placeholder="Email address" name="mail" required>
+                            <input type="submit" value="Subscribe">
+                            <button type="submit" class="subs-btn">
+                                <img src="assets/img/icons/email.png">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ WHY SPACESTOCK ------>
+        <div id="whyspace" class="whyspace">
+            <div class="bg-whyspace"></div>
+            <div class="line-sptvrt2"></div>
+            <div class="container">
+                <div class="line-spthzn2"></div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="wrapper-whyspace">
+                            <h2>ABOUT SPACESTOCK</h2>
+                            <p>SpaceStock is Indonesia’s first technology powered agents. We provide a one stop solution to showcase thousands of verified offices and apartments online, and serve our clients with local property experts that is accountable for our customer’s satisfaction. Having served thousands of clients allowed our machine learning technology to provide us with real time real estate data and be at the forefront of movement in prices and market knowledge.
+                                
+                            Every SpaceStock agent is commited to serving you well, whether it is leasing or buying apartments or offices. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ FOOTER ------>
+        <div id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12">
+                        <img class="foot-logo" src="assets/img/logo.png">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12">
+                                <div class="foot-uper">
+                                    <h6>OFFICE</h6>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell/Lease Your Space</a>
+                                </div>
+                                <div class="space-info disp-768">
+                                    <div class="row">
+                                        <div class="col-2 flex-o pad-ri">
+                                            <img src="assets/img/icons/loct.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">Graha MIR lt. 9, Jl. Pemuda No. 9, Rawamangun,
+                                            Jakarta Timur, Daerah Khusus Ibukota Jakarta</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 flex-o pad-ri">
+                                            <img src="assets/img/icons/call.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">Customer Service:  021-2956 9852</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 flex-o pad-ri">
+                                            <img src="assets/img/icons/mail.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">info@spacestock.com</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 flex-o pad-ri">
+                                            <img src="assets/img/icons/whatsapp.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">+62 821 1717 7710</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="foot-bottom">
+                                    <h6>FOLLOW US</h6>
+                                    <a href="#"><img src="assets/img/icons/twitter.png"></a>
+                                    <a href="#"><img src="assets/img/icons/instagram.png"></a>
+                                    <a href="#"><img src="assets/img/icons/linkedin.png"></a>
+                                    <a href="#"><img src="assets/img/icons/fb.png" class="last-socmed"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-6 rspv">
+                                 <div class="foot-uper">
+                                    <h6>OFFICE</h6>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell/Lease Your Space</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-6">
+                                <div class="foot-apart">
+                                    <h6>APARTMENTS</h6>
+                                    <a href="#">Buy Apartment</a>
+                                    <a href="#">Lease Apartment</a>
+                                    <a href="#">Sell/Lease Your Unit</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="foot-help">
+                                    <h6>HELP</h6>
+                                    <a href="terms-and-condition.html">Terms & Condition</a>
+                                    <a href="privacy-poilcy.html">Privacy Policy</a>
+                                    <a href="faq.html">FAQ</a>
+                                    <a href="contact-us.html">Contact Us</a>
+                                    <a href="#">Blog</a>
+                                    <a href="building-directory.html">Building Directory</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 rspv">
+                                <div class="foot-bottom">
+                                    <h6>FOLLOW US</h6>
+                                    <a href="#"><img src="assets/img/icons/twitter.png"></a>
+                                    <a href="#"><img src="assets/img/icons/instagram.png"></a>
+                                    <a href="#"><img src="assets/img/icons/linkedin.png"></a>
+                                    <a href="#"><img src="assets/img/icons/fb.png" class="last-socmed"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="foot-info">
+                            <img src="assets/img/logo.png">
+                            <div class="space-info">
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/loct.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">Graha MIR lt. 9, Jl. Pemuda No. 9, Rawamangun,
+                                        Jakarta Timur, Daerah Khusus Ibukota Jakarta</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/call.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">Customer Service:  021-2956 9852</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/mail.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">info@spacestock.com</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/whatsapp.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">+62 821 1717 7710</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ FOOTER 2 ------>
+        <div id="footer2" class="footer2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="last-foot">
+                            <p>2018 © PT. Paragon Sewa Kantor | All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="assets/swiper-slider/js/swiper.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/select2.full.min.js"></script>
+        <script src="assets/js/general.js"></script>
+        <script>
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'coverflow',
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          coverflowEffect: {
+            rotate: 30,
+            stretch: 0,
+            depth: 0,
+            modifier: 1,
+            slideShadows : true,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+      </script>
+    </body>
+</html>

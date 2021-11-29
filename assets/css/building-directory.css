@@ -1,0 +1,242 @@
+/*------------ BUILDING DIRECTORY ------------*/
+
+/*------GLOBAL IN THIS PAGE ONLY------*/
+.five {
+    font-weight: 500;
+}
+
+.pad-ri-building {
+    padding-right: 2px;
+}
+
+.pad-le-building {
+    padding-left: 2px;
+    margin-top: 3px;
+}
+
+.pad-ri-blog {
+    padding-right: 6px;
+}
+
+.pad-le-blog {
+    padding-left: 6px;
+}
+
+.martp-min12 {
+    margin-top: -12px;
+}
+
+.border-dot {
+    border-bottom: 1px solid #ddd;
+    border-bottom-style: dashed;
+    margin: 14px auto;
+}
+
+.border-dot-mar20 {
+    border-bottom: 1px solid #ddd;
+    border-bottom-style: dashed;
+    margin: auto auto 20px auto;
+}
+
+.bord-bt {
+    border-top: 1px solid #ddd;
+    padding: 20px 0 0 0;
+}
+
+i.fa-circle {
+    font-size: 12px;
+}
+
+/*------CUSTOM IN THIS PAGE------*/
+.nav-pills .nav-link {
+    background: transparent;
+    outline: none;
+    border: 1px solid #133555;
+    color: #133555;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto 2px;
+    width: 114px;
+    height: 36px;
+    font-size: 14px;
+    text-align: center;
+    padding: 6px 10px;
+}
+
+.nav-pills .nav-link.active {
+    background: #133555;
+    color: #fff;
+}
+
+/*------BREADCRUMB------*/
+.bc-building .wrapper-bc-building {
+    margin: 20px 0;
+}
+
+.bc-building .wrapper-bc-building p, .bc-building .wrapper-bc-building a {
+    color: #133555;
+}
+
+.bc-building .wrapper-bc-building i {
+    margin: auto 4px;
+    text-align: center;
+    font-size: smaller;
+}
+
+.title-bd-building .bord-btm {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+/*------BODY LEFT BUILDING DIRECTORY------*/
+.wrapper-btns {
+    float: right;
+    margin-bottom: 14px;
+}
+
+.wrapper-btns .office {
+    background: #133555;
+    outline: none;
+    border: 1px solid #133555;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto 2px;
+    width: 100px;
+    height: 36px;
+    font-size: 14px;
+}
+
+.wrapper-btns .apartment {
+    background: transparent;
+    outline: none;
+    border: 1px solid #133555;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto 2px;
+    width: 100px;
+    height: 36px;
+    font-size: 14px;
+    color: #133555;
+}
+
+.menu-alpha a {
+    font-size: 26px;
+    color: #133555;
+    font-weight: 500;
+    margin: auto 2px;
+}
+
+.list-alpha {
+    margin: 20px auto;
+}
+
+.list-alpha .title {
+    margin-bottom: 20px;
+}
+
+.list-alpha .detail {
+    margin-bottom: 20px;
+}
+
+.list-alpha .address {
+    font-size: 14px;
+}
+
+.list-alpha h3 {
+    font-size: 26px;
+    color: #133555;
+    font-weight: 500;
+    margin: auto 2px;
+}
+
+/*------BODY RIGHT BUILDING DIRECTORY------*/
+.building-list .col-2 {
+    flex: 0 0 0.666667% !important;
+}
+
+.title-more {
+    padding-bottom: 14px;
+    margin-top: 6px;
+}
+
+
+.title-more span.more {
+    font-size: 20px;
+}
+
+.building-list a {
+    color: black;
+    text-decoration: underline;
+}
+
+.title-news {
+    padding-bottom: 14px;
+}
+
+
+.title-news span.news {
+    font-size: 20px;
+}
+
+.card-blog {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.card-blog img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.card-blog h3 {
+    font-size: 22px;
+}
+
+.card-blog .date {
+    font-size: 14px;
+    font-weight: 400;
+    color: #929292;
+}
+
+.card-blog .blog img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    
+}
+
+.card-blog .blog h4 {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

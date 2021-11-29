@@ -1,0 +1,1329 @@
+/*------------ APARTMENT DETAIL PAGE LEASE ------------*/
+
+/*------BREADCRUMB------*/
+.bc-apart-lease .wrapper-bc-lease {
+    margin: 20px 0;
+}
+
+.bc-apart-lease .wrapper-bc-lease p, .bc-apart-lease .wrapper-bc-lease a {
+    color: #133555;
+}
+
+.bc-apart-lease .wrapper-bc-lease i {
+    margin: auto 4px;
+    text-align: center;
+    font-size: smaller;
+}
+
+.title-bd-lease .bord-btm {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+/*------BODY APARTMENT LEASE------*/
+.bd-apart-lease {
+    width: 100%;
+    margin: auto;
+}
+
+.bd-apart-lease .wrapper-btn-price.bord-btm2 {
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+}
+
+.bd-apart-lease .bord-btm {
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+}
+
+.bd-apart-lease .bord-btm1 {
+    margin-bottom: 20px;
+}
+
+.wrapper-head-prev {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+.wrapper-head-prev img {
+    width: 100%;
+    height: 342px;
+    margin: auto;
+    text-align: center;
+    left: 0;
+    object-fit: cover;
+}
+
+.wrapper-head-prev::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.0) 0, #000 162%);
+    height: 342px;
+    width: 25%;
+    content: '';
+    top: 0;
+    margin-top: -342px;
+    float: right;
+}
+
+.apart-lease-preview .preview-menu img {
+    margin-bottom: 10px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.apart-lease-preview .preview-menu img.active {
+    opacity: 1;
+}
+
+.apart-lease-preview .preview-menu {
+    position: absolute;
+    right: 30px;
+    top: 12px;
+}
+
+.wrapper-prev-slide {
+    width: 636px;
+    margin: 1px auto auto auto;
+    display: flex;
+    overflow: hidden;
+}
+
+.wrapper-prev-slide .arrow-next-bef {
+    position: absolute;
+    width: 636px;
+    top: 50px;
+}
+
+.wrapper-prev-slide .arrow-next-bef .left i {
+    color: #fff;
+    font-size: 30px;
+    float: left;
+    margin: auto;
+    text-shadow: 5px 5px 15px rgba(150, 150, 150, 0.53);
+    cursor: pointer;
+}
+
+.wrapper-prev-slide .arrow-next-bef .right i {
+    color: #fff;
+    font-size: 30px;
+    float: right;
+    margin: auto;
+    text-shadow: 5px 5px 15px rgba(150, 150, 150, 0.53);
+    cursor: pointer;
+}
+
+.wrapper-prev-slide img {
+    width: 126px;
+    height: 126px;
+    object-fit: cover;
+    margin-right: 1px;
+}
+
+.wrapper-lease-right {
+    width: 100%;
+    margin: 14px auto auto auto;
+    position: relative;
+}
+
+.bd-apart-lease .wrapper-price-lease {
+    width: 100%;
+    float: right;
+    text-align: right;
+    margin: auto;
+}
+
+.bd-apart-lease .wrapper-price-lease .sml {
+    float: left;
+    font-size: 20px;
+    margin-left: 12px;
+}
+
+.bd-apart-lease .wrapper-btn-price .bord-ri {
+    border-right: 1px solid #e7e7e7;
+}
+
+.about-apart-lease {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.apart-lease-preview {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.apart-lease-preview .btn-interior {
+    background: #133555;
+    color: #fff;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.apart-lease-preview .btn-vr {
+    background: #133555;
+    color: #fff;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.apart-lease-preview .btn-floor {
+    background: #133555;
+    color: #fff;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.apart-lease-preview .img-lease-pre img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.apart-lease-preview .mar-btm {
+    margin-bottom: 2px;
+}
+
+.apart-lease-preview .pad-cstm {
+    padding-right: 1px;
+}
+
+.apart-lease-preview .pad-cstm2 {
+    padding: 0;
+}
+
+.apart-lease-preview .pad-cstm3 {
+    padding-left: 1px;
+}
+
+.about-apart-lease .title-bout {
+   margin-bottom: 16px;
+}
+
+.about-apart-lease .title-bout h5 {
+    font-size: 16px;
+}
+
+.about-apart-lease .wrapper-capt p {
+    color: #8a8a8a;
+}
+
+/*------APARTMENT DETAILS LEASE------*/
+.apart-details-lease {
+    width: 100%;
+    margin: 20px auto;
+    padding: 0;
+}
+
+.apart-details-lease .bord-bt {
+    border-top: 1px solid #ddd;
+    padding: 20px 0 0 0;
+}
+
+.apart-details-lease .title-details img {
+    float: left;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.apart-details-lease .title-details h5 {
+    vertical-align: middle;
+    font-size: 16px;
+    margin: auto 10px;
+    padding: 0 14px;
+    cursor: pointer;
+}
+
+.apart-details-lease .cvrn-dtls-lease {
+    float: right;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.apart-details-lease .details-menu {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.apart-details-lease .details-menu p {
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.apart-details-lease .details-menu .bathroom img {
+    margin-top: 4px;
+}
+
+.apart-details-lease .details-menu .bedroom img {
+    margin-top: 18px;
+}
+
+.apart-details-lease .details-menu .studio img {
+    margin-top: 17px;
+}
+
+.apart-details-lease .details-menu .poolview img {
+    margin-top: 10px;
+}
+
+.apart-details-lease .details-menu .full img {
+    margin-top: 3px;
+}
+
+.details-menu .mar-tp {
+    margin-top: 30px;
+}
+
+.apart-details-lease .cvrn-dtls-lease i {
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+
+.apart-details-lease .cvrn-dtls-lease i.active {
+    float: right;
+    cursor: pointer;
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    transition: all 300ms ease-in-out;
+}
+
+/*------FACILITIES AND AMINITIES------*/
+.apart-facamen {
+    width: 100%;
+    margin: auto auto 20px auto;
+    padding: 0;
+}
+
+.apart-facamen .bord-bt {
+    border-top: 1px solid #ddd;
+    padding: 20px 0 0 0;
+}
+
+.apart-facamen .title-facamen img {
+    float: left;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.apart-facamen .title-facamen h5 {
+    vertical-align: middle;
+    font-size: 16px;
+    margin: auto 10px;
+    padding: 0 14px;
+    cursor: pointer;
+}
+
+.apart-facamen .cvrn-facamen {
+    float: right;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.apart-facamen .fac-menu1, .apart-facamen .fac-menu2, .apart-facamen .fac-menu3 {
+    padding: 20px 0;
+}
+
+.apart-facamen .fac-menu1 img, .apart-facamen .fac-menu2 img, .apart-facamen .fac-menu3 img {
+    float: left;
+}
+
+.apart-facamen .fac-menu1 p, .apart-facamen .fac-menu2 p, .apart-facamen .fac-menu3 p {
+    vertical-align: middle;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 14px;
+    padding-left: 14px;
+}
+
+.apart-facamen .fac-menu1 .atm img {
+    margin: 2px auto auto auto;
+}
+
+.apart-facamen .fac-menu1 .gstore img {
+    margin: 2px auto auto auto;
+}
+
+.apart-facamen .fac-menu1 .lapbasket img {
+    margin: 5px auto auto auto;
+}
+
+.apart-facamen .fac-menu1 .ruangserba img {
+    margin: 1px auto auto auto;
+}
+
+.apart-facamen .fac-menu2 .gym img {
+    margin: 4px auto auto auto;
+}
+
+.apart-facamen .fac-menu2 .laundry img {
+    margin: 1px auto auto auto;
+}
+
+.apart-facamen .fac-menu2 .resto img {
+    margin: 2px auto auto auto;
+}
+
+.apart-facamen .fac-menu3 .inet img {
+    margin: 4px auto auto auto;
+}
+
+.apart-facamen .fac-menu3 .taman img {
+    margin: 2px auto auto auto;
+}
+
+.apart-facamen .facamen-menu {
+    margin: 30px auto;
+}
+
+.apart-facamen .cvrn-facamen i {
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+
+.apart-facamen .cvrn-facamen i.active {
+    float: right;
+    cursor: pointer;
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    transition: all 300ms ease-in-out;
+}
+
+/*------GOOGLE MAPS APART LEASE------*/
+.maps-apart-lease {
+    width: 100%;
+    margin: auto auto 20px auto;
+    text-align: center;
+    padding: 0;
+}
+
+.maps-apart-lease .bord-bt {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.maps-apart-lease .gmaps-apart-lease img {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/*------LEASE PER MONTH------*/
+.wrapper-month-lease {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.wrapper-month-lease .month-lease {
+    width: 100%;
+    border: 1px solid #133555;
+    border-radius: 6px;
+}
+
+.wrapper-month-lease .month-lease h3 {
+    color: #133555;
+}
+
+.wrapper-month-lease li.nav-item {
+    width: 50%;
+    border-bottom: 1px solid #133555;
+}
+
+.wrapper-month-lease .nav-pills .nav-six, .wrapper-month-lease .nav-pills .nav-twelve {
+    line-height: 42px;
+    color: #133555;
+}
+
+.wrapper-month-lease .nav-pills .nav-six.active {
+    color: #fff;
+    background-color: #133555 !important;
+    height: 60px;
+    line-height: 42px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.wrapper-month-lease .nav-pills .nav-twelve.active {
+    color: #fff;
+    background-color: #133555 !important;
+    height: 60px;
+    line-height: 42px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.wrapper-month-lease .pad-20 {
+    padding: 30px 0;
+}
+
+.wrapper-month-lease .sml {
+    font-size: 20px;
+    margin-right: 6px;
+    float: inherit;
+    vertical-align: super;
+}
+
+.wrapper-month-lease .permonth {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.wrapper-month-lease.bord-btm {
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.wrapper-month-lease .btn-rent {
+    width: 100%;
+    margin: 10px auto auto auto;
+    text-align: center;
+    color: #fff;
+    background: #133555;
+    outline: none;
+    border: none;
+    height: 46px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*------TOUR WITH SPACESTOCK------*/
+.tour-space {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 10px;
+}
+
+.tour-space .tourwith {
+    font-weight: 500;
+}
+
+/*------DATES TOUR------*/
+.wrapper-tour-dates {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.wrapper-tour-dates .previous {
+    margin: auto;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.wrapper-tour-dates .previous i {
+    margin: auto;
+    font-size: 36px;
+    cursor: pointer;
+    color: #133555;
+}
+
+.wrapper-tour-dates .next {
+    position: absolute;
+    margin: auto;
+    right: 0;
+    top: 20px;
+}
+
+.wrapper-tour-dates .next i {
+    margin: auto;
+    font-size: 36px;
+    cursor: pointer;
+    color: #133555;
+}
+
+.wrapper-tour-dates .wrapper-dates {
+    width: 70%;
+    margin: auto;
+    height: 90px;
+    overflow: hidden;
+}
+
+.wrapper-tour-dates .wrapper-dates .date-1, .wrapper-tour-dates .wrapper-dates .date-2, .wrapper-tour-dates .wrapper-dates .date-3, .wrapper-tour-dates .wrapper-dates .date-4 {
+    background: #133555;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+    width: 72px;
+    height: 72px;
+    margin-right: 2px;
+}
+
+.wrapper-tour-dates .wrapper-dates .date-1 h3, .wrapper-tour-dates .wrapper-dates .date-2 h3, .wrapper-tour-dates .wrapper-dates .date-3 h3, .wrapper-tour-dates .wrapper-dates .date-4 h3 {
+    line-height: 22px;
+    margin-bottom: 0;
+    font-size: 26px;
+}
+
+.wrapper-tour-dates .wrapper-dates .date-1 .capt, .wrapper-tour-dates .wrapper-dates .date-2 .capt, .wrapper-tour-dates .wrapper-dates .date-3 .capt, .wrapper-tour-dates .wrapper-dates .date-4 .capt {
+    font-size: 10px;
+}
+
+.wrapper-tour-dates .wrapper-dates .date-1 .capt-month, .wrapper-tour-dates .wrapper-dates .date-2 .capt-month, .wrapper-tour-dates .wrapper-dates .date-3 .capt-month, .wrapper-tour-dates .wrapper-dates .date-4 .capt-month {
+    font-size: 12px;
+}
+
+/*------SCHEDULE SHOWING------*/
+.sched-show {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.sched-show .btn-schedule {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    background: #133555;
+    outline: none;
+    border: none;
+    height: 46px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*------RATINGS LEASE APARTMENT------*/
+.wrapper-rate-lease {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #133555;
+    padding: 20px 0;
+    height: 110px;
+}
+
+.wrapper-rate-lease .rate-bout {
+    width: 100%;
+    margin: 8px auto;
+    text-align: center;
+}
+
+.wrapper-rate-lease .rate-bout .rate-bout {
+    text-align: center;
+}
+
+.wrapper-rate-lease .rate-bout .star-rate {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.rate-bout .fw-bold {
+    font-size: 30px;
+}
+
+.rate-bout h3 {
+    font-size: 20px;
+    line-height: 28px;
+    color: #133555;
+    margin-right: 6px;
+}
+
+.wrapper-rate-lease .rate-bout .star-rate i {
+    vertical-align: middle;
+    font-size: 27px;
+    margin: 0 2px;
+}
+
+.wrapper-rate-lease .rate-bout .star-rate i:nth-child(5) {
+    color: #fbef21;
+}
+
+.wrapper-rate-lease .rate-bout .star-rate i:nth-child(4) {
+    color: #fbef21;
+}
+
+.wrapper-rate-lease .rate-bout .star-rate i:nth-child(3) {
+    color: #fbef21;
+}
+
+.wrapper-rate-lease .rate-bout .star-rate i:nth-child(2) {
+    color: #fbef21;
+}
+
+.wrapper-rate-lease .rate-bout .star-rate i:last-child {
+    color: #c3c0c1;
+}
+
+/*------CUSTOMER SERVICE------*/
+.call-wasap {
+    width: 100%;
+    margin: auto;
+    background: #133555;
+    text-align: center;
+    color: #fff;
+    margin: 10px auto;
+    padding: 20px 0;
+    border-radius: 0 0 4px 4px;
+}
+
+.call-wasap .title-wa {
+    border-bottom: 1px solid #fff;
+    width: 40%;
+    margin: auto;
+}
+
+.call-wasap h3 {
+    font-weight: normal;
+    padding-top: 10px;
+}
+
+/*------SIMILAR UNIT------*/
+.similar-ulease {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #eef1f7;
+    padding: 30px 0;
+}
+
+.similar-ulease .title-ulease {
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.similar-ulease .title-ulease img {
+    float: left;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-top: -4px;
+}
+
+.similar-ulease .title-ulease h5 {
+    vertical-align: middle;
+    font-size: 16px;
+    margin: auto 10px;
+    padding: 0 14px;
+    cursor: pointer;
+}
+
+.similar-ulease .apart-lease-card {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+}
+
+.apart-lease-card .grad-blue {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: 1px;
+    z-index: 0;
+    border-radius: 6px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #133555 120%);
+}
+
+.apart-lease-card img.bg-card {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    margin: auto;
+    z-index: 0;
+    border-radius: 6px;
+}
+
+.apart-lease-card .lease-card-detail {
+    padding: 80px 10px 10px 10px;
+    position: relative;
+    z-index: 0;
+}
+
+.apart-lease-card .btn-like {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.apart-lease-card .btn-like-2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.apart-lease-card .btn-like-3 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.apart-lease-card .btn-like i {
+    font-size: 22px;
+    color: #fff;
+    transition: all 200ms ease-in-out;
+}
+
+.apart-lease-card .btn-like i.active {
+    color: #ef1c26;
+}
+
+.apart-lease-card .btn-like-2 i {
+    font-size: 22px;
+    color: #fff;
+    transition: all 200ms ease-in-out;
+}
+
+.apart-lease-card .btn-like-2 i.active {
+    color: #ef1c26;
+}
+
+.apart-lease-card .btn-like-3 i {
+    font-size: 22px;
+    color: #fff;
+    transition: all 200ms ease-in-out;
+}
+
+.apart-lease-card .btn-like-3 i.active {
+    color: #ef1c26;
+}
+
+.lease-card-detail .price-capt h4, .lease-card-detail .price-capt h5 {
+    color: #fff;
+    text-shadow: 0.1rem 0.123rem 0.375rem #000;
+}
+
+.lease-card-detail span {
+    color: #fff;
+    text-shadow: 0.1rem 0.123rem 0.375rem #000;
+}
+
+.price-capt.bord-btm {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/*------APARTMENT DETAIL PAGE LEASE------*/
+
+/*------SLIDE RANGE NEARBY NEW------*/
+.pop-nearby .slide-range-nby {
+    width: 100%;
+    margin: 20px auto;
+    position: relative;
+}
+
+.pop-nearby .slide-range-nby .line-range {
+    width: 50%;
+    margin: auto;
+    background: #133555;
+    height: 3px;
+    position: absolute;
+    left: 0;
+}
+
+.pop-nearby .slide-range-nby .line-range-grey {
+    width: 50%;
+    margin: auto;
+    background: #ddd;
+    height: 3px;
+    position: absolute;
+    right: 0;
+}
+
+.pop-nearby .slide-range-nby .circle-1 {
+    width: 20px;
+    height: 20px;
+    background: #133555;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: -8px;
+}
+
+.pop-nearby .slide-range-nby .circle-2 {
+    width: 20px;
+    height: 20px;
+    background: #133555;
+    border-radius: 50%;
+    position: absolute;
+    left: 23%;
+    top: -8px;
+}
+
+.pop-nearby .slide-range-nby .circle-3 {
+    width: 20px;
+    height: 20px;
+    background: #133555;
+    border-radius: 50%;
+    position: absolute;
+    left: 46%;
+    top: -8px;
+}
+
+.pop-nearby .slide-range-nby .circle-4 {
+    width: 20px;
+    height: 20px;
+    background: #ddd;
+    border-radius: 50%;
+    position: absolute;
+    left: 69%;
+    top: -8px;
+}
+
+.pop-nearby .slide-range-nby .circle-5 {
+    width: 20px;
+    height: 20px;
+    background: #ddd;
+    border-radius: 50%;
+    position: absolute;
+    left: 94%;
+    top: -8px;
+}
+
+/*------SLIDE RANGE ADVANCE SEARCH NEW------*/
+.slide-range-adv {
+    width: 100%;
+    margin: 20px auto;
+    position: relative;
+}
+
+.slide-range-adv .line-range {
+    width: 50%;
+    margin: auto;
+    background: #133555;
+    height: 3px;
+    position: absolute;
+    left: 0;
+}
+
+.slide-range-adv .line-range-grey {
+    width: 50%;
+    margin: auto;
+    background: #ddd;
+    height: 3px;
+    position: absolute;
+    right: 0;
+}
+
+.slide-range-adv .circle-1 {
+    width: 20px;
+    height: 20px;
+    background: #133555;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: -8px;
+}
+
+.slide-range-adv .circle-2 {
+    width: 20px;
+    height: 20px;
+    background: #133555;
+    border-radius: 50%;
+    position: absolute;
+    left: 23%;
+    top: -8px;
+}
+
+.slide-range-adv .circle-3 {
+    width: 20px;
+    height: 20px;
+    background: #133555;
+    border-radius: 50%;
+    position: absolute;
+    left: 46%;
+    top: -8px;
+}
+
+.slide-range-adv .circle-4 {
+    width: 20px;
+    height: 20px;
+    background: #ddd;
+    border-radius: 50%;
+    position: absolute;
+    left: 69%;
+    top: -8px;
+}
+
+.slide-range-adv .circle-5 {
+    width: 20px;
+    height: 20px;
+    background: #ddd;
+    border-radius: 50%;
+    position: absolute;
+    left: 94%;
+    top: -8px;
+}
+
+/*------GLOBAL------*/
+.pad-ri-card {
+    padding-right: 6px;
+}
+
+.pad-le-card {
+    padding-left: 6px;
+}
+
+/*------------CARAOUSEL SLIDER-----------*/
+/* appointment-1 */
+.appointment-section{
+    margin-top: 50px;
+}
+.appointment-section img.thumb-point{
+    width: 100%;
+    height: 296px;
+    object-fit: cover;
+}
+.sqm-wrapper {
+    border: 2px solid #8a9baa;
+    margin-top: 8px;
+    border-radius: 2px;
+    padding: 0 50px;
+}
+.sqm-wrapper h5{
+    border-bottom: 1px solid #cccccc;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+.sqm-wrapper h6{
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.sqm-wrapper h6, .sqm-wrapper p{
+    text-align: center;
+}
+.sqm-wrapper p{
+    font-size: 14px;
+    color: #474747;
+    margin-bottom: 5px;
+    letter-spacing: -0.5px;
+}
+.appoinment-schedule h2{
+    margin-top: 16px;
+    text-align: center;
+    letter-spacing: -0.6px;
+}
+.appoinment-schedule .schedule{
+    margin: 0px 40px;
+}
+.schedule-day{
+    background: #143654;
+    padding: 5px;
+    color: #fff;
+    margin: 2px;
+    padding: 11px 11px 6px;
+}
+.schedule-day small{
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -2px;
+}
+.schedule-day h4{
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: -3px;
+}
+.f-right{
+    float: right;
+}
+.date-schedule{
+    margin: 40px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+.wrapper-sche{
+    display: flex;
+    margin: 0px 30px;
+}
+img.chevron-left{
+    position: absolute;
+    left: 20px;
+    top: 48px;
+    cursor: pointer;
+}
+img.chevron-right{
+    position: absolute;
+    right: 20px;
+    top: 48px;
+    cursor: pointer;
+}
+.grey-bg{
+    background: #eef2f6;
+    margin-top: 80px;
+    margin-bottom: -10px;
+    padding: 40px;
+    min-height: 160px;
+}
+.grey-bg small{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #474747;
+    letter-spacing: -0.5px;
+}
+.grey-bg h2{
+    font-weight: 700;
+    color: #000;
+}
+.grey-bg .info{
+    float: left;
+}
+img.info-icons{
+    margin-bottom: 5px;
+    margin-right: 3px;
+}
+.action-button{
+    float: right;
+    margin-top: 10px;
+}
+.action-button .btn{
+    padding: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 130px;
+    margin: 0 2px;
+    font-size: 14px;
+}
+.action-button .btn.btn-back{
+    background-color: #b3b3b3;
+}
+.action-button .btn.btn-next{
+    background-color: #143654;
+}
+.schedule-hours{
+    margin: 1.5px;
+}
+.schedule-hours .time{
+    background: #143654;
+    color: #fff;
+    margin: 1.5px;
+    padding: 5px 0;
+    font-size: 14px;
+    margin-bottom: 4px;
+    letter-spacing: 0;
+    width: 85px;
+    text-align: center;
+}
+.schedule-hours .time span.bold{
+    font-weight: 500;
+}
+.wrapper-sche p{
+    font-size: 14px;
+    margin-top: 35px;
+    line-height: 18px;
+}
+.p-top-12{
+    padding-top: 12px;
+}
+.right-brdr{
+    border-right: 1px solid #000;
+    height: 50px;
+}
+.day-icon{
+    margin-top: 8px;
+}
+.left-25{
+    padding-left: 25px;
+}
+.grey-bg.schedule h2{
+    margin-bottom: 0;
+    margin-top: -5px;
+}
+.grey-bg.schedule small {
+    text-transform: inherit;
+}
+img.location-schedule{
+    float: right;
+    margin-top: 10px;
+}
+h2.nowrap{
+    letter-spacing: -0.5px;
+    white-space: nowrap;
+    margin-bottom: 0;
+}
+.grey-bg.schedule .action-button {
+    margin-top: 0;
+}
+.grey-bg.schedule {
+    margin-top: 35px;
+}
+/* carousel */
+.MultiCarousel { 
+    float: left; 
+    overflow: hidden; 
+    padding: 15px 0; 
+    width: 62%; 
+    position:relative; 
+}
+
+.MultiCarousel .MultiCarousel-inner {           transition: 1s ease all; 
+    float: left; 
+}
+
+.MultiCarousel .MultiCarousel-inner .item {
+    float: left;
+    width: 72px !important;
+    height: 72px;
+    margin-right: 6px;
+}
+
+.MultiCarousel .MultiCarousel-inner .item > div { 
+    text-align: center; 
+}
+
+.leftLst,  .rightLst { 
+    position:absolute; 
+    border-radius:50%;
+    top:0; 
+}
+
+.leftLst { 
+    left: 0px; 
+    top: -10px; 
+}
+
+.rightLst { 
+    right: 0px; 
+    top: -10px; 
+}
+
+.leftLst.over,  .rightLst.over { 
+    pointer-events: none;
+}
+
+.leftLst,  .rightLst,  .leftLst:checked,  .rightLst:focus{ 
+    background: none; 
+    border: none;
+}
+
+.schedule-time {
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.MultiCarousel-inner.wrapper-sche {
+    margin: 0px;
+    max-width: 620px;
+}
+
+.p-70 {
+    padding: 15px 70px;
+}
+
+/*------------SLIDER FOR IMAGES GALLERY-----------*/
+.apart-lease-preview .wrapper-tour-dates .wrapper-dates {
+    width: 100%;
+    margin: auto;
+    height: 126px;
+    overflow: hidden;
+    padding-top: 1px;
+}
+
+.apart-lease-preview .MultiCarousel .MultiCarousel-inner .item {
+    float: left;
+    width: 126px !important;
+    height: 126px;
+    margin-right: 1px;
+}
+
+.apart-lease-preview .MultiCarousel .MultiCarousel-inner .item img {
+    width: 126px;
+    height: 126px;
+    object-fit: cover;
+}
+
+.apart-lease-preview .leftLst i {
+    color: #fff;
+    font-size: 30px;
+    float: left;
+    margin: auto;
+    text-shadow: 5px 5px 15px rgba(150, 150, 150, 0.53);
+    cursor: pointer;
+}
+
+.apart-lease-preview .rightLst i {
+    color: #fff;
+    font-size: 30px;
+    float: right;
+    margin: auto;
+    text-shadow: 5px 5px 15px rgba(150, 150, 150, 0.53);
+    cursor: pointer;
+}
+
+.apart-lease-preview .leftLst, .apart-lease-preview .rightLst {
+    margin-top: 50px;
+}
+
+.apart-lease-preview .MultiCarousel-inner.wrapper-sche {
+    margin: 0px;
+    min-width: 1400px;
+}
+
+.apart-lease-preview .wrapper-tour-dates {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+/*------EDITED------*/
+.button-buy .btnbuy {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.wrapper-lease-right.disp-none {
+    display: none;
+}
+
+/*------------ END OF APARTMENT DETAIL PAGE LEASE ------------*/

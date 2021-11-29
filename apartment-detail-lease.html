@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>APARTMENT DETAIL LEASE</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/apartment-detail-lease.css">
+        <link rel="stylesheet" href="assets/css/general.css">
+        <link rel="stylesheet" href="assets/css/select2.min.css">
+        <link rel="stylesheet" href="assets/css/responsive/resp-apartment-detail-lease.css">
+        <link rel="stylesheet" href="assets/css/responsive/resp-general.css">
+        <link rel="stylesheet" href="assets/easy-autocomplete/autocomplete.css">
+        <link rel="stylesheet" href="assets/easy-autocomplete/autocomplete-themes.css">
+    </head>
+    
+    <body>
+        
+        <!------ NAVBAR ------>
+        <nav>
+            <div class="close-dropdown"></div>
+            <div class="close-dropdown-2"></div>
+            <div class="close-dropdown-3"></div>
+            <div class="close-dropdown-4"></div>
+            <div id="mynavbar" class="mynavbar navbar-fixed-top">
+                <div class="toggle-nav">
+                    <div class="span1" id="one"></div>
+                    <div class="span2" id="two"></div>
+                    <div class="span3" id="three"></div>
+                </div>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/img/logo.png">
+                    </a>
+                </div>
+                <div class="wrapper-resp-nav">
+                    <div class="wrapper-profile dropdown">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="display-name" data-toggle="collapse" data-target="#DropRspnsv">
+                                    <div class="wrapper-name">
+                                        <span class="name">Alexanderousy</span>
+                                    </div>
+                                    <i class="fas fa-chevron-down"></i>
+                                    <div class="ico-profile">
+                                        <a href="#">
+                                            <img src="assets/img/icons/profile.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-content profile">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                            <div class="bottom-bl"></div>
+                       </div>
+                       <div id="DropRspnsv" class="dropdown-rspnsv collapse">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                       </div>
+                    </div>
+                    <div class="wrapper-profile resp dropdown">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="display-name">
+                                    <div class="ico-profile">
+                                        <a href="#">
+                                            <img src="assets/img/icons/profile.png">
+                                        </a>
+                                    </div>
+                                    <div class="wrapper-name">
+                                        <span class="name">Alexanderousy</span>
+                                    </div>
+                                    <div class="chev-profile" data-toggle="collapse" data-target="#DropRspnsvProfile">
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-content profile">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                            <div class="bottom-bl"></div>
+                       </div>
+                       <div id="DropRspnsvProfile" class="dropdown-rspnsv profile collapse">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                       </div>
+                    </div>
+                    <div class="wrapper-spt">
+                        <div class="opt-language">
+                            <div class="dropdown drop-lang">
+                                <button class="dropbtn lang">ID 
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                                <div class="dropdown-content lang">
+                                    <div class="arrow-up"></div>
+                                    <a href="#"><img src="assets/img/icons/indonesia.png"> ID</a>
+                                    <a href="#"><img src="assets/img/icons/united-kingdom.png"> EN</a>
+                                    <div class="bottom-bl"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-call">
+                            <img src="assets/img/icons/whatsapp.png">
+                            <span class="phone-call"><a href="#">+62 821 1717 7710</a></span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="dropdown">
+                               <button class="dropbtn office" data-toggle="collapse" data-target="#DropRspnsvOffice"><span class="nav-office" onclick="location.href='index-office.html'">OFFICE</span> 
+                                   <i class="fas fa-chevron-down"></i>
+                               </button>
+                               <div class="dropdown-content office">
+                                    <div class="arrow-up"></div>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell & Lease Your Space</a>
+                                    <div class="bottom-bl"></div>
+                               </div>
+                               <div id="DropRspnsvOffice" class="dropdown-rspnsv collapse">
+                                    <div class="arrow-up"></div>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell & Lease Your Space</a>
+                               </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                               <button class="dropbtn apartment" data-toggle="collapse" data-target="#DropRspnsvApart"><span class="nav-apart" onclick="location.href='index-apartment.html'">APARTMENTS</span> 
+                                   <i class="fas fa-chevron-down"></i>
+                               </button>
+                               <div class="dropdown-content apartment">
+                                 <div class="arrow-up"></div>
+                                    <a href="#">Buy Apartment</a>
+                                    <a href="apartment-detail-lease.html">Lease Apartment</a>
+                                    <a href="#">Sell & Lease Your Unit</a>
+                                 <div class="bottom-bl"></div>
+                               </div>
+                                <div id="DropRspnsvApart" class="dropdown-rspnsv collapse">
+                                    <div class="arrow-up"></div>
+                                    <a href="#">Buy Apartment</a>
+                                    <a href="apartment-detail-lease.html">Lease Apartment</a>
+                                    <a href="#">Sell & Lease Your Unit</a>
+                               </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="li-news" href="#">NEWS</a>
+                        </li>
+                    </ul>
+                    <div class="opt-language rspv">
+                        <div class="dropdown drop-lang">
+                            <button class="dropbtn lang" data-toggle="collapse" data-target="#DropRspnsvLang">ID 
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="dropdown-content lang">
+                                <div class="arrow-up"></div>
+                                <a href="#"><img src="assets/img/icons/indonesia.png"> ID</a>
+                                <a href="#"><img src="assets/img/icons/united-kingdom.png"> EN</a>
+                                <div class="bottom-bl"></div>
+                            </div>
+                            <div id="DropRspnsvLang" class="dropdown-rspnsv-lang collapse">
+                                <div class="arrow-up"></div>
+                                <a href="#"><img src="assets/img/icons/indonesia.png"> ID</a>
+                                <a href="#"><img src="assets/img/icons/united-kingdom.png"> EN</a>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="main-call rspv">
+                        <img src="assets/img/icons/whatsapp.png">
+                        <span class="phone-call"><a href="#">+62 821 1717 7710</a></span>
+                    </div>
+                </div>
+                <div class="wrapper-search-nav">
+                    <div class="search-navbar">
+                        <form autocomplete="off">
+                          <div class="">
+                            <input id="" class="myinput example-heroes1" type="text" name="myCountry" placeholder="">
+                            <div class="ico-srch">
+                                <i class="fas fa-search"></i>
+                            </div>
+                          </div>
+                        </form>
+                        <button class="btn-buys">BUY</button>
+                        <button class="btn-leases">LEASE</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <!------ BREADCRUMB ------>
+        <div id="bc-apart-lease" class="bc-apart-lease">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="wrapper-bc-lease">
+                            <p><i class="fas fa-circle"></i> <a href="index.html">Home</a> > <a href="apartment-search-map.html">Apartment</a> > <a href="apartment-detail-lease.html">Signature Park Grande</a></p>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ BODY APARTMENT LEASE ------>
+        <div id="bd-apart-lease" class="bd-apart-lease">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="title-bd-lease bord-btm">
+                                    <h2>Signature Park Grande Tower A</h2>
+                                    <p>Jl. MT. Haryono No. 22 Tebet, Jakarta Selatan, 12820.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="apart-lease-preview bord-btm1">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="wrapper-head-prev">
+                                                <img src="assets/img/apart-lease.jpg">
+                                            </div>
+                                            <div class="preview-menu">
+                                                <div class="360">
+                                                    <img src="assets/img/icons/360.png" class="active">
+                                                </div>
+                                                <div class="interior">
+                                                    <img src="assets/img/icons/interior.png">
+                                                </div>
+                                                <div class="eksterior">
+                                                    <img src="assets/img/icons/eksterior.png">
+                                                </div>
+                                                <div class="floor-p">
+                                                    <img src="assets/img/icons/floor-p.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row" id="parent-carousel">
+                                        <div class="col-md-12">
+                                            <div class="schedule-time wrapper-tour-dates" id="date-span">
+                                                <div class="MultiCarousel wrapper-dates" data-items="1,3,5,6" data-slide="1" id="MultiCarousel-1"  data-interval="1000">
+                                                    <div class="MultiCarousel-inner wrapper-sche" id="date-inner">
+                                                        <div class="item">
+                                                            <div class="img-1">
+                                                                <img src="assets/img/apart-lease.jpg">
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="img-2">
+                                                                <img src="assets/img/apart%20hol.jpg">
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="img-3">
+                                                                <img src="assets/img/apartment%202.jpg">
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="img-4">
+                                                                <img src="assets/img/apartment%203.jpg">
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="img-5">
+                                                                <img src="assets/img/apartment%204.jpg">
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="img-2">
+                                                                <img src="assets/img/apart%20hol.jpg">
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="img-3">
+                                                                <img src="assets/img/apartment%202.jpg">
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="img-3">
+                                                                <img src="assets/img/apartment%202.jpg">
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="img-3">
+                                                                <img src="assets/img/apartment%202.jpg">
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="img-3">
+                                                                <img src="assets/img/apartment%202.jpg">
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="img-3">
+                                                                <img src="assets/img/apartment%202.jpg">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <button class="btn leftLst btnArrow" id="left-car1"><i class="fas fa-arrow-left"></i></button>
+                                                <button class="btn rightLst btnArrow" id="right-car1"><i class="fas fa-arrow-right"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="about-apart-lease">
+                                    <div class="title-bout">
+                                        <h5>ABOUT THE APARTMENT</h5>
+                                    </div>
+                                    <div class="wrapper-capt">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo sem vel euismod elementum. Cras bibendum turpis sit amet auctor pellentesque. Sed mollis justo a eros ullamcorper rhoncus. Sed fermentum, massa elementum faucibus dignissim, neque tortor maximus diam, non iaculis dolor tortor a nibh. Nulla eu pharetra tortor. Integer congue dignissim lectus id consequat. Praesent consequat pharetra urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at nunc sit amet sem ultricies vestibulum id vel mauris. Cras sit amet nisl erat.<br> <br>
+
+                                        Pellentesque faucibus gravida condimentum. Quisque venenatis enim eu diam blandit porta. Proin sollicitudin, dui scelerisque maximus auctor, ligula ligula mattis tellus, eleifend commodo mi lorem molestie mauris.Pellentesque sit amet urna nisl. Ut ac ligula dolor. Suspendisse odio libero, posuere in rutrum ut, mattis eu nibh. Nam a leo non purus dapibus sollicitudin. Aliquam sed libero et nulla congue gravida. Maecenas euismod lectus eu nisl sodales, nec tempus nunc elementum. Praesent imperdiet mi sed odio lacinia, et hendrerit neque consequat. Proin at hendrerit quam, eget ullamcorper ante.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5 col-sm-12">
+                                <div class="wrapper-lease-right disp-none">
+                                    <div id="lease-share" class="lease-share">
+                                        <div class="container">
+                                            <div class="wrapper-lease-share">
+                                                <div class="arrow-up"></div>
+                                                <div class="container">
+                                                    <div class="title-ls">
+                                                        <h3>Share</h3>
+                                                    </div>
+                                                    <div class="note-ls">
+                                                        <div class="form-group">
+                                                            <label for="comment">Comment:</label>
+                                                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                                                            <span class="char">0/25 Character Limit</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mail-ls">
+                                                        <div class="form-group">
+                                                            <label for="MailLs">Email</label>
+                                                            <input type="email" class="form-control" id="MailLs" aria-describedby="emailHelp" placeholder="Search location">
+                                                            <span class="addmail">+ Add additional email address</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="btn-ls bord-btm">
+                                                        <a href="#">
+                                                            <button class="btn-rent-2">RENT</button>
+                                                        </a>
+                                                        <a href="#">
+                                                            <button class="btn-cancel">CANCEL</button>
+                                                        </a>
+                                                    </div>
+                                                    <div class="socmed-ls">
+                                                        <a class="fb" href="#">
+                                                            <img src="assets/img/icons/facebook2.png">
+                                                        </a>
+                                                        <a class="ig" href="#">
+                                                            <img src="assets/img/icons/instagram2.png">
+                                                        </a>
+                                                        <a class="tw" href="#">
+                                                            <img src="assets/img/icons/twitter2.png">
+                                                        </a>
+                                                        <a class="in" href="#">
+                                                            <img src="assets/img/icons/linkedin2.png">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrapper-btn-price bord-btm2">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="wrapper-btns-lease">
+                                                    <a href="#">
+                                                        <button class="btn-like"><i class="far fa-heart"></i> Favorites</button>
+                                                    </a>
+                                                    <a href="#">
+                                                        <button class="btn-share">SHARE</button>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="wrapper-month-lease bord-btm">
+                                                <div class="month-lease">
+                                                    <div class="tab-content pad-20" id="pills-tabContent">
+                                                        <div class="tab-pane fade show active" id="6Months" role="tabpanel" aria-labelledby="pills-home-tab">
+                                                            <h3><span class="sml">Rp.</span>200.500.000</h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <a href="#">
+                                                    <button class="btn-rent">BUY</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="wrapper-month-lease bord-btm">
+                                                <div class="month-lease">
+                                                    <div class="tab-content pad-20" id="pills-tabContent">
+                                                        <div class="tab-pane fade show active" id="6Months" role="tabpanel" aria-labelledby="pills-home-tab">
+                                                            <h3><span class="sml">Rp.</span>2.500.000<span class="permonth">/Year</span></h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <a href="#">
+                                                    <button class="btn-rent">RENT</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="tour-space">
+                                                <span class="tourwith">Tour With Spacestock</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row" id="parent-carousel">
+                                            <div class="col-md-12">
+                                                <div class="schedule-time wrapper-tour-dates" id="date-span">
+                                                    <div class="MultiCarousel wrapper-dates" data-items="1,3,5,6" data-slide="1" id="MultiCarousel-1"  data-interval="1000">
+                                                        <div class="MultiCarousel-inner wrapper-sche" id="date-inner">
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <button class="date-1">
+                                                                        <span class="capt">SATURDAY</span>
+                                                                        <h3>25</h3>
+                                                                        <span class="capt-month">AUG</span>
+                                                                    </button>
+                                                                </a>
+                                                            </div>
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <button class="date-1">
+                                                                        <span class="capt">SUNDAY</span>
+                                                                        <h3>26</h3>
+                                                                        <span class="capt-month">AUG</span>
+                                                                    </button>
+                                                                </a>
+                                                            </div>
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <button class="date-1">
+                                                                        <span class="capt">MONDAY</span>
+                                                                        <h3>27</h3>
+                                                                        <span class="capt-month">AUG</span>
+                                                                    </button>
+                                                                </a>
+                                                            </div>
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <button class="date-1">
+                                                                        <span class="capt">TUESDAY</span>
+                                                                        <h3>28</h3>
+                                                                        <span class="capt-month">AUG</span>
+                                                                    </button>
+                                                                </a>
+                                                            </div>
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <button class="date-1">
+                                                                        <span class="capt">WEDNESDAY</span>
+                                                                        <h3>29</h3>
+                                                                        <span class="capt-month">AUG</span>
+                                                                    </button>
+                                                                </a>
+                                                            </div>
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <button class="date-1">
+                                                                        <span class="capt">THURSDAY</span>
+                                                                        <h3>30</h3>
+                                                                        <span class="capt-month">AUG</span>
+                                                                    </button>
+                                                                </a>
+                                                            </div>
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <button class="date-1">
+                                                                        <span class="capt">FRIDAY</span>
+                                                                        <h3>31</h3>
+                                                                        <span class="capt-month">AUG</span>
+                                                                    </button>
+                                                                </a>
+                                                            </div>
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <button class="date-1">
+                                                                        <span class="capt">SATURDAY</span>
+                                                                        <h3>1</h3>
+                                                                        <span class="capt-month">AUG</span>
+                                                                    </button>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <button class="btn leftLst btnArrow" id="left-car1"><img src="assets/img/chevron-left.png" class="chevron-left"></button>
+                                                    <button class="btn rightLst btnArrow" id="right-car1"> <img src="assets/img/chevron-right.png" class="f-right chevron-right"></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="sched-show">
+                                                <a href="schedule-showing-1.html">
+                                                    <button class="btn-schedule">Schedule Showing</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="wrapper-rate-lease">
+                                                <span class="title-rate">Signature Park Grande Ratings</span>
+                                                <div class="rate-bout">
+                                                    <div class="star-rate">
+                                                        <h3><span class="fw-bold">10</span>/10</h3>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="call-wasap">
+                                                <div class="title-wa">
+                                                    <i class="fab fa-whatsapp"></i>
+                                                    <span class="cs-wa">CUSTOMER SERVICE</span>
+                                                </div>
+                                                <div class="no-wa">
+                                                    <h3>+62 821 1717 7710</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="apart-details-lease">
+                                    <div class="row bord-bt" data-toggle="collapse" data-target="#DetailsLease">
+                                        <div class="col-10">
+                                            <div class="title-details">
+                                                <img src="assets/img/icons/details.png">
+                                                <h5>DETAILS</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="cvrn-dtls-lease">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="DetailsLease" class="details-menu collapse">
+                                        <div class="row">
+                                            <div class="col-md-3 col-sm-6 col-6">
+                                                <div class="studio">
+                                                    <img src="assets/img/icons/studio.png">
+                                                    <p>STUDIO</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-6 col-6">
+                                                <div class="bedroom">
+                                                    <img src="assets/img/icons/1bedroom.png">
+                                                    <p>1 BEDROOM</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-6 col-6">
+                                                <div class="bathroom">
+                                                    <img src="assets/img/icons/1bathroom.png">
+                                                    <p>1 BATHROOM</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-6 col-6">
+                                                <div class="tower">
+                                                    <img src="assets/img/icons/tower.png">
+                                                    <p>TOWER SIGNATURE PARK</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mar-tp">
+                                            <div class="col-md-3 col-sm-6 col-6">
+                                                <div class="25m2">
+                                                    <img src="assets/img/icons/25m2.png">
+                                                    <p>25m&sup2</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-6 col-6">
+                                                <div class="18floor">
+                                                    <img src="assets/img/icons/18floor.png">
+                                                    <p>18 FLOOR</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-6 col-6">
+                                                <div class="poolview">
+                                                    <img src="assets/img/icons/poolview.png">
+                                                    <p>POOL VIEW</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-6 col-6">
+                                                <div class="full">
+                                                    <img src="assets/img/icons/full.png">
+                                                    <p>FULL FURNISHED</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="apart-facamen">
+                                    <div class="row bord-bt" data-toggle="collapse" data-target="#FacamenLease">
+                                        <div class="col-10">
+                                            <div class="title-facamen">
+                                                <img src="assets/img/icons/facilities.png">
+                                                <h5>FACILITIES AND AMENITIES</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="cvrn-facamen">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="FacamenLease" class="facamen-menu collapse">
+                                        <div class="row">
+                                            <div class="col-md-4 col-sm-6 col-6">
+                                                <div class="fac-menu1">
+                                                    <div class="wrapper-icons atm">
+                                                        <img src="assets/img/icons/atm.png">
+                                                        <p>ATM</p>
+                                                    </div>
+                                                    <div class="wrapper-icons gstore">
+                                                        <img src="assets/img/icons/gstore.png">
+                                                        <p>Grocery Store</p>
+                                                    </div>
+                                                    <div class="wrapper-icons tvcab">
+                                                        <img src="assets/img/icons/tvcab.png">
+                                                        <p>TV Kabel</p>
+                                                    </div>
+                                                    <div class="wrapper-icons lapbasket">
+                                                        <img src="assets/img/icons/lapbasket.png">
+                                                        <p>Lapangan Basket</p>
+                                                    </div>
+                                                    <div class="wrapper-icons ruangserba">
+                                                        <img src="assets/img/icons/ruangserba.png">
+                                                        <p>Ruang Serbaguna</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-6 col-6">
+                                                <div class="fac-menu2">
+                                                    <div class="wrapper-icons gym">
+                                                        <img src="assets/img/icons/gym.png">
+                                                        <p>Gym</p>
+                                                    </div>
+                                                    <div class="wrapper-icons kolam">
+                                                        <img src="assets/img/icons/kolam.png">
+                                                        <p>Kolam Renang</p>
+                                                    </div>
+                                                    <div class="wrapper-icons laundry">
+                                                        <img src="assets/img/icons/laundry.png">
+                                                        <p>Laundry</p>
+                                                    </div>
+                                                    <div class="wrapper-icons resto">
+                                                        <img src="assets/img/icons/resto.png">
+                                                        <p>Restaurant</p>
+                                                    </div>
+                                                    <div class="wrapper-icons laptenis">
+                                                        <img src="assets/img/icons/laptenis.png">
+                                                        <p>Lapangan Tenis</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-6 col-6">
+                                                <div class="fac-menu3">
+                                                    <div class="wrapper-icons pet">
+                                                        <img src="assets/img/icons/pet.png">
+                                                        <p>Pet</p>
+                                                    </div>
+                                                    <div class="wrapper-icons cctv">
+                                                        <img src="assets/img/icons/cctv.png">
+                                                        <p>CCTV & Security 24 Jam</p>
+                                                    </div>
+                                                    <div class="wrapper-icons inet">
+                                                        <img src="assets/img/icons/inet.png">
+                                                        <p>Internet</p>
+                                                    </div>
+                                                    <div class="wrapper-icons jogging">
+                                                        <img src="assets/img/icons/jogging.png">
+                                                        <p>Jogging Track</p>
+                                                    </div>
+                                                    <div class="wrapper-icons taman">
+                                                        <img src="assets/img/icons/taman.png">
+                                                        <p>Taman Bermain</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="maps-apart-lease" class="maps-apart-lease">
+                            <div class="row bord-bt">
+                                <div class="col-md-12">
+                                    <div class="gmaps-apart-lease">
+                                        <img src="assets/img/maps-lease.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <div class="wrapper-lease-right">
+                            <div id="lease-share" class="lease-share">
+                                <div class="container">
+                                    <div class="wrapper-lease-share">
+                                        <div class="arrow-up"></div>
+                                        <div class="container">
+                                            <div class="title-ls">
+                                                <h3>Share</h3>
+                                            </div>
+                                            <div class="note-ls">
+                                                <div class="form-group">
+                                                    <label for="comment">Comment:</label>
+                                                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                                                    <span class="char">0/25 Character Limit</span>
+                                                </div>
+                                            </div>
+                                            <div class="mail-ls">
+                                                <div class="form-group">
+                                                    <label for="MailLs">Email</label>
+                                                    <input type="email" class="form-control" id="MailLs" aria-describedby="emailHelp" placeholder="Search location">
+                                                    <span class="addmail">+ Add additional email address</span>
+                                                </div>
+                                            </div>
+                                            <div class="btn-ls bord-btm">
+                                                <a href="#">
+                                                    <button class="btn-rent-2">RENT</button>
+                                                </a>
+                                                <a href="#">
+                                                    <button class="btn-cancel">CANCEL</button>
+                                                </a>
+                                            </div>
+                                            <div class="socmed-ls">
+                                                <a class="fb" href="#">
+                                                    <img src="assets/img/icons/facebook2.png">
+                                                </a>
+                                                <a class="ig" href="#">
+                                                    <img src="assets/img/icons/instagram2.png">
+                                                </a>
+                                                <a class="tw" href="#">
+                                                    <img src="assets/img/icons/twitter2.png">
+                                                </a>
+                                                <a class="in" href="#">
+                                                    <img src="assets/img/icons/linkedin2.png">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wrapper-btn-price bord-btm2">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="wrapper-btns-lease">
+                                            <a href="#">
+                                                <button class="btn-like"><i class="far fa-heart"></i> Favorites</button>
+                                            </a>
+                                            <a href="#">
+                                                <button class="btn-share">SHARE</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="wrapper-month-lease bord-btm">
+                                        <div class="month-lease">
+                                            <div class="tab-content pad-20" id="pills-tabContent">
+                                                <div class="tab-pane fade show active" id="6Months" role="tabpanel" aria-labelledby="pills-home-tab">
+                                                    <h3><span class="sml">Rp.</span>200.500.000</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#">
+                                            <button class="btn-rent">BUY</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="wrapper-month-lease bord-btm">
+                                        <div class="month-lease">
+                                            <div class="tab-content pad-20" id="pills-tabContent">
+                                                <div class="tab-pane fade show active" id="6Months" role="tabpanel" aria-labelledby="pills-home-tab">
+                                                    <h3><span class="sml">Rp.</span>2.500.000<span class="permonth">/Year</span></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#">
+                                            <button class="btn-rent">RENT</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="tour-space">
+                                        <span class="tourwith">Tour With Spacestock</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" id="parent-carousel">
+                                    <div class="col-md-12">
+                                        <div class="schedule-time wrapper-tour-dates" id="date-span">
+                                            <div class="MultiCarousel wrapper-dates" data-items="1,3,5,6" data-slide="1" id="MultiCarousel-1"  data-interval="1000">
+                                                <div class="MultiCarousel-inner wrapper-sche" id="date-inner">
+                                                    <div class="item">
+                                                        <a href="#">
+                                                            <button class="date-1">
+                                                                <span class="capt">SATURDAY</span>
+                                                                <h3>25</h3>
+                                                                <span class="capt-month">AUG</span>
+                                                            </button>
+                                                        </a>
+                                                    </div>
+                                                    <div class="item">
+                                                        <a href="#">
+                                                            <button class="date-1">
+                                                                <span class="capt">SUNDAY</span>
+                                                                <h3>26</h3>
+                                                                <span class="capt-month">AUG</span>
+                                                            </button>
+                                                        </a>
+                                                    </div>
+                                                    <div class="item">
+                                                        <a href="#">
+                                                            <button class="date-1">
+                                                                <span class="capt">MONDAY</span>
+                                                                <h3>27</h3>
+                                                                <span class="capt-month">AUG</span>
+                                                            </button>
+                                                        </a>
+                                                    </div>
+                                                    <div class="item">
+                                                        <a href="#">
+                                                            <button class="date-1">
+                                                                <span class="capt">TUESDAY</span>
+                                                                <h3>28</h3>
+                                                                <span class="capt-month">AUG</span>
+                                                            </button>
+                                                        </a>
+                                                    </div>
+                                                    <div class="item">
+                                                        <a href="#">
+                                                            <button class="date-1">
+                                                                <span class="capt">WEDNESDAY</span>
+                                                                <h3>29</h3>
+                                                                <span class="capt-month">AUG</span>
+                                                            </button>
+                                                        </a>
+                                                    </div>
+                                                    <div class="item">
+                                                        <a href="#">
+                                                            <button class="date-1">
+                                                                <span class="capt">THURSDAY</span>
+                                                                <h3>30</h3>
+                                                                <span class="capt-month">AUG</span>
+                                                            </button>
+                                                        </a>
+                                                    </div>
+                                                    <div class="item">
+                                                        <a href="#">
+                                                            <button class="date-1">
+                                                                <span class="capt">FRIDAY</span>
+                                                                <h3>31</h3>
+                                                                <span class="capt-month">AUG</span>
+                                                            </button>
+                                                        </a>
+                                                    </div>
+                                                    <div class="item">
+                                                        <a href="#">
+                                                            <button class="date-1">
+                                                                <span class="capt">SATURDAY</span>
+                                                                <h3>1</h3>
+                                                                <span class="capt-month">AUG</span>
+                                                            </button>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="btn leftLst btnArrow" id="left-car1"><img src="assets/img/chevron-left.png" class="chevron-left"></button>
+                                            <button class="btn rightLst btnArrow" id="right-car1"> <img src="assets/img/chevron-right.png" class="f-right chevron-right"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="sched-show">
+                                        <a href="schedule-showing-1.html">
+                                            <button class="btn-schedule">Schedule Showing</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="wrapper-rate-lease">
+                                        <span class="title-rate">Signature Park Grande Ratings</span>
+                                        <div class="rate-bout">
+                                            <div class="star-rate">
+                                                <h3><span class="fw-bold">10</span>/10</h3>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="call-wasap">
+                                        <div class="title-wa">
+                                            <i class="fab fa-whatsapp"></i>
+                                            <span class="cs-wa">CUSTOMER SERVICE</span>
+                                        </div>
+                                        <div class="no-wa">
+                                            <h3>+62 821 1717 7710</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------SIMILAR UNIT APARTMENT LEASE------>
+        <div id="similar-ulease" class="similar-ulease">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="title-ulease">
+                            <img src="assets/img/icons/similar.png">
+                            <h5>SIMILAR UNIT</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 pad-ri-card">
+                        <div class="apart-lease-card">
+                            <img class="bg-card" src="assets/img/apartment-01.jpg">
+                            <div class="grad-blue"></div>
+                            <div class="btn-like">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="button-buy">
+                                <a href="#">
+                                    <button class="btn btnbuy">BUY</button>
+                                </a>
+                            </div>
+                            <div class="lease-card-detail">
+                                <div class="price-capt bord-btm">
+                                    <h4><span class="price">Rp.</span>4.000.000/Year</h4>
+                                    <h4>Signature Park Grande</h4>
+                                    <h5>Studio Tower A</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="full-fur">
+                                            <img src="assets/img/icons/fully.png">
+                                            <span class="fully">Fully Furnished</span>
+                                        </div>
+                                        <div class="pool-view">
+                                            <img src="assets/img/icons/pool.png">
+                                            <span class="pool">Pool View</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="25m">
+                                            <img src="assets/img/icons/25m.png">
+                                            <span class="25">25m&sup2</span>
+                                        </div>
+                                        <div class="5floor">
+                                            <img src="assets/img/icons/5floor.png">
+                                            <span class="5f">5<sup>TH</sup> Floor</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 pad-le-card pad-ri-card">
+                        <div class="apart-lease-card">
+                            <img class="bg-card" src="assets/img/apartment-01.jpg">
+                            <div class="grad-blue"></div>
+                            <div class="btn-like-2">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="button-buy">
+                                <a href="#">
+                                    <button class="btn btnbuy">BUY</button>
+                                </a>
+                            </div>
+                            <div class="lease-card-detail">
+                                <div class="price-capt bord-btm">
+                                    <h4><span class="price">Rp.</span>4.000.000/Year</h4>
+                                    <h4>Signature Park Grande</h4>
+                                    <h5>Studio Tower A</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="full-fur">
+                                            <img src="assets/img/icons/fully.png">
+                                            <span class="fully">Fully Furnished</span>
+                                        </div>
+                                        <div class="pool-view">
+                                            <img src="assets/img/icons/pool.png">
+                                            <span class="pool">Pool View</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="25m">
+                                            <img src="assets/img/icons/25m.png">
+                                            <span class="25">25m&sup2</span>
+                                        </div>
+                                        <div class="5floor">
+                                            <img src="assets/img/icons/5floor.png">
+                                            <span class="5f">5<sup>TH</sup> Floor</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 pad-le-card">
+                        <div class="apart-lease-card">
+                            <img class="bg-card" src="assets/img/apartment-01.jpg">
+                            <div class="grad-blue"></div>
+                            <div class="btn-like-3">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="button-buy">
+                                <a href="#">
+                                    <button class="btn btnbuy">BUY</button>
+                                </a>
+                            </div>
+                            <div class="lease-card-detail">
+                                <div class="price-capt bord-btm">
+                                    <h4><span class="price">Rp.</span>4.000.000/Year</h4>
+                                    <h4>Signature Park Grande</h4>
+                                    <h5>Studio Tower A</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="full-fur">
+                                            <img src="assets/img/icons/fully.png">
+                                            <span class="fully">Fully Furnished</span>
+                                        </div>
+                                        <div class="pool-view">
+                                            <img src="assets/img/icons/pool.png">
+                                            <span class="pool">Pool View</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="25m">
+                                            <img src="assets/img/icons/25m.png">
+                                            <span class="25">25m&sup2</span>
+                                        </div>
+                                        <div class="5floor">
+                                            <img src="assets/img/icons/5floor.png">
+                                            <span class="5f">5<sup>TH</sup> Floor</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ FOOTER ------>
+        <div id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12">
+                        <img class="foot-logo" src="assets/img/logo.png">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12">
+                                <div class="foot-uper">
+                                    <h6>OFFICE</h6>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell/Lease Your Space</a>
+                                </div>
+                                <div class="space-info disp-768">
+                                    <div class="row">
+                                        <div class="col-2 flex-o pad-ri">
+                                            <img src="assets/img/icons/loct.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">Graha MIR lt. 9, Jl. Pemuda No. 9, Rawamangun,
+                                            Jakarta Timur, Daerah Khusus Ibukota Jakarta</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 flex-o pad-ri">
+                                            <img src="assets/img/icons/call.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">Customer Service:  021-2956 9852</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 flex-o pad-ri">
+                                            <img src="assets/img/icons/mail.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">info@spacestock.com</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 flex-o pad-ri">
+                                            <img src="assets/img/icons/whatsapp.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">+62 821 1717 7710</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="foot-bottom">
+                                    <h6>FOLLOW US</h6>
+                                    <a href="#"><img src="assets/img/icons/twitter.png"></a>
+                                    <a href="#"><img src="assets/img/icons/instagram.png"></a>
+                                    <a href="#"><img src="assets/img/icons/linkedin.png"></a>
+                                    <a href="#"><img src="assets/img/icons/fb.png" class="last-socmed"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-6 rspv">
+                                 <div class="foot-uper">
+                                    <h6>OFFICE</h6>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell/Lease Your Space</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-6">
+                                <div class="foot-apart">
+                                    <h6>APARTMENTS</h6>
+                                    <a href="#">Buy Apartment</a>
+                                    <a href="#">Lease Apartment</a>
+                                    <a href="#">Sell/Lease Your Unit</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="foot-help">
+                                    <h6>HELP</h6>
+                                    <a href="terms-and-condition.html">Terms & Condition</a>
+                                    <a href="privacy-poilcy.html">Privacy Policy</a>
+                                    <a href="faq.html">FAQ</a>
+                                    <a href="contact-us.html">Contact Us</a>
+                                    <a href="#">Blog</a>
+                                    <a href="building-directory.html">Building Directory</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 rspv">
+                                <div class="foot-bottom">
+                                    <h6>FOLLOW US</h6>
+                                    <a href="#"><img src="assets/img/icons/twitter.png"></a>
+                                    <a href="#"><img src="assets/img/icons/instagram.png"></a>
+                                    <a href="#"><img src="assets/img/icons/linkedin.png"></a>
+                                    <a href="#"><img src="assets/img/icons/fb.png" class="last-socmed"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="foot-info">
+                            <img src="assets/img/logo.png">
+                            <div class="space-info">
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/loct.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">Graha MIR lt. 9, Jl. Pemuda No. 9, Rawamangun,
+                                        Jakarta Timur, Daerah Khusus Ibukota Jakarta</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/call.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">Customer Service:  021-2956 9852</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/mail.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">info@spacestock.com</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/whatsapp.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">+62 821 1717 7710</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ FOOTER 2 ------>
+        <div id="footer2" class="footer2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="last-foot">
+                            <p>2018 © PT. Paragon Sewa Kantor | All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/select2.full.min.js"></script>
+        <script src="assets/js/general.js"></script>
+        <script src="assets/easy-autocomplete/jquery.easy-autocomplete.js"></script>
+        <script>
+        var options = {
+            data: 
+            {
+	"marvel": [
+		{"character": "Superman", "realName": "Jakarta Selatan"},
+		{"character": "Batman", "realName": "Bruce Wayne"},
+		{"character": "Wonder Woman", "realName": "Diana Prince"}
+	],
+	"dc-comics": [
+		{"character": "Daredevil", "realName": "Matt Murdock"},
+		{"character": "Captain America", "realName": "Steven Rogers"},
+		{"character": "Spider-Man", "realName": "Peter Parker"}
+	]
+}
+            ,
+            categories: [{
+                listLocation: "marvel",
+                maxNumberOfElements: 4,
+                header: "Most Recent Search"
+            }, {
+                listLocation: "dc-comics",
+                maxNumberOfElements: 4,
+                header: "Office"
+            }],
+
+            getValue: function(element) {
+                return element.character;
+            },
+
+            template: {
+                type: "description",
+                fields: {
+                    description: "realName"
+                }
+            },
+
+            list: {
+                maxNumberOfElements: 8,
+                match: {
+                    enabled: true
+                },
+                sort: {
+                    enabled: true
+                }
+            },
+
+            theme: "square"
+        };
+
+        $(".example-heroes1").easyAutocomplete(options);</script>
+        <script>
+            
+        //DATE SCHEDULE TOUR AND IMAGES SLIDER
+        $(document).ready(function () {
+            var itemsDiv = ('.MultiCarousel-inner');
+            var itemWidth = "";
+
+            $('.btnArrow').click(function (event) {
+                var condition = $(this).hasClass("leftLst");
+                if (condition)
+                    clickArrow(0,event.delegateTarget);
+                else
+                    clickArrow(1, event.delegateTarget)
+            });
+            ResCarouselSize();
+            $(window).resize(function () {
+                ResCarouselSize();
+            });
+
+            //this function define the size of the items
+            function ResCarouselSize() {
+                var incno = 0;
+                var dataItems = ("data-items");
+                var itemClass = ('.item');
+                var id = 0;
+                var btnParentSb = '';
+                var itemsSplit = '';
+                var sampwidth = $('.MultiCarousel').width();
+                var bodyWidth = $('body').width();
+                $(itemsDiv).each(function () {
+                    id = id + 1;
+                    var itemNumbers = $(this).find(itemClass).length;
+                    btnParentSb = $(this).parent().attr(dataItems);
+                    itemsSplit = btnParentSb.split(',');
+                    $(this).parent().attr("id", "MultiCarousel-" + id);
+
+
+                    if (bodyWidth >= 1200) {
+                        incno = itemsSplit[3];
+                        itemWidth = sampwidth / incno;
+                    }
+                    else if (bodyWidth >= 992) {
+                        incno = itemsSplit[2];
+                        itemWidth = sampwidth / incno;
+                    }
+                    else if (bodyWidth >= 768) {
+                        incno = itemsSplit[1];
+                        itemWidth = sampwidth / incno;
+                    }
+                    else {
+                        incno = itemsSplit[0];
+                        itemWidth = sampwidth / incno;
+                    }
+                    $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers });
+                    $(this).find(itemClass).each(function () {
+                        $(this).outerWidth(itemWidth);
+                    });
+                });
+            }
+
+
+            //this function used to move the items
+            function ResCarousel(e, el, s) {
+                var translateXval = '';
+                var divStyle = $(el + ' ' + itemsDiv).css('transform');
+                var values = divStyle.match(/-?[\d\.]+/g);
+                var xds = Math.abs(values[4]);
+                if (e == 0) {
+                    translateXval = parseInt(xds) - parseInt(itemWidth * s);
+                    $($(el).parent().find('.rightLst')).removeClass("over");
+
+                    if (translateXval <= itemWidth / 2) {
+                        translateXval = 0;
+                        $($(el).parent().find('.leftLst')).addClass("over");
+                    }
+                } else if (e == 1) {
+                    var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
+                    translateXval = parseInt(xds) + parseInt(itemWidth * s);
+                    $($(el).parent().find('.leftLst')).removeClass("over");
+
+                    if (translateXval >= itemsCondition - itemWidth / 2) {
+                        translateXval = itemsCondition;
+                        $($(el).parent().find('.rightLst')).addClass("over");
+                    }
+                }
+                $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');
+            }
+
+            //It is used to get some elements from btn
+            function clickArrow(isLeft, element) {
+                var Parent = "#" + $(element).parent().find('.MultiCarousel').attr("id");
+                var slide = $(Parent).attr("data-slide");
+                ResCarousel(isLeft, Parent, slide);
+            }
+
+        });
+            
+        //IMAGES GALLERY SLIDER
+        $(document).ready(function() {
+            $('.wrapper-prev-slide .arrow-next-bef .right i').click(function() {
+                $('.slider-gallery').toggleClass('slide');
+            })
+            $('.wrapper-prev-slide .arrow-next-bef .left i').click(function() {
+                $('.slider-gallery').removeClass('slide');
+            })
+        })
+        </script>
+    </body>
+</html>

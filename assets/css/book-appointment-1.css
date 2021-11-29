@@ -1,0 +1,950 @@
+/*------------ BOOK AN APPOINTMENT 1 ------------*/
+
+/*------GLOBAL IN THIS PAGE-----*/
+.pad-ri-book {
+    padding-right: 4px;
+}
+
+.pad-le-book {
+    padding-left: 4px;
+}
+
+.bord-btm-adv {
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+/*------HEADER------*/
+.header-appoint {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: url(../img/bgheader.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 56px;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.header-appoint h1 {
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    font-weight: 500;
+    font-size: 34px;
+}
+
+/*------BODY BOOK AN APPOINTMENT !------*/
+.bd-appoint-1 {
+    width: 100%;
+    margin: 40px auto;
+}
+
+.bd-appoint-1 h2 {
+    color: #133555;
+    font-size: 32px;
+}
+
+.bd-appoint-1 .wrapper-number {
+    float: right;
+    width: 100%
+}
+
+.bd-appoint-1 h6.number {
+    border-radius: 50%;
+    background: #133555;
+    color: #fff;
+    margin: 7px 7px 0 0;
+    font-size: 12px;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    padding-top: 5px;
+    float: right;
+}
+
+.form-appoint {
+    margin: 20px auto;
+}
+
+/*------GENERAL ADVANCE SEARCH DETAIL------*/
+.adv-detail {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.29);
+    margin: auto;
+    position: absolute;
+    z-index: 12;
+    display: none;
+    padding-bottom: 100%;
+    top: 80px;
+}
+
+.adv-detail.active {
+    display: block;
+}
+
+.adv-detail .close-adv {
+    float: right;
+    text-align: right;
+    margin: 36px auto;
+}
+
+.adv-detail .close-adv i {
+    vertical-align: middle;
+    background: #fff;
+    color: #133555;
+    padding: 7px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.adv-detail .card-adv-detail {
+    background: #fff;
+    width: 80%;
+    margin: 20px auto auto auto;
+    padding: 20px;
+    height: 378px;
+    border-radius: 6px;
+}
+
+.adv-detail .card-adv-detail .wrapper-menu-adv {
+    overflow-y: scroll;
+    height: 344px;
+    overflow-x: hidden;
+    padding: 0 24px;
+}
+
+.adv-detail .card-adv-detail .wrapper-menu-adv::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.adv-detail .card-adv-detail .wrapper-menu-adv::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+/*------CBD MENU------*/
+.card-adv-detail .cbd-menu .cbd, .card-adv-detail .cbd-menu .gatsu, .card-adv-detail .cbd-menu .megaku, .card-adv-detail .cbd-menu .sudirman, .card-adv-detail .cbd-menu .thamrin, .card-adv-detail .cbd-menu .khmas, .card-adv-detail .cbd-menu .kuningan, .card-adv-detail .cbd-menu .satrio, .card-adv-detail .cbd-menu .rasunan {
+    float: left;
+    width: 100%;
+}
+
+.card-adv-detail .cbd-menu .round-check {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid #133555;
+    border-radius: 50%;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.card-adv-detail .cbd-menu {
+    cursor: pointer;
+}
+
+.card-adv-detail .cbd-menu h6 {
+    font-size: 12px;
+    margin: 10px;
+    font-weight: normal;
+}
+
+.card-adv-detail .cbd-menu h4 {
+    margin: 4px;
+}
+
+.card-adv-detail .cbd-menu .bord-btm {
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 20px;
+}
+
+.card-adv-detail .cbd-menu .cbd {
+    margin-bottom: 10px;
+}
+
+.card-adv-detail .cbd-menu .cvrn-cbd {
+    float: right;
+    text-align: right;
+}
+
+.card-adv-detail .cbd-menu .round-check.active, .card-adv-detail .cbd .round-check.active, .card-adv-detail .gatsu .round-check.active, .card-adv-detail .megaku .round-check.active, .card-adv-detail .sudirman .round-check.active, .card-adv-detail .thamrin .round-check.active, .card-adv-detail .khmas .round-check.active, .card-adv-detail .kuningan .round-check.active, .card-adv-detail .satrio .round-check.active, .card-adv-detail .rasunan .round-check.active {
+    background: #133555;
+    border: none;
+}
+
+.card-adv-detail .cbd-menu .cvrn-cbd i {
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+
+.card-adv-detail .cbd-menu .cvrn-cbd i.active {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/*------TB SIMATUPANG------*/
+
+.card-adv-detail .tbsima-menu .tbsima, .card-adv-detail .tbsima-menu .tb {
+    float: left;
+    width: 100%;
+}
+
+.card-adv-detail .tbsima-menu {
+    cursor: pointer;
+}
+
+.card-adv-detail .tbsima-menu .tbsima {
+    margin-bottom: 10px;
+}
+
+.card-adv-detail .tbsima-menu .round-check {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid #133555;
+    border-radius: 50%;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.card-adv-detail .tbsima-menu h4 {
+    margin: 4px;
+}
+
+.card-adv-detail .tbsima-menu h6 {
+    font-size: 12px;
+    margin: 10px;
+    font-weight: normal;
+}
+
+.card-adv-detail .tbsima-menu .cvrn-tbsima {
+    float: right;
+    text-align: right;
+}
+
+.card-adv-detail .tbsima-menu .bord-btm {
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 20px;
+}
+
+.card-adv-detail .tbsima-menu .round-check.active, .card-adv-detail .tbsima-menu .tb .round-check.active {
+    background: #133555;
+    border: none;
+}
+
+.card-adv-detail .tbsima-menu .cvrn-tbsima i {
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.card-adv-detail .tbsima-menu .cvrn-tbsima i.active {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/*------JAKARTA SELATAN------*/
+.card-adv-detail .jaksel-menu .jaksel {
+    margin-bottom: 10px;
+}
+
+.card-adv-detail .jaksel-menu .round-check {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid #133555;
+    border-radius: 50%;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.card-adv-detail .jaksel-menu .bord-btm {
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 20px;
+}
+
+.card-adv-detail .jaksel-menu h4 {
+    margin: 4px;
+}
+
+.card-adv-detail .jaksel-menu .jaksel, .card-adv-detail .jaksel-menu .setbud, .card-adv-detail .jaksel-menu .pancoran, .card-adv-detail .jaksel-menu .jagakarsa, .card-adv-detail .jaksel-menu .pasarrebo, .card-adv-detail .jaksel-menu .tbsimatupang, .card-adv-detail .jaksel-menu .dharma, .card-adv-detail .jaksel-menu .mampang, .card-adv-detail .jaksel-menu .cilandak, .card-adv-detail .jaksel-menu .kebaylama, .card-adv-detail .jaksel-menu .kemang, .card-adv-detail .jaksel-menu .pejaten, .card-adv-detail .jaksel-menu .tebet, .card-adv-detail .jaksel-menu .kebaybaru, .card-adv-detail .jaksel-menu .pasming, .card-adv-detail .jaksel-menu .kembangan, .card-adv-detail .jaksel-menu .blokm {
+    float: left;
+    width: 100%;
+}
+
+.card-adv-detail .jaksel-menu .cvrn-jaksel {
+    float: right;
+    text-align: right;
+}
+
+.card-adv-detail .jaksel-menu h6 {
+    font-size: 12px;
+    margin: 10px;
+    font-weight: normal;
+}
+
+.card-adv-detail .jaksel-menu .round-check.active, .card-adv-detail .jaksel .round-check.active, .card-adv-detail .setbud .round-check.active, .card-adv-detail .pancoran .round-check.active, .card-adv-detail .jagakarsa .round-check.active, .card-adv-detail .pasarrebo .round-check.active, .card-adv-detail .tbsimatupang .round-check.active, .card-adv-detail .dharma .round-check.active, .card-adv-detail .mampang .round-check.active, .card-adv-detail .cilandak .round-check.active, .card-adv-detail .kebaylama .round-check.active, .card-adv-detail .kemang .round-check.active, .card-adv-detail .pejaten .round-check.active, .card-adv-detail .tebet .round-check.active, .card-adv-detail .kebaybaru .round-check.active, .card-adv-detail .pasming .round-check.active, .card-adv-detail .kembangan .round-check.active, .card-adv-detail .blokm .round-check.active {
+    background: #133555;
+    border: none;
+}
+
+.card-adv-detail .jaksel-menu {
+    cursor: pointer;
+}
+
+.card-adv-detail .jaksel-menu .cvrn-jaksel i {
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.card-adv-detail .jaksel-menu .cvrn-jaksel i.active {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/*------JAKARTA PUSAT------*/
+.card-adv-detail .jakpus-menu h4 {
+    margin: 4px;
+}
+
+.card-adv-detail .jakpus-menu .cvrn-jakpus {
+    float: right;
+    text-align: right;
+}
+
+.card-adv-detail .jakpus-menu {
+    cursor: pointer;
+}
+
+.card-adv-detail .jakpus-menu .bord-btm {
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 20px;
+}
+
+.card-adv-detail .jakpus-menu .jakpus, .card-adv-detail .jakpus-menu .tanbang, .card-adv-detail .jakpus-menu .setbud-2, .card-adv-detail .jakpus-menu .cempaka, .card-adv-detail .jakpus-menu .kebonsirih, .card-adv-detail .jakpus-menu .harmony, .card-adv-detail .jakpus-menu .menteng, .card-adv-detail .jakpus-menu .kemayoran, .card-adv-detail .jakpus-menu .sawahbsr, .card-adv-detail .jakpus-menu .salemba, .card-adv-detail .jakpus-menu .gambir, .card-adv-detail .jakpus-menu .senen, .card-adv-detail .jakpus-menu .cikini, .card-adv-detail .jakpus-menu .gmada {
+    float: left;
+    width: 100%;
+}
+
+.card-adv-detail .jakpus-menu .round-check {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid #133555;
+    border-radius: 50%;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.card-adv-detail .jakpus-menu h6 {
+    font-size: 12px;
+    margin: 10px;
+    font-weight: normal;
+}
+
+.card-adv-detail .jakpus-menu .jakpus {
+    margin-bottom: 10px;
+}
+
+.card-adv-detail .jakpus-menu .round-check.active, .card-adv-detail .jakpus-menu .jakpus .round-check.active, .card-adv-detail .jakpus-menu .tanbang .round-check.active, .card-adv-detail .jakpus-menu .setbud-2 .round-check.active, .card-adv-detail .jakpus-menu .cempaka .round-check.active, .card-adv-detail .jakpus-menu .kebonsirih .round-check.active, .card-adv-detail .jakpus-menu .harmony .round-check.active, .card-adv-detail .jakpus-menu .menteng .round-check.active, .card-adv-detail .jakpus-menu .kemayoran .round-check.active, .card-adv-detail .jakpus-menu .sawahbsr .round-check.active, .card-adv-detail .jakpus-menu .salemba .round-check.active, .card-adv-detail .jakpus-menu .gmada .round-check.active, .card-adv-detail .jakpus-menu .gambir .round-check.active, .card-adv-detail .jakpus-menu .senen .round-check.active, .card-adv-detail .jakpus-menu .cikini .round-check.active {
+    background: #133555;
+    border: none;
+}
+
+.card-adv-detail .jakpus-menu .cvrn-jakpus i {
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.card-adv-detail .jakpus-menu .cvrn-jakpus i.active {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/*------JAKARTA BARAT------*/
+.card-adv-detail .jakbar-menu {
+    cursor: pointer;
+}
+
+.card-adv-detail .jakbar-menu .bord-btm {
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 20px;
+}
+
+.card-adv-detail .jakbar-menu .jakbar {
+    margin-bottom: 10px;
+}
+
+.card-adv-detail .jakbar-menu .round-check {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid #133555;
+    border-radius: 50%;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.card-adv-detail .jakbar-menu h4 {
+    margin: 4px;
+}
+
+.card-adv-detail .jakbar-menu .cvrn-jakbar {
+    float: right;
+    text-align: right;
+}
+
+.card-adv-detail .jakbar-menu h6 {
+    font-size: 12px;
+    margin: 10px;
+    font-weight: normal;
+}
+
+.card-adv-detail .jakbar-menu .jakbar, .card-adv-detail .jakbar-menu .cengkareng, .card-adv-detail .jakbar-menu .grogpet, .card-adv-detail .jakbar-menu .tomang, .card-adv-detail .jakbar-menu .daan, .card-adv-detail .jakbar-menu .palmerah, .card-adv-detail .jakbar-menu .puri, .card-adv-detail .jakbar-menu .kembangan-1, .card-adv-detail .jakbar-menu .kebonjer, .card-adv-detail .jakbar-menu .grogol, .card-adv-detail .jakbar-menu .kedoya {
+    float: left;
+    width: 100%;
+}
+
+.card-adv-detail .jakbar-menu .round-check.active, .card-adv-detail .jakbar-menu .jakbar .round-check.active, .card-adv-detail .jakbar-menu .cengkareng .round-check.active, .card-adv-detail .jakbar-menu .grogpet .round-check.active, .card-adv-detail .jakbar-menu .tomang .round-check.active, .card-adv-detail .jakbar-menu .daan .round-check.active, .card-adv-detail .jakbar-menu .palmerah .round-check.active, .card-adv-detail .jakbar-menu .puri .round-check.active, .card-adv-detail .jakbar-menu .kembangan-1 .round-check.active, .card-adv-detail .jakbar-menu .kebonjer .round-check.active, .card-adv-detail .jakbar-menu .grogol .round-check.active,
+.card-adv-detail .jakbar-menu .kedoya .round-check.active {
+    background: #133555;
+    border: none;
+}
+
+.card-adv-detail .jakbar-menu .cvrn-jakbar i {
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.card-adv-detail .jakbar-menu .cvrn-jakbar i.active {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/*------JAKARTA TIMUR------*/
+.card-adv-detail .jaktim-menu {
+    cursor: pointer;
+}
+
+.card-adv-detail .jaktim-menu .bord-btm {
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 20px;
+}
+
+.card-adv-detail .jaktim-menu .jaktim {
+    margin-bottom: 10px;
+}
+
+.card-adv-detail .jaktim-menu .round-check {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid #133555;
+    border-radius: 50%;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.card-adv-detail .jaktim-menu h4 {
+    margin: 4px;
+}
+
+.card-adv-detail .jaktim-menu .cvrn-jaktim {
+    float: right;
+    text-align: right;
+}
+
+.card-adv-detail .jaktim-menu h6 {
+    font-size: 12px;
+    margin: 10px;
+    font-weight: normal;
+}
+
+.card-adv-detail .jaktim-menu .jaktim, .card-adv-detail .jaktim-menu .matraman, .card-adv-detail .jaktim-menu .cemput, .card-adv-detail .jaktim-menu .rawamang, .card-adv-detail .jaktim-menu .kramjat, .card-adv-detail .jaktim-menu .pulgad, .card-adv-detail .jaktim-menu .tebet-2, .card-adv-detail .jaktim-menu .jtng, .card-adv-detail .jaktim-menu .pancoran-2 {
+    float: left;
+    width: 100%;
+}
+
+.card-adv-detail .jaktim-menu .round-check.active, .card-adv-detail .jaktim-menu .jaktim .round-check.active, .card-adv-detail .jaktim-menu .matraman .round-check.active, .card-adv-detail .jaktim-menu .cemput .round-check.active, .card-adv-detail .jaktim-menu .rawamang .round-check.active, .card-adv-detail .jaktim-menu .kramjat .round-check.active, .card-adv-detail .jaktim-menu .pulgad .round-check.active, .card-adv-detail .jaktim-menu .tebet-2 .round-check.active, .card-adv-detail .jaktim-menu .jtng .round-check.active, .card-adv-detail .jaktim-menu .pancoran-2 .round-check.active {
+    background: #133555;
+    border: none;
+}
+
+.card-adv-detail .jaktim-menu .cvrn-jaktim i {
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.card-adv-detail .jaktim-menu .cvrn-jaktim i.active {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/*------JAKARTA UTARA------*/
+.card-adv-detail .jakut-menu {
+    cursor: pointer;
+}
+
+.card-adv-detail .jakut-menu .bord-btm {
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 20px;
+}
+
+.card-adv-detail .jakut-menu .jakut {
+    margin-bottom: 10px;
+}
+
+.card-adv-detail .jakut-menu .round-check {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid #133555;
+    border-radius: 50%;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.card-adv-detail .jakut-menu h6 {
+    font-size: 12px;
+    margin: 10px;
+    font-weight: normal;
+}
+
+.card-adv-detail .jakut-menu h4 {
+    margin: 4px;
+}
+
+.card-adv-detail .jakut-menu .cvrn-jakut {
+    float: right;
+    text-align: right;
+}
+
+.card-adv-detail .jakut-menu .jakut, .card-adv-detail .jakut-menu .tanpri, .card-adv-detail .jakut-menu .penjar, .card-adv-detail .jakut-menu .muakar, .card-adv-detail .jakut-menu .padem, .card-adv-detail .jakut-menu .pik, .card-adv-detail .jakut-menu .kelapgad {
+    float: left;
+    width: 100%;
+}
+
+.card-adv-detail .jakut-menu .round-check.active, .card-adv-detail .jakut-menu .jakut .round-check.active, .card-adv-detail .jakut-menu .tanpri .round-check.active, .card-adv-detail .jakut-menu .penjar .round-check.active, .card-adv-detail .jakut-menu .muakar .round-check.active, .card-adv-detail .jakut-menu .padem .round-check.active, .card-adv-detail .jakut-menu .pik .round-check.active, .card-adv-detail .jakut-menu .kelapgad .round-check.active {
+    background: #133555;
+    border: none;
+}
+
+.card-adv-detail .jakut-menu .cvrn-jakut i {
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.card-adv-detail .jakut-menu .cvrn-jakut i.active {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/*------TANGERANG------*/
+.card-adv-detail .tangerang-menu {
+    cursor: pointer;
+}
+
+.card-adv-detail .tangerang-menu .bord-btm {
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 20px;
+}
+
+.card-adv-detail .tangerang-menu .tangerang {
+    margin-bottom: 10px;
+}
+
+.card-adv-detail .tangerang-menu .round-check {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid #133555;
+    border-radius: 50%;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.card-adv-detail .tangerang-menu h4 {
+    margin: 4px;
+}
+
+.card-adv-detail .tangerang-menu .cvrn-tangerang {
+    float: right;
+    text-align: right;
+}
+
+.card-adv-detail .tangerang-menu .tangerang, .card-adv-detail .tangerang-menu .pinang,
+.card-adv-detail .tangerang-menu .cengkareng-2, .card-adv-detail .tangerang-menu .tangerang-2, .card-adv-detail .tangerang-menu .bintaro, .card-adv-detail .tangerang-menu .bsd {
+    float: left;
+    width: 100%;
+}
+
+.card-adv-detail .tangerang-menu h6 {
+    font-size: 12px;
+    margin: 10px;
+    font-weight: normal;
+}
+
+.card-adv-detail .tangerang-menu .round-check.active, .card-adv-detail .tangerang-menu .tangerang .round-check.active, .card-adv-detail .tangerang-menu .pinang .round-check.active, .card-adv-detail .tangerang-menu .cengkareng-2 .round-check.active, .card-adv-detail .tangerang-menu .tangerang-2 .round-check.active, .card-adv-detail .tangerang-menu .bintaro .round-check.active, .card-adv-detail .tangerang-menu .bsd .round-check.active {
+    background: #133555;
+    border: none;
+}
+
+.card-adv-detail .tangerang-menu .cvrn-tangerang i {
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.card-adv-detail .tangerang-menu .cvrn-tangerang i.active {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/*------ADVANCE SEARCH MAPS------*/
+.card-adv-detail .adv-maps {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
+
+.card-adv-detail .adv-maps img {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
+
+.menu-tags-adv {
+    margin: 10px 0;
+}
+
+.menu-tags-adv .tag-one {
+    border: none;
+    outline: none;
+    background: #f2f2f2;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin: 4px 0;
+}
+
+.menu-tags-adv .tag-one .pik {
+    font-size: 10px;
+    margin: auto 2px auto auto;
+}
+
+.menu-tags-adv .tag-one i {
+    vertical-align: middle;
+    background: #c4c4c4;
+    color: #4e4e4e;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    padding-top: 3px;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+}
+
+.img-maps {
+    width: auto;
+    margin: auto;
+    position: relative;
+}
+
+.img-maps img {
+    width: 100%;
+}
+
+.img-maps .content-maps {
+    position: absolute;
+    width: 120px;
+    padding: 14px;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.img-maps .content-maps img {
+    width: 100%;
+}
+
+.img-maps .content-maps h5 {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px auto 0 auto;
+}
+
+.img-maps .content-maps .km {
+    font-size: 10px;
+    margin: auto;
+}
+
+/*------TAB SPACE------*/
+.adv-search .wrapper-tab .tab-space .all {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #133555;
+    padding: 12px 5px;
+    border: 1px solid #133555;
+    cursor: pointer;
+    font-size: 14px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin-left: 0;
+    float: left;
+}
+
+.adv-search .wrapper-tab .tab-space .all.active {
+    background: #133555;
+    color: #fff;
+}
+
+.adv-search .wrapper-tab .tab-space .all.delbor {
+    border-right: none;
+}
+
+.adv-search .wrapper-tab .tab-space .full {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #133555;
+    padding: 12px 10px;
+    border: 1px solid #133555;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 0;
+    float: left;
+    border-left: none;
+}
+
+.adv-search .wrapper-tab .tab-space .full.active {
+    background: #133555;
+    color: #fff;
+    border-left: 1px solid #fff;
+}
+
+.adv-search .wrapper-tab .tab-space .full.delbor {
+    border-right: none;
+}
+
+.adv-search .wrapper-tab .tab-space .semi {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #133555;
+    padding: 12px 10px;
+    border: 1px solid #133555;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 0;
+    float: left;
+    border-left: none;
+}
+
+.adv-search .wrapper-tab .tab-space .semi.active {
+    background: #133555;
+    color: #fff;
+    border-left: 1px solid #fff;
+}
+
+.adv-search .wrapper-tab .tab-space .semi.delbor {
+    border-right: none;
+}
+
+.adv-search .wrapper-tab .tab-space .non {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #133555;
+    padding: 12px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid #133555;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-left: 0;
+    float: left;
+    border-left: none;
+}
+
+.adv-search .wrapper-tab .tab-space .non.active {
+    background: #133555;
+    color: #fff;
+    border-left: 1px solid #fff;
+}
+
+.adv-search .wrapper-tab .tab-space .non.delbor {
+    border-right: none;
+}
+
+/*------BY UNIT INPUT------*/
+.wrapper-tab .input-group {
+    width: 100%;
+    margin: auto;
+}
+
+.wrapper-tab .input-group label {
+    width: 100%;
+}
+
+.wrapper-tab .input-group input.form-srch {
+    padding: 10px;
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+}
+
+.wrapper-tab .unit-size .by {
+    color: #fff;
+    font-weight: 500;
+}
+
+.wrapper-tab .btn-sqm {
+    background: #133555;
+    color: #fff;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 10px;
+    z-index: 0;
+}
+
+.option-end .sell, .option-end .rent, .option-end .sellandrent {
+    float: left;
+    width: 100%;
+    margin-left: 0;
+}
+
+.option-end .sell .round-check, .option-end .rent .round-check, .option-end .sellandrent .round-check {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid #133555;
+    border-radius: 50%;
+    float: left;
+    margin-top: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.option-end .sell .round-check.active, .option-end .rent .round-check.active, .option-end .sellandrent .round-check.active {
+    background: #133555;
+    border: none;
+}
+
+.option-end h6 {
+    font-size: 14px;
+    margin: 10px;
+}
+
+.btn-next {
+    margin: 40px auto 20px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.btnnext {
+    background: #133555;
+    outline: none;
+    border: 1px solid #133555;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto 2px;
+    width: 180px;
+    height: 40px;
+    font-size: 14px;
+}
+
+
+/*------EDITED------*/
+.form-appoint .form-group .form-control {
+    position: relative;
+    border-radius: 4px;
+    padding: 10px 10px 10px 32px !important;
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    z-index: 5;
+}
+
+.form-appoint .form-group .form-control:focus {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.form-appoint .form-group img {
+    position: absolute;
+    top: 14px;
+    left: 12px;
+    z-index: 9
+}
+
+/*------EDITED------*/
+.bd-appoint-1 .col-2.maxwi {
+    max-width: 13.16666% !important;
+}
+
+.bd-appoint-1 .title-1 p {
+    color: #133555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

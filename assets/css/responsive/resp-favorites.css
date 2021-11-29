@@ -1,0 +1,118 @@
+/*----------RESPONSIVE FAVORITES---------*/
+
+/*------GLOBAL IN THIS PAGE------*/
+@media (max-width: 768px) {
+    .pad-ri-std {
+        padding-right: 15px;
+    }
+    
+    .pad-le-std {
+        padding-left: 15px;
+    }
+}
+
+/*------IMAGES LIKE------*/
+@media (max-width: 768px) {
+    .unit-card {
+        margin-bottom: 20px;
+    }
+}
+
+/*------MENU TABLE------*/
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .fav-details p {
+        font-size: 10px;
+        margin-top: 6px;
+    }
+    
+    .fav-list .address {
+        font-size: 12px;
+        line-height: -2px;
+    }
+}
+
+@media (max-width: 768px) {
+    .fav-details .studio, .fav-details .bedroom {
+        border-right: none;
+    }
+    
+    .fav-details {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .tab-fav.price {
+        border-right: 1px solid #ddd;
+    }
+    
+    .tab-fav.land {
+        border-right: 1px solid #ddd;
+        border-bottom: none;
+    }
+    
+    .tab-fav .content {
+        margin-right: 4px;
+    }
+    
+    .bord-btm-fav {
+        margin-bottom: 40px;
+    }
+}
+
+/*------MODAL FAVORITES------*/
+@media (max-width: 1170px) {
+    .modal-maps .container-scnd {
+        display: block;
+    }
+    
+    .wrapper-modal-maps {
+        margin-top: 200px;
+    }
+    
+    .modal-maps .btn-close {
+        margin-top: 0;
+        margin-left: 0;
+        position: absolute;
+        top: -48px;
+        right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper-modal-maps {
+        height: 260px;
+    }
+    
+    .wrapper-modal-maps img {
+        height: 240px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

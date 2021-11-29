@@ -1,0 +1,93 @@
+/*------HEADER------*/
+@media (max-width: 768px) {
+    .header-appoint h1 {
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 378px) {
+    .header-appoint h1 {
+        font-size: 24px;
+    }
+}
+
+/*------BREADCRUMB BOTTOM------*/
+@media (max-width: 992px) {
+    .grey-bg .info {
+        margin-bottom: 20px;
+    }
+    
+    .action-button .btn.btn-next {
+        float: unset;
+    }
+    
+    .action-button {
+        float: unset;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .grey-bg {
+        text-align: center;
+    }
+}
+
+/*------SELECT DATE CONTENT------*/
+@media (max-width: 768px) {
+    .bd-appoint-1 h6.number {
+        float: left;
+        margin: 5px 0 0 0;
+    }
+    
+    .title-1 .col-2 {
+        max-width: 8.666667% !important;
+    }
+    
+    .bd-appoint-1 .col-2.maxwi {
+        max-width: 0 !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .title-1 .col-2 {
+        max-width: 10.666667% !important;
+    }
+}
+
+@media (max-width: 378px) {
+    .bd-appoint-1 h2 {
+        font-size: 24px;
+    }
+    
+    .title-1 .col-2 {
+        max-width: 13.666667% !important;
+    }
+    
+    .bd-appoint-1 h6.number {
+        margin: 1px 0 0 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

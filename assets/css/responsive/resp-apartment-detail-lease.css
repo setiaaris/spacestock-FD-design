@@ -1,0 +1,84 @@
+/*------GLOBAL IN THIS PAGE------*/
+@media (max-width: 768px) {
+    .pad-ri-card {
+        padding-right: 15px;
+    }
+    
+    .pad-le-card {
+        padding-left: 15px;
+    }
+    
+    .apart-lease-card .lease-card-detail {
+        margin-bottom: 10px;
+    }
+    
+    .details-menu .mar-tp {
+        margin-top: 10px;
+    }
+}
+
+/*------IMAGES GALLERY------*/
+
+/*------RIGHT SIDE------*/
+@media (max-width: 1200px) {
+    .wrapper-btns-lease .btn-share {
+        width: 66%;
+    }
+    
+    .call-wasap .title-wa {
+        border-bottom: 1px solid #fff;
+        width: 50%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .wrapper-btns-lease .btn-share {
+        width: 55%;
+    }
+    
+    .call-wasap .title-wa {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper-btns-lease .btn-share {
+        width: 76%;
+    }
+    
+    .wrapper-lease-right {
+        display: none;
+    }
+    
+    .wrapper-lease-right.disp-none {
+        display: block;
+        margin: 0;
+        border-top: 1px solid #ddd;
+        padding-top: 3px;
+    }
+}
+
+@media (max-width: 537px) {
+    .wrapper-btns-lease .btn-share {
+        width: 70%;
+    }
+}
+
+@media (max-width: 430px) {
+    .wrapper-btns-lease .btn-share {
+        width: 65%;
+    }
+}
+
+@media (max-width: 378px) {
+    .wrapper-btns-lease .btn-like {
+        border-radius: 4px;
+        padding: 10px 12px;
+    }
+    
+    .wrapper-btns-lease .btn-share {
+        font-size: 12px;
+        padding: 12px;
+    }
+}

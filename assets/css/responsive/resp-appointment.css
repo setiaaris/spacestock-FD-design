@@ -1,0 +1,98 @@
+@media (min-width: 1200px) {
+    .MultiCarousel{
+        width: 470px;
+    }
+    .MultiCarousel .MultiCarousel-inner .item {
+        width: 75px !important;
+        margin: 0 2px;
+    }
+    .pad15.schedule-day{
+        width: 75px;
+    }
+    #time-inner .item {
+        width: 125px !important;
+    }
+}
+@media (max-width: 768px) {
+    .appointment-form{
+        padding: 0;
+    }
+    img.location-schedule {
+        float: none;
+    }
+    .right-brdr {
+        padding: 0;
+    }
+    .p-70{
+        padding: 15px 50px;
+    }
+}
+@media (max-width: 1199px) {
+    .appoinment-schedule .schedule {
+        margin: 0px;
+    }
+    .date-schedule {
+        margin: 0;
+        margin-top: 24px;
+        margin-bottom: 10px;
+    }
+    .schedule-day small {
+        font-size: 8px;
+    }
+    .wrapper-sche{
+        justify-content: center;
+    }
+    .room-status small {
+        display: block;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 8px;
+        letter-spacing: -0.5px;
+        margin-top: 10px;
+    }
+    .schedule-hours .time {
+        font-size: 10px;
+        width: 100%;
+    }
+    .schedule-hours {
+        width: 100%;
+    }
+    h2.nowrap {
+        white-space: inherit;
+    }
+    
+}
+@media (max-width: 991px) {
+    .grey-bg .info {
+        text-align: center;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #ccc;
+    }
+    .action-button{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .appoinment-schedule {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .sqm-wrapper {
+        padding: 0;
+    }
+
+}
+@media (max-width: 575px) {
+    .room-status .border-right{
+        border-right: 1px solid #ccc !important;
+    }
+    
+    .room-status .border-right:nth-child(2) {
+        border: none !important;
+    }
+    
+    .room-status .col-6{
+        padding: 15px;
+    }
+}

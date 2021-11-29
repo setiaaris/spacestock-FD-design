@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SELL YOUR SPACE</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/sell.css">
+        <link rel="stylesheet" href="assets/css/general.css">
+        <link rel="stylesheet" href="assets/css/select2.min.css">
+        <link rel="stylesheet" href="assets/css/responsive/resp-general.css">
+        <link rel="stylesheet" href="assets/css/responsive/resp-sell.css">
+        <link rel="stylesheet" href="assets/easy-autocomplete/autocomplete.css">
+        <link rel="stylesheet" href="assets/easy-autocomplete/autocomplete-themes.css">
+        <style>
+
+.gallery-cell {
+  width: 81%;
+  height: 300px;
+  margin-right: 10px;
+}
+.gallery.js-flickity {
+    background: none;
+} 
+.flickity-viewport{
+    height: 420px !important;
+    padding: 20px;
+}
+.flickity-prev-next-button.previous, .flickity-prev-next-button.next, .flickity-page-dots {
+    display: none;
+}
+
+
+        </style>
+    </head>
+    
+    <body>
+        
+        <!------ NAVBAR ------>
+        <nav>
+            <div class="close-dropdown"></div>
+            <div class="close-dropdown-2"></div>
+            <div class="close-dropdown-3"></div>
+            <div class="close-dropdown-4"></div>
+            <div id="mynavbar" class="mynavbar navbar-fixed-top">
+                <div class="toggle-nav">
+                    <div class="span1" id="one"></div>
+                    <div class="span2" id="two"></div>
+                    <div class="span3" id="three"></div>
+                </div>
+                <div class="toggle-srch">
+                    <div class="srch">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="cls">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/img/logo.png">
+                    </a>
+                </div>
+                <div class="wrapper-resp-nav">
+                    <div class="wrapper-profile dropdown">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="display-name" data-toggle="collapse" data-target="#DropRspnsv">
+                                    <div class="wrapper-name">
+                                        <span class="name">Alexanderousy</span>
+                                    </div>
+                                    <i class="fas fa-chevron-down"></i>
+                                    <div class="ico-profile">
+                                        <a href="#">
+                                            <img src="assets/img/icons/profile.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-content profile">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                            <div class="bottom-bl"></div>
+                       </div>
+                       <div id="DropRspnsv" class="dropdown-rspnsv collapse">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                       </div>
+                    </div>
+                    <div class="wrapper-spt">
+                        <div class="opt-language">
+                            <div class="dropdown drop-lang">
+                                <button class="dropbtn lang" data-toggle="collapse" data-target="#DropRspnsvLang">ID 
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                                <div class="dropdown-content lang">
+                                    <div class="arrow-up"></div>
+                                    <a href="#"><img src="assets/img/icons/indonesia.png"> ID</a>
+                                    <a href="#"><img src="assets/img/icons/united-kingdom.png"> EN</a>
+                                    <div class="bottom-bl"></div>
+                                </div>
+                                <div id="DropRspnsvLang" class="dropdown-rspnsv-lang collapse">
+                                    <div class="arrow-up"></div>
+                                    <a href="#"><img src="assets/img/icons/indonesia.png"> ID</a>
+                                    <a href="#"><img src="assets/img/icons/united-kingdom.png"> EN</a>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="main-call">
+                            <img src="assets/img/icons/whatsapp.png">
+                            <span class="phone-call"><a href="#">+62 821 1717 7710</a></span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="dropdown">
+                               <button class="dropbtn office" data-toggle="collapse" data-target="#DropRspnsvOffice"><span class="nav-office" onclick="location.href='index-office.html'">OFFICE</span> 
+                                   <i class="fas fa-chevron-down"></i>
+                               </button>
+                               <div class="dropdown-content office">
+                                    <div class="arrow-up"></div>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell & Lease Your Space</a>
+                                    <div class="bottom-bl"></div>
+                               </div>
+                               <div id="DropRspnsvOffice" class="dropdown-rspnsv collapse">
+                                    <div class="arrow-up"></div>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell & Lease Your Space</a>
+                               </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                               <button class="dropbtn apartment" data-toggle="collapse" data-target="#DropRspnsvApart"><span class="nav-apart" onclick="location.href='index-apartment.html'">APARTMENTS</span> 
+                                   <i class="fas fa-chevron-down"></i>
+                               </button>
+                               <div class="dropdown-content apartment">
+                                 <div class="arrow-up"></div>
+                                    <a href="#">Buy Apartment</a>
+                                    <a href="#">Lease Apartment</a>
+                                    <a href="#">Sell & Lease Your Unit</a>
+                                 <div class="bottom-bl"></div>
+                               </div>
+                                <div id="DropRspnsvApart" class="dropdown-rspnsv collapse">
+                                    <div class="arrow-up"></div>
+                                    <a href="#">Buy Apartment</a>
+                                    <a href="#">Lease Apartment</a>
+                                    <a href="#">Sell & Lease Your Unit</a>
+                               </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="li-news" href="#">NEWS</a>
+                        </li>
+                    </ul>
+                    <div class="wrapper-profile resp dropdown">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="display-name">
+                                    <div class="ico-profile">
+                                        <a href="#">
+                                            <img src="assets/img/icons/profile.png">
+                                        </a>
+                                    </div>
+                                    <div class="wrapper-name">
+                                        <span class="name">Alexanderousy</span>
+                                    </div>
+                                    <div class="chev-profile" data-toggle="collapse" data-target="#DropRspnsvProfile">
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-content profile">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                            <div class="bottom-bl"></div>
+                       </div>
+                       <div id="DropRspnsvProfile" class="dropdown-rspnsv profile collapse">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                       </div>
+                    </div>
+                </div>
+                <div class="wrapper-search-nav">
+                    <div class="search-navbar">
+                        <form autocomplete="off">
+                          <div class="">
+                            <input id="" class="myinput example-heroes1" type="text" name="myCountry" placeholder="">
+                            <div class="ico-srch">
+                                <i class="fas fa-search"></i>
+                            </div>
+                          </div>
+                        </form>
+                        <button class="btn-buys">BUY</button>
+                        <button class="btn-leases">LEASE</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <!------ HEADER ------>
+        <div id="sell-space" class="sell-space">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="wrapper-title">
+                            <h1>SELL YOUR SPACE WITH SPACESTOCK. NO MARK UPS, BETTER SERVICE</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ FACT ------>
+        <div id="fact-sell" class="fact-sell">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-12">
+                        <div class="wrapper-img-fact">
+                            <img src="assets/img/imgsell.jpg">    
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-12">
+                        <h2>The SpaceStock Service</h2>
+                        <p>SpaceStock guarantees that you will be served by an agent that is on your side and prides integrity. We do not accept the practice of price mark ups, and we serve everyone by extolling transparency.<br><br>
+                        Having transacted thousands of properties also allows us to strategize the best way can market your units as fast as possible at a reasonable price. Our state-of-the-art technology leverages our decades of experience to be the best in the industry.</p>
+                        <a href="#">
+                            <button class="btn-book">BOOK AN APPOINTMENT</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ YOU CAN EXPECT ------>
+        <div id="expect-sell" class="expect-sell">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>YOU CAN EXPECT</h2>
+                        <div class="line-title"></div>
+                    </div>
+                </div>
+                <div class="three-icons">
+                    <div class="row three-mobile">
+                            <div class="gallery js-flickity"
+                            data-flickity-options='{ "wrapAround": true }' style="width: 100%;">
+                            <div class="gallery-cell">
+                                    <div class="wrapp-icon">
+                                            <div class="img-wrapp">
+                                                <img src="assets/img/icons/sell-full.png">
+                                            </div>
+                                            <div class="title-wrapp">
+                                                <span class="icon-capt">FULL SERVICE FROM LISTING TO CLOSING</span>
+                                            </div>
+                                        </div>
+                            </div>
+                            <div class="gallery-cell">
+                                    <div class="wrapp-icon">
+                                            <div class="img-wrapp">
+                                                <img src="assets/img/icons/sell-ourtech.png">
+                                            </div>
+                                            <div class="title-wrapp">
+                                                <span class="icon-capt">OUR TECHNOLOGY LETS YOU TAKE CONTROL</span>
+                                            </div>
+                                        </div>
+                            </div>
+                            <div class="gallery-cell">
+                                    <div class="wrapp-icon">
+                                            <div class="img-wrapp">
+                                                <img src="assets/img/icons/sell-ourcommit.png">
+                                            </div>
+                                            <div class="title-wrapp">
+                                                <span class="icon-capt">OUR COMMITMENT TO GET YOU THE BEST</span>
+                                            </div>
+                                        </div>
+
+                            </div>
+                          </div>
+                    </div>
+                    
+                    <div class="row three-desktop">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="wrapp-icon">
+                                <div class="img-wrapp">
+                                    <img src="assets/img/icons/sell-full.png">
+                                </div>
+                                <div class="title-wrapp">
+                                    <span class="icon-capt">FULL SERVICE FROM LISTING TO CLOSING</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="wrapp-icon">
+                                <div class="img-wrapp">
+                                    <img src="assets/img/icons/sell-ourtech.png">
+                                </div>
+                                <div class="title-wrapp">
+                                    <span class="icon-capt">OUR TECHNOLOGY LETS YOU TAKE CONTROL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="wrapp-icon">
+                                <div class="img-wrapp">
+                                    <img src="assets/img/icons/sell-ourcommit.png">
+                                </div>
+                                <div class="title-wrapp">
+                                    <span class="icon-capt">OUR COMMITMENT TO GET YOU THE BEST</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+        
+        <!------ BOOK AN APPOINTMENT ------>
+        <div id="book-appoint" class="book-appoint">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="card-book">
+                            <div class="wrapp-book-img">
+                                <img src="assets/img/book.jpg">
+                            </div>
+                            <div class="wrapp-book-capt">
+                                <div class="container">
+                                    <h3>BOOK YOUR APPOINTMENT ONLINE</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum elit eros, sed rutrum nisi venenatis at. Cras vitae pharetra diam. </p>
+                                    <a href="#">
+                                        <button class="btn-book-2">BOOK AN APPOINTMENT</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="card-book">
+                            <div class="card-book">
+                            <div class="wrapp-book-img">
+                                <img src="assets/img/call.jpg">
+                            </div>
+                            <div class="wrapp-book-capt">
+                                <div class="container">
+                                    <h3>BOOK YOUR APPOINTMENT BY PHONE</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum elit eros, sed rutrum nisi venenatis at. Cras vitae pharetra diam. </p>
+                                    <a href="#">
+                                        <button class="btn-book-2">CALL ME BACK</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ FOOTER ------>
+        <div id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12">
+                                <div class="foot-uper">
+                                    <h6>OFFICE</h6>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell/Lease Your Space</a>
+                                </div>
+                                <div class="space-info disp-768">
+                                    <div class="row">
+                                        <div class="col-2 flex-o">
+                                            <img src="assets/img/icons/loct.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">Graha MIR lt. 9, Jl. Pemuda No. 9, Rawamangun,
+                                            Jakarta Timur, Daerah Khusus Ibukota Jakarta</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 flex-o">
+                                            <img src="assets/img/icons/call.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">Customer Service:  021-2956 9852</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 flex-o">
+                                            <img src="assets/img/icons/mail.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">info@spacestock.com</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 flex-o">
+                                            <img src="assets/img/icons/whatsapp.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">+62 821 1717 7710</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="foot-bottom">
+                                    <h6>FOLLOW US</h6>
+                                    <a href="#"><img src="assets/img/icons/twitter.png"></a>
+                                    <a href="#"><img src="assets/img/icons/instagram.png"></a>
+                                    <a href="#"><img src="assets/img/icons/linkedin.png"></a>
+                                    <a href="#"><img src="assets/img/icons/fb.png" class="last-socmed"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="foot-apart">
+                                    <h6>APARTMENTS</h6>
+                                    <a href="#">Buy Apartment</a>
+                                    <a href="#">Lease Apartment</a>
+                                    <a href="#">Sell/Lease Your Unit</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="foot-help">
+                                    <h6>HELP</h6>
+                                    <a href="terms-and-condition.html">Terms & Condition</a>
+                                    <a href="privacy-poilcy.html">Privacy Policy</a>
+                                    <a href="faq.html">FAQ</a>
+                                    <a href="contact-us.html">Contact Us</a>
+                                    <a href="#">Blog</a>
+                                    <a href="building-directory.html">Building Directory</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="foot-info">
+                            <img src="assets/img/logo.png">
+                            <div class="space-info">
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/loct.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">Graha MIR lt. 9, Jl. Pemuda No. 9, Rawamangun,
+                                        Jakarta Timur, Daerah Khusus Ibukota Jakarta</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/call.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">Customer Service:  021-2956 9852</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/mail.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">info@spacestock.com</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/whatsapp.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">+62 821 1717 7710</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ FOOTER 2 ------>
+        <div id="footer2" class="footer2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="last-foot">
+                            <p>2018 © PT. Paragon Sewa Kantor | All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/select2.full.min.js"></script>
+        <script src="assets/js/general.js"></script>
+        <script src="assets/easy-autocomplete/jquery.easy-autocomplete.js"></script>
+        <script>
+        var options = {
+            data: 
+            {
+	"marvel": [
+		{"character": "Superman", "realName": "Jakarta Selatan"},
+		{"character": "Batman", "realName": "Bruce Wayne"},
+		{"character": "Wonder Woman", "realName": "Diana Prince"}
+	],
+	"dc-comics": [
+		{"character": "Daredevil", "realName": "Matt Murdock"},
+		{"character": "Captain America", "realName": "Steven Rogers"},
+		{"character": "Spider-Man", "realName": "Peter Parker"}
+	]
+}
+            ,
+            categories: [{
+                listLocation: "marvel",
+                maxNumberOfElements: 4,
+                header: "Most Recent Search"
+            }, {
+                listLocation: "dc-comics",
+                maxNumberOfElements: 4,
+                header: "Office"
+            }],
+
+            getValue: function(element) {
+                return element.character;
+            },
+
+            template: {
+                type: "description",
+                fields: {
+                    description: "realName"
+                }
+            },
+
+            list: {
+                maxNumberOfElements: 8,
+                match: {
+                    enabled: true
+                },
+                sort: {
+                    enabled: true
+                }
+            },
+
+            theme: "square"
+        };
+
+        $(".example-heroes1").easyAutocomplete(options);</script>
+    </body>
+</html>

@@ -1,0 +1,102 @@
+/* snackbar for notification popup */
+#toast-success, #toast-info, #toast-warning, #toast-danger, #toast-default  {
+    visibility: hidden;
+    min-width: 400px;
+    max-width: 400px;
+    margin-left: -125px;
+    color: #777;
+    text-align: center;
+    border-radius: 2px;
+    position: fixed;
+    z-index: 999;
+    left: 45%;
+    top: 30px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+}
+
+#toast-success.show, #toast-info.show, #toast-warning.show, #toast-danger.show, #toast-default.show  {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 4.5s;
+    animation: fadein 0.5s, fadeout 0.5s 4.5s;
+}
+.ico-alert{
+    float: left;
+    height: 100%;
+    padding: 15px;
+}
+.ico-alert i{
+    padding: 5px;
+    color: #fff;
+    font-size: 14px;
+    display: table-cell;
+    vertical-align: middle;
+}
+#toast-success .ico-alert{
+    border-left: 5px solid rgb(33, 119, 11);
+    background: rgb(84, 216, 40);
+}
+#toast-info .ico-alert{
+    border-left: 5px solid #0e7b8b;
+    background: #17a2b8;
+}
+#toast-warning .ico-alert{
+    border-left: 5px solid #c09411;
+    background: #ffc107;
+}
+#toast-danger .ico-alert{
+    border-left: 5px solid #dc3545;
+    background: #dc3545;
+}
+#toast-default .ico-alert{
+    border-left: 5px solid #9e9e9e;
+    background: #656565;
+}
+.span-alert{
+    float: left;
+    padding: 15px;
+    padding-left: 0;
+    font-size: 14px;
+    vertical-align: middle;
+    text-align: left;
+}
+@-webkit-keyframes fadein {
+    from {top: 0; opacity: 0;} 
+    to {top: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {top: 30px; opacity: 1;} 
+    to {top: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {top: 30px; opacity: 1;}
+    to {top: 0; opacity: 0;}
+}
+.n-b button{
+    margin: 20px;
+}
+.ico-wrapper{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    border: 1px solid white;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 480px) {
+    #toast-success, #toast-info, #toast-warning, #toast-danger, #toast-default {
+        min-width: 290px;
+        max-width: 290px;
+    }
+}

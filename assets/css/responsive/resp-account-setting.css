@@ -1,0 +1,87 @@
+/*------ACCOUNT SETING------*/
+@media (max-width: 768px) {
+    .body-accset .pad-ri {
+        padding-right: 15px;
+    }
+    
+    .body-accset .pad-le {
+        padding-left: 15px;
+    }
+    
+    .body-accset .upload {
+        border-radius: 12px 12px 0 0;
+        padding: 40px 20px;
+        border-right: 1px solid #ddd;
+        border-bottom: none;
+    }
+    
+    .wrapper-coloumns {
+        padding: 50px 20px;
+        border-left: 1px solid #ddd;
+        border-radius: 0 0 12px 12px;
+        border-top: none;
+    }
+    
+    .wrapper-coloumns input {
+        margin-bottom: 30px;
+    }
+    
+    .wrapper-coloumns .mar-btm-20 {
+        margin-bottom: 0;
+    }
+    
+    .pad-ri-accset {
+        padding-right: 15px;
+    }
+    
+    .pad-le-accset {
+        padding-left: 15px;
+    }
+    
+    .pad-ri-accset input {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 378px) {
+    .linked-acc span {
+        font-size: 14px;
+    }
+    
+    .listing-options span {
+        font-size: 14px;
+    }
+    
+    .radio input + span:before {
+        top: 0;
+    }
+    
+    .radio input + span:after {
+        top: 4px;
+    }
+    
+    .close-acc span {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

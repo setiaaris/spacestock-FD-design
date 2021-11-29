@@ -1,0 +1,80 @@
+@media (max-width: 1200px) {
+    .office-maps .wrapper-nearby {
+        height: 210px;
+    }
+}
+
+@media (min-width: 768px) {
+    .desktop-only {
+        display: block;
+    }
+    .mobile-only {
+        display: none;
+    }
+}
+@media (max-width: 992px) {
+    .wrapper-by-unit .unit-size {
+        border-radius: 6px 6px 0 0;
+        border: 1px solid #133555;
+    }
+    .wrapper-by-unit .input-group, .wrapper-employee .input-group {
+        border-radius: 0 0 6px 6px;
+        border-right: 1px solid #133555;
+        border-left: 1px solid #133555;
+    }
+    .wrapper-by-unit {
+        margin-bottom: 10px;
+    }
+    .wrapper-employee .employee-counts {
+        border-radius: 6px 6px 0 0;
+    }
+    
+    .office-maps .wrapper-nearby {
+        height: 156px;
+    }
+}
+@media (max-width: 767px) {
+    .pad-ri {
+        padding-right: 15px;
+    }
+    .pad-le {
+        padding-left: 15px;
+    }
+    .simil-unit {
+        padding: 30px 15px;
+    }
+    .wrapper-btns-lease .btn-lease  {
+        width: 40%;
+    }
+    .wrapper-btns-lease .btn-like {
+        width: 10%;
+        padding: 10px 0;
+    }
+    .wrapper-btns-lease .btn-share {
+        width: 47% !important;
+    }
+    .desktop-only {
+        display: none;
+    }
+    .mobile-only {
+        display: block;
+    }
+    .unit-card .simil-detail {
+        padding: 140px 20px 20px 20px;
+    }
+    .label-grade-ofc .labelgrade {
+        border-radius: 0 24px 0 0;
+    }
+    .unit-card .grad-blue, .unit-card img.bg-card, .office-maps .wrapper-maps img {
+        border-radius: 24px;
+    }
+    .similar-box {
+        margin-bottom: 20px;
+    }
+    .office-maps .wrapper-maps {
+        margin-top: 20px;
+    }
+    .bout-office .title-bout {
+        margin-top: 20px;
+    }
+}

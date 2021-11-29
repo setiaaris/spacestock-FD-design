@@ -1,0 +1,437 @@
+/*------------ FORM LOG IN ------------*/
+
+/*------NAVBAR------*/
+nav.trsp {
+    width: 100%;
+    height: 80px;
+    background: transparent;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    border-bottom: 1px solid #fff;
+    transition: all 300ms ease-in-out;
+}
+
+nav.trsp.sticky {
+    background: #133555;
+    border-bottom: 1px solid #fff;
+}
+
+.mynavbar .input-group .log-btn-buys {
+    background: transparent;
+    color: #fff;
+    outline: none;
+    border-radius: none !important;
+    border: none;
+    padding: 3px 1.299rem;
+    float: left;
+    border: 1px solid #fff;
+    border-right: none;
+    cursor: pointer;
+    font-size: 14px;
+    height: 30px;
+}
+
+.mynavbar .input-group .log-btn-leases {
+    background: #757474;
+    color: #fff;
+    outline: none;
+    border-radius: none !important;
+    border: 1px solid #fff;
+    padding: 3px 1.299rem;
+    float: left;
+    border-bottom-right-radius: .25rem;
+    border-top-right-radius: .25rem;
+    cursor: pointer;
+    font-size: 14px;
+    height: 30px;
+}
+
+/*------LOGIN FORM------*/
+body.pad-o {
+    padding: 0;
+}
+
+.login-form {
+    width: 100%;
+    min-height: 1024px;
+    background: url('../img/bgheader.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login-form .wrapper-form {
+    margin: 176px auto 80px auto;
+    padding: 0;
+}
+
+.login-form .wrapper-form h2 {
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.login-form .wrapper-form .lilog-card {
+    width: 63%;
+    margin: 46px auto 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+.login-form .wrapper-form .lilog-card .btnlogin.active {
+    background: #fff;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 18px 0;
+    border-top-left-radius: 14px;
+    cursor: pointer;
+    box-shadow: 2px 2px 11px rgba(150, 150, 150, 0.96);
+}
+
+.login-form .wrapper-form .lilog-card .btnlogin .login.active {
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: 2px solid #133555;
+    color: #133555;
+}
+
+.login-form .wrapper-form .lilog-card .btnlogin {
+    background: rgba(255, 255, 255, 0.25);
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 18px 0;
+    border-top-right-radius: 0px;
+    cursor: pointer;
+    border-top-left-radius: 14px;
+}
+
+.login-form .wrapper-form .lilog-card .btnlogin .login {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.login-form .wrapper-form .lilog-card .btnregist {
+    background: rgba(255, 255, 255, 0.25);
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 18px 0;
+    border-top-right-radius: 6px;
+    cursor: pointer;
+}
+
+.login-form .wrapper-form .lilog-card .btnregist .regist {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.login-form .wrapper-form .lilog-card .btnregist.active {
+    background: #fff;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 18px 0;
+    border-top-right-radius: 6px;
+    cursor: pointer;
+    box-shadow: 2px 2px 11px rgba(150, 150, 150, 0.96);
+}
+
+.login-form .wrapper-form .lilog-card .btnregist .regist.active {
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid #133555;
+    color: #133555;
+}
+
+.login-form .wrapper-form .login-card {
+    width: 63%;
+    margin: 0 auto auto auto;
+    background: #fff;
+    padding: 20px 16px;
+    position: relative;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display: none;
+}
+
+.login-form .wrapper-form .login-card.active {
+    display: block;
+}
+
+.login-form .wrapper-form .login-card .input-group {
+    margin: 14px auto;
+}
+
+.input-group input, .input-group input:focus {
+    background: #f2f2f2;
+    border: none;
+    border-radius: 6px;
+    border-top-left-radius: 6px !important;
+    border-bottom-left-radius: 6px !important;
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.login-form .wrapper-form .login-card .input-group .form-control:focus {
+    border-color: none !important;
+    box-shadow: none !important;
+}
+
+.login-form .wrapper-form .login-card .btn-login {
+    width: 100%;
+    text-align: center;
+    margin: auto auto 20px auto;
+    margin-top: 20px;
+}
+
+.login-form .wrapper-form .login-card .btn-login .btnlogin {
+    background: #133555;
+    color: #fff;
+    outline: none;
+    border: none;
+    width: 140px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form .wrapper-form .login-card .btn-login .btnlogin, .login-form .wrapper-form .login-card .btn-login .forgot {
+    margin: auto 10px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+span.forgot a{
+    font-style: italic;
+    color: #000;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.login-form .wrapper-form .login-card .separat-or {
+    width: 100%;
+    height: 20px;
+    margin: 30px auto auto auto;
+    text-align: center;
+    position: relative;
+}
+
+.login-form .wrapper-form .login-card .separat-or .separat {
+    width: 100%;
+    height: 1px;
+    background: #e4e4e4;
+    position: relative;
+}
+
+.login-form .wrapper-form .login-card .separat-or h6 {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid #e4e4e4;
+    background: #fff;
+    color: #e4e4e4;
+    margin: auto;
+    text-align: center;
+    padding-top: 7px;
+    font-weight: normal;
+    left: 50%;
+    font-size: 8px;
+    height: 20px;
+    width: 20px;
+    top: -10px;
+    padding: 5px 0;
+}
+.login-form .wrapper-form .btn-socmed {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.login-form .wrapper-form .btn-socmed .conti-fb {
+    width: 33%;
+    margin: auto;
+    outline: none;
+    border: none;
+    background: #4267b5;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 46px;
+}
+
+.login-form .wrapper-form .btn-socmed .conti-fb i {
+    color: #fff;
+    line-height: 48px;
+    margin-left: 12px;
+}
+
+.login-form .wrapper-form .btn-socmed .conti-fb .conti {
+    color: #fff;
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+.login-form .wrapper-form .btn-socmed .conti-fb .bord-le {
+    border-left: 1px solid #fff;
+    padding: 8px 10px 8px 0;
+}
+
+.login-form .wrapper-form .btn-socmed .conti-go {
+    width: 33%;
+    margin: auto;
+    outline: none;
+    border: none;
+    background: #f14a3c;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 46px;
+}
+
+.login-form .wrapper-form .btn-socmed .conti-go i {
+    color: #fff;
+    line-height: 48px;
+    margin-left: 7px;
+}
+
+.login-form .wrapper-form .btn-socmed .conti-go .conti {
+    color: #fff;
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+.login-form .wrapper-form .btn-socmed .conti-go .bord-le {
+    border-left: 1px solid #fff;
+    padding: 8px 10px 8px 0;
+}
+
+.login-form .wrapper-form .btn-socmed .conti-in {
+    width: 32%;
+    margin: auto;
+    outline: none;
+    border: none;
+    background: #1d7faf;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 46px;
+}
+
+.login-form .wrapper-form .btn-socmed .conti-in i {
+    color: #fff;
+    line-height: 48px;
+    margin-left: 7px;
+}
+
+.login-form .wrapper-form .btn-socmed .conti-in .conti {
+    color: #fff;
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+.login-form .wrapper-form .btn-socmed .conti-in .bord-le {
+    border-left: 1px solid #fff;
+    padding: 8px 10px 8px 0;
+}
+
+.login-form .wrapper-form .login-card .bord-btm {
+    background: #133555;
+    width: 100%;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    margin-top: 30px;
+    border-bottom: none;
+    position: absolute;
+    left: 0;
+    bottom: -32px;
+    height: 15px;
+}
+
+.login-card .input-group label {
+    width: 100%;
+    color: #484848;
+}
+
+/*------REGIST FORM------*/
+.login-form .wrapper-form .regist-card {
+    display: none;
+}
+
+.login-form .wrapper-form .regist-card.active {
+    display: block;
+    width: 63%;
+    margin: 0 auto auto auto;
+    background: #fff;
+    padding: 30px 0 0 0;
+    position: relative;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+.login-form .wrapper-form .regist-card .input-group {
+    margin: 14px auto;
+}
+
+.login-form .wrapper-form .regist-card .input-group .form-control:focus {
+    border-color: none !important;
+    box-shadow: none !important;
+}
+
+.login-form .wrapper-form .regist-card .btn-regist {
+    width: 100%;
+    text-align: center;
+    margin: auto auto 20px auto;
+}
+
+.login-form .wrapper-form .regist-card .btn-regist .btnregist {
+    background: #133555;
+    color: #fff;
+    outline: none;
+    border: none;
+    width: 140px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form .wrapper-form .regist-card .bord-btm {
+    background: #133555;
+    width: 100%;
+    height: 15px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    margin-top: 30px;
+    border-bottom: none;
+}
+
+.regist-card .input-group label {
+    width: 100%;
+    color: #484848;
+}
+
+.login-form input{
+    font-family: comfortaa;
+    padding-left: 25px;
+    font-size: 14px;
+    background: #eef2f5;
+}
+.login-form .input-group{
+    margin: 10px auto !important;
+}
+.regist-card .container{
+    padding: 0 30px;
+}
+/*------------ END OF FORM LOGIN ------------*/

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Book an Appointment Online</title>
+        <link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.min.css">
+        <style type="text/css">
+            @import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i');
+            
+            @font-face {
+              font-family: 'FontAwesome';
+              src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+              src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+              font-weight: normal;
+              font-style: normal;
+            }
+            
+            body {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                font-family: 'Rubik', sans-serif;
+            }
+            
+            * {
+                text-decoration: none;
+                list-style: none;
+            }
+            
+            .container {
+                width: 90%;
+                margin: auto;
+            }
+            
+            .logo {
+                width: 100%;
+                margin-top: 30px;
+            }
+            
+            .logo img {
+                width: 100px;
+            }
+            
+            .farewell {
+                width: 100%;
+                margin-top: 30px;
+            }
+            
+            .farewell img {
+                width: auto;
+            }
+            
+            .caption {
+                width: 100%;
+                margin-top: 30px;
+            }
+            
+            .caption p {
+                font-size: 12px;
+                line-height: 18px;
+            }
+            
+            .caption p span.customer {
+                font-weight: 500;
+            }
+            
+            .border-separate {
+                background: #ddd;
+                width: 100%;
+                height: 1px;
+                border-radius: 4px;
+                margin: 30px auto;
+            }
+            
+            .capt-help {
+                width: 100%;
+            }
+            
+            .capt-help p {
+                font-size: 10px;
+                color: #6b6b6b;
+                line-height: 18px;
+            }
+            
+            .footer {
+                width: 100%;
+                margin-top: 30px;
+                padding: 20px 0;
+                background: #e5e5e5;
+            }
+            
+            .head-title {
+                width: 100%;
+                margin: auto;
+                text-align: center;
+            }
+            
+            .head-title img {
+                width: 130px;
+                margin: auto;
+                text-align: center;
+            }
+            
+            .head-title h4 {
+                font-size: 10px;
+                margin-top: 4px;
+                color: #505050;
+            }
+            
+            .socmed {
+                width: 100%;
+                margin: 20px auto;
+                text-align: center;
+            }
+            
+            .wrapper-socmed {
+                display: flex;
+                text-align: center;
+                margin: auto;
+                justify-content: center;
+            }
+            
+            .wrapper-socmed img {
+                margin: auto 8px;
+            }
+            
+            .capt-footer {
+                width: 100%;
+                margin: auto;
+                text-align: center;
+            }
+            
+            .capt-footer p {
+                font-size: 8px;
+                color: #505050;
+                line-height: 17px;
+                margin-bottom: 0;
+            }
+            
+            .capt-footer a {
+                margin-top: 20px;
+                font-size: 10px;
+                color: #0776ff;
+                cursor: pointer;
+            }
+            
+            p.help a {
+                color: #0776ff;
+                cursor: pointer;
+            }
+            
+            .line-blue {
+                width: 100%;
+                height: 8px;
+                background: #133555;
+            }
+            .respass {
+                width: 70%;
+                background: #133555;
+                color: #fff;
+                border: none;
+                border-radius: 4px;
+                outline: none;
+                text-align: center;
+                margin: auto;
+                padding: 10px;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+            }
+            a.login {
+                font-size: 12px;
+                color: #0776ff;
+                margin-top: 5px;
+            }
+            .info-wrapper {
+                width: 90%;
+                padding: 15px;
+                border-radius: 15px;
+                background: #eef2f6;
+            }
+            .info-wrapper table{
+                border: none;
+                width: 100%;
+            }
+            .info-wrapper table td.width-10{
+                width: 10%;
+            }
+            .info-wrapper table .icon-wrapper{
+                background: #143655;
+                border-radius: 100%;
+                margin: 5px;
+                height: 10px;
+                width: 10px;
+                display: flex;
+                justify-content: center;
+                padding: 10px;
+            }
+            .info-wrapper table .icon-wrapper img{
+                margin: auto;
+            }
+            .info-wrapper table td small{
+                color: #575757;
+                font-weight: 300;
+                font-size: 12px;
+                display: block;
+            }
+            .info-wrapper table td span{
+                color: #000000;
+                font-weight: 700;
+                font-size: 14px;
+                display: block;
+            }
+            @media (min-width: 768px) {
+                .info-wrapper {
+                    width: 50%;
+                    margin: auto;
+                }
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id="BookPhone" class="book-phone">
+            <div class="line-blue"></div>
+            <div class="container">
+                <div id="Logo" class="logo">
+                    <img src="assets/img/email-logo.png">
+                </div>
+                <div id="Farewell" class="farewell">
+                    <img src="assets/img/email-see.png">
+                </div>
+                <div class="caption">
+                    <p>Dear <span class="customer">Amanda Doe</span>,<br><br>
+                    Hi, we're The Spacestock representative who'll showing the unit that you choose.</p>
+                    <div class="info-wrapper">
+                        <table>
+                            <tr>
+                                <td class="width-10">
+                                    <div class="icon-wrapper">
+                                        <img src="assets/img/icons/email-map.png">
+                                    </div>
+                                </td>
+                                <td>
+                                    <small>Location</small>
+                                    <span>Signature Park Grande</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="icon-wrapper">
+                                        <img src="assets/img/icons/email-date.png">
+                                    </div>
+                                </td>
+                                <td>
+                                    <small>Date</small>
+                                    <span>Thursday,Aug 23</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="icon-wrapper">
+                                        <img src="assets/img/icons/email-time.png">
+                                    </div>
+                                </td>
+                                <td>
+                                    <small>Time</small>
+                                    <span>10.30 AM</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <p>For your convenience, we'll call you before arrived to confirm our appointment. The consultation usualy takes 60-90 minutes, but
+                        we will stay as long as you'd like, making sure you get the information you need.
+                    </p>
+                    <p>
+                        Thanks for considering Spacestock. We look forward to taking with you very soon!
+                    </p>
+                    <p>
+                        Warm Regrads, <br>
+                        Spacestock
+                    </p>
+                </div>
+                <div class="border-separate"></div>
+                <div class="capt-help">
+                    <p class="help">Need a help? Contact <a href="#">SpaceStock</a></p>
+                    <p class="help-detail">Information deemed reliable but not guaranteed. Customer to verify all information to their own satisfaction. If you are currently working with real estate agent, this is not meant as solicitation of your business.</p>
+                </div>
+            </div>
+            <div id="Footer" class="footer">
+                <div class="container">
+                    <div class="head-title">
+                        <img src="assets/img/email-logo.png">
+                        <h4>PROFESSIONAL AGENT, MODERN TECHNOLOGY.</h4>
+                    </div>
+                    <div class="socmed">
+                        <div class="wrapper-socmed">
+                            <div class="twitter">
+                                <img src="assets/img/icons/email-tweet.png">
+                            </div>
+                            <div class="ig">
+                                <img src="assets/img/icons/email-ig.png">
+                            </div>
+                            <div class="linkedin">
+                                <img src="assets/img/icons/email-linkedin.png">
+                            </div>
+                            <div class="fb">
+                                <img src="assets/img/icons/email-fb.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="capt-footer">
+                        <p class="foot-capt">Please don’t reply to this email because we are not monitoring this inbox. To get in touch with us, log in to your account and click “Contact Us” at the bottom of any page.<br><br>
+                        Copyright      2018 PT. Paragon Sewa Kantor. All Right Reserved.<br>
+                        Graha MIR Lt.9 JL. Pemuda 9 Rawamangun - Jakarta Timur<br></p>
+                        <a href="#">PRIVACY POLICY |</a> <a href="#">TERMS AND CONDITION</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

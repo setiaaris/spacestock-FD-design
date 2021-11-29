@@ -1,0 +1,225 @@
+/*------------ TESTIMONI OFFICE ------------*/
+
+/*------HEADER------*/
+.header-office {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: url('../img/bgheader.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 56px;
+    background-attachment: fixed;
+}
+
+.header-office span {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    margin: auto;
+    font-weight: 500;
+    font-size: 34px;
+}
+
+.header-btn {
+    margin: 10px auto;
+}
+
+.header-btn .btn-office {
+    background: #133555;
+    outline: none;
+    border: 1px solid #133555;
+    color: #fff;
+    border-radius: 4px;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    margin: auto 4px;
+    border: 1px solid #133555;
+}
+
+.header-btn .btn-apart {
+    background: none;
+    outline: none;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 4px;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    margin: auto 4px;
+}
+
+/*------TESTIMONIAL OFFICE------*/
+.testi-office {
+    width: 100%;
+    margin: auto;
+    background: #eef1f7;
+    padding: 30px 0;
+}
+
+.card-testi {
+    background: #fff;
+    border-radius: 6px;
+    padding: 40px 0;
+    position: relative;
+}
+
+.card-testi .wrapper-client {
+    width: 80%;
+    margin: auto auto 20px auto;
+    text-align: center;
+}
+
+.card-testi .wrapper-client img {
+    width: 93px;
+    height: auto;
+}
+
+.card-testi .wrapper-cstmr {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 0 20px;
+    border-right: 1px solid #ddd;
+}
+.card-testi .cstmr {
+    width: 70%;
+    margin: auto auto 20px auto;
+}
+
+.card-testi .cstmr img {
+    width: 100%;
+}
+
+.card-testi h5 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 0;
+    color: #133555;
+    word-break: break-all;
+}
+
+.card-testi .jo-desc {
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+}
+
+.captions h4 {
+    color: #133555;
+}
+
+.ratings i {
+    font-size: 20px;
+}
+
+.ratings {
+    margin-bottom: 10px;
+}
+
+.ratings i:first-child, .ratings i:nth-child(2), .ratings i:nth-child(3), .ratings i:nth-child(4)  {
+    color: #fbef21;
+}
+
+.ratings i:last-child {
+    color: #c3c0c1;
+}
+
+.bottom-bl-one {
+    margin-top: 0;
+    background: #143655;
+    width: 100%;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    height: 8px;
+    position: absolute;
+    bottom: 0;
+}
+
+/*------SEPARATOR------*/
+.space-separator {
+    background: #fff;
+    height: 2px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/*------BUTTON PAGINATION------*/
+.pagin-office {
+    width: 100%;
+    text-align: center;
+    margin: 20px auto auto auto;
+}
+
+.pagin-office .wrapper-next {
+    width: 232px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+}
+
+.pagin-office .wrapper-next h6.main {
+    color: #fff;
+    background: #133555;
+    padding: 4px 10px;
+    transition: all 300ms ease-in-out;
+}
+
+.pagin-office .wrapper-next h6.main:hover {
+    color: #fff;
+    background: #133555;
+}
+
+.pagin-office .wrapper-next h6 {
+    color: #133555;
+    background: #fff;
+    padding: 4px 10px;
+    margin: auto 6px;
+    transition: all 300ms ease-in-out;
+}
+
+.pagin-office .wrapper-next h6:hover {
+    color: #fff;
+    background: #133555;
+}
+
+.pagin-office .wrapper-next i {
+    color: #133555;
+    background: #fff;
+    padding: 5px 10px;
+    margin: auto 6px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

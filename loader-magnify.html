@@ -1,0 +1,82 @@
+<div class="spacestock-css loader-wrapper"><div style="width:100%;height:100%" class="spacestock-magnify"><div><div><div></div><div></div></div></div></div><style type="text/css">@keyframes spacestock-magnify {
+  0% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  33.33% {
+    -webkit-transform: translate(102px, 2px);
+    transform: translate(102px, 2px);
+  }
+  66.66% {
+    -webkit-transform: translate(42px, 102px);
+    transform: translate(42px, 102px);
+  }
+  100% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+}
+@-webkit-keyframes spacestock-magnify {
+  0% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  33.33% {
+    -webkit-transform: translate(102px, 2px);
+    transform: translate(102px, 2px);
+  }
+  66.66% {
+    -webkit-transform: translate(42px, 102px);
+    transform: translate(42px, 102px);
+  }
+  100% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+}
+.spacestock-magnify {
+  position: relative;
+}
+.spacestock-css.loader-wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 15%;
+}
+.spacestock-magnify > div {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transform-origin: 100px 100px;
+  transform-origin: 100px 100px;
+}
+.spacestock-magnify > div > div {
+  -webkit-animation: spacestock-magnify 2.4s linear infinite;
+  animation: spacestock-magnify 2.4s linear infinite;
+  position: absolute;
+}
+.spacestock-magnify > div > div div:nth-child(1) {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  border: 12px solid #133555;
+  background: #fff;
+}
+.spacestock-magnify > div > div div:nth-child(2) {
+  width: 17px;
+  height: 51px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background: #133555;
+  border-radius: 0 0 8px 8px;
+  position: absolute;
+  top: 68px;
+  left: 85px;
+}
+.spacestock-magnify {
+  width: 200px !important;
+  height: 200px !important;
+  -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+  transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+}
+</style></div>

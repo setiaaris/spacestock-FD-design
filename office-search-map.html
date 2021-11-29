@@ -1,0 +1,1583 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SEARCH OFFICE</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.css">
+        <link rel="stylesheet" href="assets/jquery-slider/slider.css">
+        <link rel="stylesheet" href="assets/css/office-search-map.css">
+        <link rel="stylesheet" href="assets/css/general.css">
+        <link rel="stylesheet" href="assets/css/select2.min.css">
+        <link rel="stylesheet" href="assets/css/responsive/resp-general.css">
+        <link rel="stylesheet" href="assets/css/responsive/resp-office-search-map.css">
+        <link rel="stylesheet" href="assets/easy-autocomplete/autocomplete.css">
+        <link rel="stylesheet" href="assets/easy-autocomplete/autocomplete-themes.css">
+    </head>
+    
+    <body>
+        
+        <!------ NAVBAR ------>
+        <nav class="zdex-10">
+            <div class="close-dropdown"></div>
+            <div class="close-dropdown-2"></div>
+            <div class="close-dropdown-3"></div>
+            <div class="close-dropdown-4"></div>
+            <div id="mynavbar" class="mynavbar navbar-fixed-top">
+                <div class="toggle-nav">
+                    <div class="span1" id="one"></div>
+                    <div class="span2" id="two"></div>
+                    <div class="span3" id="three"></div>
+                </div>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/img/logo.png">
+                    </a>
+                </div>
+                <div class="wrapper-resp-nav">
+                    <div class="wrapper-profile dropdown">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="display-name" data-toggle="collapse" data-target="#DropRspnsv">
+                                    <div class="wrapper-name">
+                                        <span class="name">Alexanderousy</span>
+                                    </div>
+                                    <i class="fas fa-chevron-down"></i>
+                                    <div class="ico-profile">
+                                        <a href="#">
+                                            <img src="assets/img/icons/profile.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-content profile">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                            <div class="bottom-bl"></div>
+                       </div>
+                       <div id="DropRspnsv" class="dropdown-rspnsv collapse">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                       </div>
+                    </div>
+                    <div class="wrapper-profile resp dropdown">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="display-name">
+                                    <div class="ico-profile">
+                                        <a href="#">
+                                            <img src="assets/img/icons/profile.png">
+                                        </a>
+                                    </div>
+                                    <div class="wrapper-name">
+                                        <span class="name">Alexanderousy</span>
+                                    </div>
+                                    <div class="chev-profile" data-toggle="collapse" data-target="#DropRspnsvProfile">
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-content profile">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                            <div class="bottom-bl"></div>
+                       </div>
+                       <div id="DropRspnsvProfile" class="dropdown-rspnsv profile collapse">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                       </div>
+                    </div>
+                    <div class="wrapper-spt">
+                        <div class="opt-language">
+                            <div class="dropdown drop-lang">
+                                <button class="dropbtn lang">ID 
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                                <div class="dropdown-content lang">
+                                    <div class="arrow-up"></div>
+                                    <a href="#"><img src="assets/img/icons/indonesia.png"> ID</a>
+                                    <a href="#"><img src="assets/img/icons/united-kingdom.png"> EN</a>
+                                    <div class="bottom-bl"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-call">
+                            <img src="assets/img/icons/whatsapp.png">
+                            <span class="phone-call"><a href="#">+62 821 1717 7710</a></span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="dropdown">
+                               <button class="dropbtn office" data-toggle="collapse" data-target="#DropRspnsvOffice"><span class="nav-office" onclick="location.href='index-office.html'">OFFICE</span> 
+                                   <i class="fas fa-chevron-down"></i>
+                               </button>
+                               <div class="dropdown-content office">
+                                    <div class="arrow-up"></div>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell & Lease Your Space</a>
+                                    <div class="bottom-bl"></div>
+                               </div>
+                               <div id="DropRspnsvOffice" class="dropdown-rspnsv collapse">
+                                    <div class="arrow-up"></div>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell & Lease Your Space</a>
+                               </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                               <button class="dropbtn apartment" data-toggle="collapse" data-target="#DropRspnsvApart"><span class="nav-apart" onclick="location.href='index-apartment.html'">APARTMENTS</span> 
+                                   <i class="fas fa-chevron-down"></i>
+                               </button>
+                               <div class="dropdown-content apartment">
+                                 <div class="arrow-up"></div>
+                                    <a href="#">Buy Apartment</a>
+                                    <a href="apartment-detail-lease.html">Lease Apartment</a>
+                                    <a href="#">Sell & Lease Your Unit</a>
+                                 <div class="bottom-bl"></div>
+                               </div>
+                                <div id="DropRspnsvApart" class="dropdown-rspnsv collapse">
+                                    <div class="arrow-up"></div>
+                                    <a href="#">Buy Apartment</a>
+                                    <a href="apartment-detail-lease.html">Lease Apartment</a>
+                                    <a href="#">Sell & Lease Your Unit</a>
+                               </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="li-news" href="#">NEWS</a>
+                        </li>
+                    </ul>
+                    <div class="opt-language rspv">
+                        <div class="dropdown drop-lang">
+                            <button class="dropbtn lang" data-toggle="collapse" data-target="#DropRspnsvLang">ID 
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="dropdown-content lang">
+                                <div class="arrow-up"></div>
+                                <a href="#"><img src="assets/img/icons/indonesia.png"> ID</a>
+                                <a href="#"><img src="assets/img/icons/united-kingdom.png"> EN</a>
+                                <div class="bottom-bl"></div>
+                            </div>
+                            <div id="DropRspnsvLang" class="dropdown-rspnsv-lang collapse">
+                                <div class="arrow-up"></div>
+                                <a href="#"><img src="assets/img/icons/indonesia.png"> ID</a>
+                                <a href="#"><img src="assets/img/icons/united-kingdom.png"> EN</a>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="main-call rspv">
+                        <img src="assets/img/icons/whatsapp.png">
+                        <span class="phone-call"><a href="#">+62 821 1717 7710</a></span>
+                    </div>
+                </div>
+                <div class="wrapper-search-nav">
+                    <div class="search-navbar">
+                        <form autocomplete="off">
+                          <div class="">
+                            <input id="" class="myinput example-heroes1" type="text" name="myCountry" placeholder="">
+                            <div class="ico-srch">
+                                <i class="fas fa-search"></i>
+                            </div>
+                          </div>
+                        </form>
+                        <button class="btn-buys">BUY</button>
+                        <button class="btn-leases">LEASE</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <!------ ADVANCE SEARCH ------>
+        <div id="adv-search" class="adv-search">
+            <div class="close-ppl"></div>
+            <div class="container">
+                <div class="row mar-btm">
+                    <div class="col-md-12">
+                        <div class="title-adv">
+                            <h2>ADVANCE SEARCH</h2>
+                            <div class="wrapper-btnsw">
+                                <span class="buy-sw">BUY</span>
+                                <div class="toggle-sw">
+                                    <label class="switch">
+                                        <input type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                                <span class="lease-sw">LEASE</span>
+                            </div>
+                        </div>
+                        <div class="close-adv">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mar-btm-adv justify-content-center">
+                    <div class="col-md-6 col-sm-12">
+                        <form>
+                            <div class="form-group">
+                                <label for="LocationAdv">Location</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="LocationAdv" aria-describedby="emailHelp" placeholder="Search location">
+                                    <img src="assets/img/icons/maps-form.png">
+                                </div>
+                              </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row mar-btm-adv justify-content-center">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="slide-range">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label for="price-range">Price Range/SQM/Month</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="pos-rel">
+                                        <div id="slider-range"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 flo-left">
+                                <h6>Rp. 10.000.000</h6>
+                            </div>
+                            <div class="col-6 flo-right">
+                                <h6>Rp. 500.000.000</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12 pad-ri-input">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="LocationAdv">Employee Counts</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control form-srch" placeholder="Input Size" aria-label="Input Size" aria-describedby="basic-addon2">
+                                            <div class="input-group-append">
+                                                <a href="#"><button type="submit" class="btn btn-sqm" type="button">SQM</button></a>
+                                            </div>
+                                        </div>
+                                      </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 pad-le-input">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="LocationAdv">SQM</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control form-srch" placeholder="Input Employee" aria-label="Input Employee" aria-describedby="basic-addon2">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-ppl" type="button">
+                                                    <div class="ppl">
+                                                        <i class="fas fa-users"></i>
+                                                    </div>
+                                                    <div class="ppl-chevron">
+                                                        <i class="fas fa-chevron-down"></i>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                        </div>
+                                      </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <div class="container pos-rel">
+                                    <div class="ppl-pop">
+                                        <div class="arrow-up"></div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="container">
+                                                    <div class="title-ppl">
+                                                        <span class="head">Every office has different density ratio<br>
+                                                            Please choose the right ratio for you</span>
+                                                    </div>
+                                                    <div class="option-ppl">
+                                                        <div class="open active">
+                                                            <div class="row">
+                                                                <div class="col-10">
+                                                                    <span class="head active">Open Space (1 Person: 7 SQM)</span><br>
+                                                                    <span class="capt">E.q Tech Startup or Japanesse Company</span>
+                                                                </div>
+                                                                <div class="col-2">
+                                                                    <i class="fas fa-check-circle active"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="standard">
+                                                            <div class="row">
+                                                                <div class="col-10">
+                                                                    <span class="head">Standard Office (1 Person: 10 SQM)</span><br>
+                                                                    <span class="capt">E.q Office with room for Managers & Supervisor</span>
+                                                                </div>
+                                                                <div class="col-2">
+                                                                    <i class="fas fa-check-circle"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bord-mar-btm-adv"></div>
+                <div class="container">
+                    <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4 col-md-12">
+                                <div class="wrapper-btm-nearby">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <h4>Nearby</h4>
+                                        </div>
+                                        <div class="col-9">
+                                            <h4 class="kilos">Distance<3km</h4>
+                                        </div>
+                                    </div>
+                                    <div class="wrapper-bord-ri">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-12">
+                                                <div class="container">
+                                                    <div class="slide-range-adv">
+                                                        <div class="line-range"></div>
+                                                        <div class="line-range-grey"></div>
+                                                        <div class="circle-1"></div>
+                                                        <div class="circle-2"></div>
+                                                        <div class="circle-3"></div>
+                                                        <div class="circle-4"></div>
+                                                        <div class="circle-5"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-btm-nearby">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 col-md-12">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-3 col-sm-12">
+                                            <div class="shelter">
+                                                <span class="round-check"></span>
+                                                <h6>Shelter Busway</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-12">
+                                            <div class="univ">
+                                                <span class="round-check"></span>
+                                                <h6>University</h6>
+                                            </div>
+                                            <div class="highway">
+                                                <span class="round-check"></span>
+                                                <h6>Highway Enterance</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-12">
+                                            <div class="train">
+                                                <span class="round-check"></span>
+                                                <h6>Train Station</h6>
+                                            </div>
+                                            <div class="hospital">
+                                                <span class="round-check"></span>
+                                                <h6>Hospital</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-12">
+                                            <div class="mall">
+                                                <span class="round-check"></span>
+                                                <h6>Mall</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="wrapper-btn-srch">
+                            <a href="#">
+                                <button class="btn-srch">Search</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ ADVANCE SEARCH DETAIL ------>
+        <div id="adv-detail" class="adv-detail">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="close-adv">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-adv-detail">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-12 pad-ri">
+                            <div class="wrapper-menu-adv">
+                                <div class="cbd-menu tab-adv">
+                                    <div class="row bord-btm" data-toggle="collapse" data-target="#cbdMenu">
+                                        <div class="col-10">
+                                            <div class="cbd head-adv-menu">
+                                                <span class="round-check"></span>
+                                                <h4>CBD</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="cvrn-cbd cvrn-adv-dtl">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="cbdMenu" class="collapse">
+                                        <div class="row mar-btm-20">
+                                            <div class="col-md-4 col-sm-12">
+                                                <div class="gatsu sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Gatot Subroto</h6>
+                                                </div>
+                                                <div class="megaku sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Mega Kuningan</h6>
+                                                </div>
+                                                <div class="sudirman sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Sudirman</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-12">
+                                                <div class="thamrin sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Thamrin</h6>
+                                                </div>
+                                                <div class="khmas sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>KH. Mas Mansyur</h6>
+                                                </div>
+                                                <div class="kuningan sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Kuningan</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-12">
+                                                <div class="satrio sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Satrio</h6>
+                                                </div>
+                                                <div class="rasunan sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Rasunan Said</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tbsima-menu">
+                                    <div class="row bord-btm" data-toggle="collapse" data-target="#TbSima">
+                                        <div class="col-10">
+                                            <div class="tbsima head-adv-menu">
+                                                <span class="round-check"></span>
+                                                <h4>TB Simatupang</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="cvrn-tbsima">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="TbSima" class="collapse">
+                                        <div class="row mar-btm-20">
+                                            <div class="col-md-4 col-sm-12 pad-ri">
+                                                <div class="tb sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>TB Simatupang</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jaksel-menu">
+                                    <div class="row bord-btm" data-toggle="collapse" data-target="#JakSel">
+                                        <div class="col-10">
+                                            <div class="jaksel head-adv-menu">
+                                                <span class="round-check"></span>
+                                                <h4>Jakarta Selatan</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="cvrn-jaksel">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="JakSel" class="collapse">
+                                        <div class="row mar-btm-20">
+                                            <div class="col-md-4 col-sm-12 pad-ri">
+                                                <div class="setbud sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Setiabudi</h6>
+                                                </div>
+                                                <div class="pancoran sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Pancoran</h6>
+                                                </div>
+                                                <div class="jagakarsa sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Jagakarsa</h6>
+                                                </div>
+                                                <div class="pasarrebo sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Pasarrebo</h6>
+                                                </div>
+                                                <div class="tbsimatupang sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>TB Simatupang</h6>
+                                                </div>
+                                                <div class="dharma sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Dharmawangsa</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-12">
+                                                <div class="mampang sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Mampang Prapatan</h6>
+                                                </div>
+                                                <div class="cilandak sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Cilandak</h6>
+                                                </div>
+                                                <div class="kebaylama sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Kebayoran Lama</h6>
+                                                </div>
+                                                <div class="kemang sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Kemang</h6>
+                                                </div>
+                                                <div class="pejaten sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Pejaten</h6>
+                                                </div>
+                                                <div class="tebet sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Tebet</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-12 pad-ri">
+                                                <div class="kebaybaru sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Kebayoran Baru</h6>
+                                                </div>
+                                                <div class="pasming sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Pasar Minggu</h6>
+                                                </div>
+                                                <div class="kembangan sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Kembangan</h6>
+                                                </div>
+                                                <div class="blokm sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Blok M</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jakpus-menu">
+                                    <div class="row bord-btm" data-toggle="collapse" data-target="#JakPus">
+                                        <div class="col-10">
+                                            <div class="jakpus head-adv-menu">
+                                                <span class="round-check"></span>
+                                                <h4>Jakarta Pusat</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="cvrn-jakpus">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="JakPus" class="collapse">
+                                        <div class="row mar-btm-20">
+                                            <div class="col-md-4 col-sm-12">
+                                                <div class="tanbang sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Tanah Abang</h6>
+                                                </div>
+                                                <div class="setbud-2 sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Setia Budi</h6>
+                                                </div>
+                                                <div class="cempaka sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Cempaka Putih</h6>
+                                                </div>
+                                                <div class="kebonsirih sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Kebon Sirih</h6>
+                                                </div>
+                                                <div class="harmony sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Harmony</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-12">
+                                                <div class="menteng sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Menteng</h6>
+                                                </div>
+                                                <div class="kemayoran sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Kemayoran</h6>
+                                                </div>
+                                                <div class="sawahbsr sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Sawah Besar</h6>
+                                                </div>
+                                                <div class="salemba sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Salemba</h6>
+                                                </div>
+                                                <div class="gmada sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Gajah Mada</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-12">
+                                                <div class="gambir sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Gambir</h6>
+                                                </div>
+                                                <div class="senen sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Senen</h6>
+                                                </div>
+                                                <div class="cikini sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Cikini</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jakbar-menu">
+                                    <div class="row bord-btm" data-toggle="collapse" data-target="#JakBar">
+                                        <div class="col-10">
+                                            <div class="jakbar head-adv-menu">
+                                                <span class="round-check"></span>
+                                                <h4>Jakarta Barat</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="cvrn-jakbar">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="JakBar" class="collapse">
+                                        <div class="row mar-btm-20">
+                                            <div class="col-md-4 col-sm-12 pad-ri">
+                                                <div class="cengkareng sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Cengkareng</h6>
+                                                </div>
+                                                <div class="grogpet sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Grogol Petamburan</h6>
+                                                </div>
+                                                <div class="tomang sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Tomang</h6>
+                                                </div>
+                                                <div class="daan sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Daan Mogot</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-12 pad-ri">
+                                                <div class="palmerah sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Palmerah</h6>
+                                                </div>
+                                                <div class="puri sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Puri</h6>
+                                                </div>
+                                                <div class="kembangan-1 sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Kembangan</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-12">
+                                                <div class="kebonjer sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Kebon Jeruk</h6>
+                                                </div>
+                                                <div class="grogol sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Grogol</h6>
+                                                </div>
+                                                <div class="kedoya sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Kedoya</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jaktim-menu">
+                                    <div class="row bord-btm" data-toggle="collapse" data-target="#JakTim">
+                                        <div class="col-10">
+                                            <div class="jaktim head-adv-menu">
+                                                <span class="round-check"></span>
+                                                <h4>Jakarta Timur</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="cvrn-jaktim">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="JakTim" class="collapse">
+                                        <div class="row mar-btm-20">
+                                            <div class="col-md-4 col-sm-12 pad-ri">
+                                                <div class="matraman sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Matraman</h6>
+                                                </div>
+                                                <div class="cemput sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Cempaka Putih</h6>
+                                                </div>
+                                                <div class="rawamang sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Rawamangun</h6>
+                                                </div>
+                                                <div class="kramjat sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Kramat Jati</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-12">
+                                                <div class="pulgad sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Pulo Gadung</h6>
+                                                </div>
+                                                <div class="tebet-2 sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Tebet</h6>
+                                                </div>
+                                                <div class="jtng sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Jatinegara</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-12">
+                                                <div class="pancoran-2 sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Pancoran</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jakut-menu">
+                                    <div class="row bord-btm" data-toggle="collapse" data-target="#JakUt">
+                                        <div class="col-10">
+                                            <div class="jakut head-adv-menu">
+                                                <span class="round-check"></span>
+                                                <h4>Jakarta Utara</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="cvrn-jakut">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="JakUt" class="collapse">
+                                        <div class="row mar-btm-20">
+                                            <div class="col-md-4 col-sm-12 pad-ri">
+                                                <div class="tanpri sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Tanjung Priok</h6>
+                                                </div>
+                                                <div class="penjar sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Penjaringan</h6>
+                                                </div>
+                                                <div class="muakar sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Muara Karang</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-12 pad-ri">
+                                                <div class="padem sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Pademangan</h6>
+                                                </div>
+                                                <div class="pik sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Pantai Indah Kapuk (PIK)</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-12">
+                                                <div class="kelapgad sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Kelapa Gading</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tangerang-menu">
+                                    <div class="row bord-btm" data-toggle="collapse" data-target="#Tangerang ">
+                                        <div class="col-10">
+                                            <div class="tangerang head-adv-menu">
+                                                <span class="round-check"></span>
+                                                <h4>Tangerang</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="cvrn-tangerang">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="Tangerang" class="collapse">
+                                        <div class="row mar-btm-20">
+                                            <div class="col-md-4 col-sm-12 pad-ri">
+                                                <div class="pinang sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Pinang</h6>
+                                                </div>
+                                                <div class="cengkareng-2 sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Cengkareng</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-12">
+                                                <div class="tangerang-2 sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Tangerang</h6>
+                                                </div>
+                                                <div class="bintaro sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Bintaro</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-12 pad-ri">
+                                                <div class="bsd sub-adv-menu">
+                                                    <span class="round-check"></span>
+                                                    <h6>Bumi Serpong Damai (BSD)</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 pad-le">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="adv-maps">
+                                        <img src="assets/img/map-adv-srch.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="menu-tags-adv">
+                                            <button class="tag-one">
+                                                <span class="pik">CBD</span>
+                                                <i class="fas fa-times"></i>
+                                            </button>
+                                            <button class="tag-one">
+                                                <span class="pik">Gatot Subroto</span>
+                                                <i class="fas fa-times"></i>
+                                            </button>
+                                            <button class="tag-one">
+                                                <span class="pik">Tanggerang</span>
+                                                <i class="fas fa-times"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ BREADCRUMB ----->
+        <div id="crumb-srch" class="crumb-srch">
+            <div class="separator-crumb"></div>
+            <div class="separator-crumb-2"></div>
+            <div class="container">
+                <div class="row resp-1170-1">
+                    <div class="col-md-8 separator-ri resp-1170-2">
+                        <div class="title-rslt rspv">
+                            <h4>Showing 138 Apartment</h4>
+                        </div>
+                        <div class="wrapper-bleft">
+                            <div class="wrapper-btnsw">
+                                <span class="buy-sw">BUY</span>
+                                <div class="toggle-sw">
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                                </div>
+                                <span class="lease-sw">LEASE</span>
+                            </div>
+                            <div class="wrapper-srch">
+                                <div class="input-group">
+                                    <form autocomplete="off">
+                                      <div class="autocomplete">
+                                        <input id="breadInput" class="myinput" type="text" name="myCountry" placeholder="&#xf041;">
+                                      </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="wrapper-neadv">
+                                <button class="btn btnby">
+                                    <img src="assets/img/icons/nearby-01.png">
+                                    <span class="nearby">NEARBY</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                            </div>
+                            <div class="wrapper-advsc">
+                                <button class="btn btndv">ADVANCE SEARCH
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 resp-1170-3">
+                        <div class="wrapper-bright">
+                            <div class="wrapper-maps">
+                                <a href="office-search-map.html">
+                                    <button class="btn btnmap">
+                                        <img src="assets/img/icons/maps-active-01.png">
+                                        <span class="maps">MAPS</span>
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="wrapper-grid">
+                                <a href="office-grid-search.html">
+                                    <button class="btn btngrid">
+                                        <i class="fas fa-th-large"></i>
+                                        <span class="grid">GRID</span>
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="wrapper-newest">
+                                <div class="dropdown">
+                                    <button class="btn btn-nwst dropdown-toggle" type="button" data-toggle="dropdown">
+                                        <img src="assets/img/icons/list-01.png">
+                                        <span class="newest">NEWEST</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><a href="#">NEWEST</a></li>
+                                      <li><a href="#">OLDEST</a></li>
+                                      <li><a href="#">POPULAR</a></li>
+                                    </ul>
+                                  </div>
+                                <!---<button class="btn btn-nwst">
+                                    <img src="assets/img/icons/list-01.png">
+                                    <span class="newest">NEWEST</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>--->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ NEARBY POP OVER ------>
+        <div id="nearby-maps" class="nearby-maps">
+            <div class="container">
+                <div class="close-nearby"></div>
+                <div class="wrapper-nearby">
+                    <div class="pop-nearby">
+                        <div class="arrow-up"></div>
+                        <h4>Distance <span clas="kilos"><i class="fas fa-chevron-left"></i> 3 Km</span></h4>
+                        <div class="container">
+                            <div class="slide-range-nby">
+                                <div class="line-range"></div>
+                                <div class="line-range-grey"></div>
+                                <div class="circle-1"></div>
+                                <div class="circle-2"></div>
+                                <div class="circle-3"></div>
+                                <div class="circle-4"></div>
+                                <div class="circle-5"></div>
+                            </div>
+                        </div>
+                        <div class="near-checkbox">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="shelter">
+                                        <span class="round-check"></span>
+                                        <h6>Shelter Busway</h6>
+                                    </div>
+                                    <div class="mall">
+                                        <span class="round-check"></span>
+                                        <h6>Mall</h6>
+                                    </div>
+                                    <div class="train">
+                                        <span class="round-check"></span>
+                                        <h6>Train Station</h6>
+                                    </div>
+                                    <div class="traditional">
+                                        <span class="round-check"></span>
+                                        <h6>Traditional Market</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="highway">
+                                        <span class="round-check"></span>
+                                        <h6>Highway Entrance</h6>
+                                    </div>
+                                    <div class="univ">
+                                        <span class="round-check"></span>
+                                        <h6>University</h6>
+                                    </div>
+                                    <div class="hospital">
+                                        <span class="round-check"></span>
+                                        <h6>Hospital</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ SHOWING OFFICE ------>
+        <div id="showoffice" class="showoffice">
+            <div class="container-scnd">
+                <div class="row">
+                    <div class="col-md-5 col-sm-12 pad-ri-srch">
+                        <div class="result">
+                            <div class="title-rslt">
+                                <h4>Showing 138 Apartment</h4>
+                            </div>
+                            <div class="wrapper-tagline">
+                                <button class="tag-one">
+                                    <span class="pik">Pantai Indah Kapuk</span>
+                                    <i class="fas fa-times"></i>
+                                </button>
+                                <button class="tag-two">
+                                    <span class="pik2">2BR</span>
+                                    <i class="fas fa-times"></i>
+                                </button>
+                                <button class="tag-three">
+                                    <span class="pik3">Swimming Pool</span>
+                                    <i class="fas fa-times"></i>
+                                </button>
+                                <button class="tag-four">
+                                    <span class="pik4">Highway Entrance</span>
+                                    <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                            <div class="row martp-m8">
+                                <div class="col-md-6 col-sm-12 pad-ri-office">
+                                    <div class="unit-card">
+                                        <img class="bg-card" src="assets/img/apartment-01.jpg">
+                                        <div class="grad-blue"></div>
+                                        <div class="btn-like">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="label-grade-ofc">
+                                            <a href="#">
+                                                <button class="labelgrade">GRADE A</button>
+                                            </a>
+                                        </div>
+                                        <div class="button-buy-ofc">
+                                            <a href="#">
+                                                <button class="btn btnbuy">BUY</button>
+                                            </a>
+                                        </div>
+                                        <div class="simil-detail" onclick="location.href='office-detail.html'">
+                                            <div class="wrapper-price">
+                                                <span class="start">Start from</span>
+                                                <h4><span class="sml">Rp.</span>2.500.000<span class="permonth">/Month</span></h4>
+                                            </div>
+                                            <div class="title-card-unit bord-bt">
+                                                <h4>Mayapada Tower</h4>
+                                                <span class="address">Jl. Jend. Sudirman Kav 28 28 Setiabudi, Jakarta Selatan.</span>
+                                            </div>
+                                            <div class="menu-dtl">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="atm">
+                                                            <img src="assets/img/icons/lil-atm-office.png">
+                                                            <span class="capt">ATM</span>
+                                                        </div>
+                                                        <div class="minimarket">
+                                                            <img src="assets/img/icons/lil-minimarket-office.png">
+                                                            <span class="capt">Mini Market</span>
+                                                        </div>
+                                                        <div class="foodcourt">
+                                                            <img src="assets/img/icons/lil-foodcrt-office.png">
+                                                            <span class="capt">Foodcourt</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="resto">
+                                                            <img src="assets/img/icons/lil-resto-office.png">
+                                                            <span class="capt">Restaurant</span>
+                                                        </div>
+                                                        <div class="bank">
+                                                            <img src="assets/img/icons/lil-bank-office.png">
+                                                            <span class="capt">Bank</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 resp-m-top pad-le-office">
+                                    <div class="unit-card">
+                                        <img class="bg-card" src="assets/img/apartment-01.jpg">
+                                        <div class="grad-blue"></div>
+                                        <div class="btn-like-2">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="label-grade-ofc">
+                                            <a href="#">
+                                                <button class="labelgrade">GRADE A</button>
+                                            </a>
+                                        </div>
+                                        <div class="button-buy-ofc">
+                                            <a href="#">
+                                                <button class="btn btnbuy">BUY</button>
+                                            </a>
+                                        </div>
+                                        <div class="simil-detail" onclick="location.href='office-detail.html'">
+                                            <div class="wrapper-price">
+                                                <span class="start">Start from</span>
+                                                <h4><span class="sml">Rp.</span>2.500.000<span class="permonth">/Month</span></h4>
+                                            </div>
+                                            <div class="title-card-unit bord-bt">
+                                                <h4>Mayapada Tower</h4>
+                                                <span class="address">Jl. Jend. Sudirman Kav 28 28 Setiabudi, Jakarta Selatan.</span>
+                                            </div>
+                                            <div class="menu-dtl">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="atm">
+                                                            <img src="assets/img/icons/lil-atm-office.png">
+                                                            <span class="capt">ATM</span>
+                                                        </div>
+                                                        <div class="minimarket">
+                                                            <img src="assets/img/icons/lil-minimarket-office.png">
+                                                            <span class="capt">Mini Market</span>
+                                                        </div>
+                                                        <div class="foodcourt">
+                                                            <img src="assets/img/icons/lil-foodcrt-office.png">
+                                                            <span class="capt">Fodcourt</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="resto">
+                                                            <img src="assets/img/icons/lil-resto-office.png">
+                                                            <span class="capt">Restaurant</span>
+                                                        </div>
+                                                        <div class="bank">
+                                                            <img src="assets/img/icons/lil-bank-office.png">
+                                                            <span class="capt">Bank</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row martp-m8">
+                                <div class="col-md-6 col-sm-12 resp-m-top pad-ri-office">
+                                    <div class="unit-card">
+                                        <img class="bg-card" src="assets/img/apartment-01.jpg">
+                                        <div class="grad-blue"></div>
+                                        <div class="btn-like-3">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="label-grade-ofc">
+                                            <a href="#">
+                                                <button class="labelgrade">GRADE A</button>
+                                            </a>
+                                        </div>
+                                        <div class="button-buy-ofc">
+                                            <a href="#">
+                                                <button class="btn btnbuy">BUY</button>
+                                            </a>
+                                        </div>
+                                        <div class="simil-detail"  onclick="location.href='office-detail.html'">
+                                            <div class="wrapper-price">
+                                                <span class="start">Start from</span>
+                                                <h4><span class="sml">Rp.</span>2.500.000<span class="permonth">/Month</span></h4>
+                                            </div>
+                                            <div class="title-card-unit bord-bt">
+                                                <h4>Mayapada Tower</h4>
+                                                <span class="address">Jl. Jend. Sudirman Kav 28 28 Setiabudi, Jakarta Selatan.</span>
+                                            </div>
+                                            <div class="menu-dtl">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="atm">
+                                                            <img src="assets/img/icons/lil-atm-office.png">
+                                                            <span class="capt">ATM</span>
+                                                        </div>
+                                                        <div class="minimarket">
+                                                            <img src="assets/img/icons/lil-minimarket-office.png">
+                                                            <span class="capt">Mini Market</span>
+                                                        </div>
+                                                        <div class="foodcourt">
+                                                            <img src="assets/img/icons/lil-foodcrt-office.png">
+                                                            <span class="capt">Fodcourt</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="resto">
+                                                            <img src="assets/img/icons/lil-resto-office.png">
+                                                            <span class="capt">Restaurant</span>
+                                                        </div>
+                                                        <div class="bank">
+                                                            <img src="assets/img/icons/lil-bank-office.png">
+                                                            <span class="capt">Bank</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 resp-m-top pad-le-office">
+                                    <div class="unit-card">
+                                        <img class="bg-card" src="assets/img/apartment-01.jpg">
+                                        <div class="grad-blue"></div>
+                                        <div class="btn-like-4">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="label-grade-ofc">
+                                            <a href="#">
+                                                <button class="labelgrade">GRADE A</button>
+                                            </a>
+                                        </div>
+                                        <div class="button-buy-ofc">
+                                            <a href="#">
+                                                <button class="btn btnbuy">BUY</button>
+                                            </a>
+                                        </div>
+                                        <div class="simil-detail" onclick="location.href='office-detail.html'">
+                                            <div class="wrapper-price">
+                                                <span class="start">Start from</span>
+                                                <h4><span class="sml">Rp.</span>2.500.000<span class="permonth">/Month</span></h4>
+                                            </div>
+                                            <div class="title-card-unit bord-bt">
+                                                <h4>Mayapada Tower</h4>
+                                                <span class="address">Jl. Jend. Sudirman Kav 28 28 Setiabudi, Jakarta Selatan.</span>
+                                            </div>
+                                            <div class="menu-dtl">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="atm">
+                                                            <img src="assets/img/icons/lil-atm-office.png">
+                                                            <span class="capt">ATM</span>
+                                                        </div>
+                                                        <div class="minimarket">
+                                                            <img src="assets/img/icons/lil-minimarket-office.png">
+                                                            <span class="capt">Mini Market</span>
+                                                        </div>
+                                                        <div class="foodcourt">
+                                                            <img src="assets/img/icons/lil-foodcrt-office.png">
+                                                            <span class="capt">Fodcourt</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="resto">
+                                                            <img src="assets/img/icons/lil-resto-office.png">
+                                                            <span class="capt">Restaurant</span>
+                                                        </div>
+                                                        <div class="bank">
+                                                            <img src="assets/img/icons/lil-bank-office.png">
+                                                            <span class="capt">Bank</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-12">
+                        <div class="img-maps">
+                            <img src="assets/img/maps-01.jpg">
+                            <div class="content-maps">
+                                <img src="assets/img/office-blue.jpg">
+                                <h5>Office Blue</h5>
+                                <span class="km">2.8 Km</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ FOOTER ------>
+        <div id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12">
+                                <div class="foot-uper">
+                                    <h6>OFFICE</h6>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell/Lease Your Space</a>
+                                </div>
+                                <div class="space-info disp-768">
+                                    <div class="row">
+                                        <div class="col-2 flex-o">
+                                            <img src="assets/img/icons/loct.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">Graha MIR lt. 9, Jl. Pemuda No. 9, Rawamangun,
+                                            Jakarta Timur, Daerah Khusus Ibukota Jakarta</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 flex-o">
+                                            <img src="assets/img/icons/call.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">Customer Service:  021-2956 9852</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 flex-o">
+                                            <img src="assets/img/icons/mail.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">info@spacestock.com</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 flex-o">
+                                            <img src="assets/img/icons/whatsapp.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">+62 821 1717 7710</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="foot-bottom">
+                                    <h6>FOLLOW US</h6>
+                                    <a href="#"><img src="assets/img/icons/twitter.png"></a>
+                                    <a href="#"><img src="assets/img/icons/instagram.png"></a>
+                                    <a href="#"><img src="assets/img/icons/linkedin.png"></a>
+                                    <a href="#"><img src="assets/img/icons/fb.png" class="last-socmed"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="foot-apart">
+                                    <h6>APARTMENTS</h6>
+                                    <a href="#">Buy Apartment</a>
+                                    <a href="#">Lease Apartment</a>
+                                    <a href="#">Sell/Lease Your Unit</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="foot-help">
+                                    <h6>HELP</h6>
+                                    <a href="terms-and-condition.html">Terms & Condition</a>
+                                    <a href="privacy-poilcy.html">Privacy Policy</a>
+                                    <a href="faq.html">FAQ</a>
+                                    <a href="contact-us.html">Contact Us</a>
+                                    <a href="#">Blog</a>
+                                    <a href="building-directory.html">Building Directory</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="foot-info">
+                            <img src="assets/img/logo.png">
+                            <div class="space-info">
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/loct.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">Graha MIR lt. 9, Jl. Pemuda No. 9, Rawamangun,
+                                        Jakarta Timur, Daerah Khusus Ibukota Jakarta</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/call.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">Customer Service:  021-2956 9852</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/mail.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">info@spacestock.com</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/whatsapp.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">+62 821 1717 7710</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ FOOTER 2 ------>
+        <div id="footer2" class="footer2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="last-foot">
+                            <p>2018 © PT. Paragon Sewa Kantor | All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="assets/jquery-slider/slider.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/select2.full.min.js"></script>
+        <script src="assets/js/general.js"></script>
+        <script src="assets/easy-autocomplete/jquery.easy-autocomplete.js"></script>
+        <script>
+        var options = {
+            data: 
+            {
+	"marvel": [
+		{"character": "Superman", "realName": "Jakarta Selatan"},
+		{"character": "Batman", "realName": "Bruce Wayne"},
+		{"character": "Wonder Woman", "realName": "Diana Prince"}
+	],
+	"dc-comics": [
+		{"character": "Daredevil", "realName": "Matt Murdock"},
+		{"character": "Captain America", "realName": "Steven Rogers"},
+		{"character": "Spider-Man", "realName": "Peter Parker"}
+	]
+}
+            ,
+            categories: [{
+                listLocation: "marvel",
+                maxNumberOfElements: 4,
+                header: "Most Recent Search"
+            }, {
+                listLocation: "dc-comics",
+                maxNumberOfElements: 4,
+                header: "Office"
+            }],
+
+            getValue: function(element) {
+                return element.character;
+            },
+
+            template: {
+                type: "description",
+                fields: {
+                    description: "realName"
+                }
+            },
+
+            list: {
+                maxNumberOfElements: 8,
+                match: {
+                    enabled: true
+                },
+                sort: {
+                    enabled: true
+                }
+            },
+
+            theme: "square"
+        };
+
+        $(".example-heroes1").easyAutocomplete(options);</script>
+        <script>
+          $( function() {
+            $( "#slider-range" ).slider({
+              range: true,
+              min: 0,
+              max: 500,
+              values: [ 75, 300 ],
+              slide: function( event, ui ) {
+                $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+              }
+            });
+            $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+              " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+          } );
+          </script>
+    </body>
+</html>

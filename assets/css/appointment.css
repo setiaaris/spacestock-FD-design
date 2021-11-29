@@ -1,0 +1,305 @@
+/*------------FAVORITES---------*/
+
+/*------GLOBAL------*/
+.pad-ri-std {
+    padding-right: 0;
+}
+
+.pad-le-std {
+    padding-left: 0;
+}
+
+/*------BREADCRUMB------*/
+.bc-fav .wrapper-bc-fav {
+    margin: 20px 0;
+}
+
+.bc-fav .wrapper-bc-fav p, .bc-fav .wrapper-bc-fav a {
+    color: #133555;
+}
+
+.bc-fav .wrapper-bc-fav i {
+    margin: auto 4px;
+    text-align: center;
+    font-size: smaller;
+}
+
+/*------TITLE FAVORITES------*/
+.title-fav .bord-btm {
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.title-fav h2 {
+    float: left;
+}
+
+.title-fav .wrapper-btn-vimaps {
+    margin: auto;
+    float: right;
+}
+
+.title-fav .btn-vimaps {
+    width: 160px;
+    height: 40px;
+    background: transparent;
+    outline: none;
+    border: 1px solid #143655;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #143655;
+    margin: auto 4px;
+}
+
+/*------FAVORITE LIST------*/
+.fav-list {
+    margin: 20px auto;
+    width: 100%;
+}
+
+.one-fav {
+    margin: auto auto 20px auto;
+}
+
+.unit-card {
+    width: 100%;
+    height: 226px;
+    padding: 10px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.unit-card img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 226px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.unit-card .filter-img {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #133555 180%);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 226px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.unit-card .btn-like {
+    position: absolute;
+    top: 10px;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.unit-card .btn-like i {
+    font-size: 22px;
+    color: #fff;
+    transition: all 200ms ease-in-out;
+}
+
+.unit-card .btn-like i.active {
+    color: #ef1c26;
+}
+
+.unit-card .btn-like-2 {
+    position: absolute;
+    top: 10px;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.unit-card .btn-like-2 i {
+    font-size: 22px;
+    color: #fff;
+    transition: all 200ms ease-in-out;
+}
+
+.unit-card .btn-like-2 i.active {
+    color: #ef1c26;
+}
+
+.label-grade-ofc {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.label-grade-ofc .labelgrade {
+    color: #fff;
+    background: #fdbf36;
+    font-size: 12px;
+    font-weight: 500;
+    width: 80px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.button-buy-ofc {
+    position: absolute;
+    top: 44px;
+    right: 0;
+}
+
+.button-buy-ofc .btnbuy {
+    color: #fff;
+    background: #133555;
+    font-size: 14px;
+    font-weight: 500;
+    width: 80px;
+    height: 40px;
+}
+
+.one-fav .button-buy-ofc {
+    top: 0;
+}
+
+.fav-list .title-head {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.fav-list .address {
+    font-size: 14px;
+}
+
+.fav-details {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.fav-details p {
+    font-size: 12px;
+}
+
+.fav-details .studio img, .fav-details .bedroom img, .fav-details .bathroom img {
+    width: 25px;
+    height: auto;
+}
+
+.fav-details .studio, .fav-details .bedroom {
+    border-right: 1px solid #ddd;
+}
+
+.fav-details .tab-fav {
+    border: 1px solid #ddd;
+}
+
+.tab-fav {
+    border: 1px solid #ddd;
+    padding: 12px 2px 2px 4px;
+}
+
+.tab-fav .title {
+    font-size: 14px;
+}
+
+.tab-fav .content {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.tab-fav.price {
+    border-right: none;
+    border-bottom: none;
+}
+
+.tab-fav.land {
+    border-right: none;
+}
+
+.tab-fav.building {
+    border-bottom: none
+}
+
+.wrapper-btn-sched {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.wrapper-btn-sched .btn-sched {
+    width: 180px;
+    height: 38px;
+    background: #133555;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.mar-btm-14 {
+    margin-bottom: 14px;
+}
+.room-status{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.room-status small{
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+}
+.room-status img{
+    margin: auto;
+    display: flex;
+}
+.room-status .border-right{
+    border-right: 1px solid #000!important;
+}
+p.address-schedule{
+    margin: 0px 14px 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+img.top-2{
+    margin-top: 2px;
+}
+img.top-3{
+    margin-top: -5px;
+}
+img.top-4{
+    margin-top: -4px;
+}
+.room-status small span{
+    text-transform: lowercase;
+}
+.btn-next, .btn-back{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

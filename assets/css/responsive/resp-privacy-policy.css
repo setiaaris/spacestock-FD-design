@@ -1,0 +1,56 @@
+/*------PRIVACY POLICY------*/
+@media (max-width: 768px) {
+    .pad-le-blog {
+        padding-left: 15px;
+    }
+
+    .pad-ri-blog {
+        padding-right: 15px;
+    }
+    
+    .card-blog {
+        padding-bottom: 20px;
+    }
+
+    .card-blog .blog img {
+        width: 100%;
+        height: 168px;
+        object-fit: cover;
+    }
+    
+    .border-dot-mar20 {
+        border-bottom: 1px solid #ddd;
+        border-bottom-style: dashed;
+        margin: 20px auto;
+    }
+    
+    .title-more, .title-news {
+        margin-top: 40px;
+    }
+    
+    .body-privacy h2 {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

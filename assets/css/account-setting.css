@@ -1,0 +1,323 @@
+/*------------ ACCOUNT SETTING ------------*/
+
+/*------GLOBAL IN THIS PAGE ONLY------*/
+.five {
+    font-weight: 500;
+}
+
+.pad-ri-accset {
+    padding-right: 8px;
+}
+
+.pad-le-accset {
+    padding-left: 8px;
+}
+
+.pad-ri-blog {
+    padding-right: 6px;
+}
+
+.pad-le-blog {
+    padding-left: 6px;
+}
+
+.martp-min12 {
+    margin-top: -12px;
+}
+
+.border-dot {
+    border-bottom: 1px solid #ddd;
+    border-bottom-style: dashed;
+    margin: 14px auto;
+}
+
+.border-dot-mar20 {
+    border-bottom: 1px solid #ddd;
+    border-bottom-style: dashed;
+    margin: auto auto 20px auto;
+}
+
+.bord-bt {
+    border-top: 1px solid #ddd;
+    padding: 20px 0 0 0;
+}
+
+.bord-btm {
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+/*------BREADCRUMB------*/
+.bc-accset .wrapper-bc-accset {
+    margin: 20px 0;
+}
+
+.bc-accset .wrapper-bc-accset p, .bc-accset .wrapper-bc-accset a {
+    color: #133555;
+}
+
+.bc-accset .wrapper-bc-accset i {
+    margin: auto 4px;
+    text-align: center;
+    font-size: smaller;
+}
+
+.title-bd-accset .bord-btm {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+/*------ACCOUNT SETTING------*/
+.tab-accset {
+    margin: 20px auto 40px auto;
+    width: 100%;
+}
+
+.body-accset .upload {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 12px 0 0 12px;
+    padding: 57px 20px;
+    border-right: none;
+}
+
+.body-accset .upload img {
+    width: 98px;
+    height: 98px;
+    object-fit: cover;
+}
+
+.body-accset .upload .btn-upload {
+    margin: 20px auto;
+}
+
+.btn-upload .btn-up {
+    color: #133555;
+    border: 1px solid #133555;
+    outline: none;
+    background: transparent;
+    padding: 4px 20px;
+    border-radius: 16px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.wrapper-coloumns {
+    width: 100%;
+    margin: auto;
+    background: #eef2f5;
+    border: 1px solid #ddd;
+    padding: 21.5px 20px;
+    border-left: 1px solid #eef2f5;
+    border-radius: 0 12px 12px 0;
+}
+
+.wrapper-btnsave {
+    margin: 32px auto auto auto;
+}
+
+.wrapper-coloumns .btnsave {
+    width: 100%;
+    height: 46px;
+    color: #fff;
+    background: #133555;
+    outline: none;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*------LINKED ACCOUNT------*/
+.linked-acc {
+    margin: 20px auto 40px auto;
+    width: 100%;
+}
+
+.linked-acc .connect-g {
+    width: 100%;
+    height: 46px;
+    color: #fff;
+    background: #133555;
+    outline: none;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*------LISTING UPDATE------*/
+
+.listing-options {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.radio {
+  display: block;
+  cursor: pointer;
+  user-select: none;
+  text-align: left;
+}
+
+.radio + .radio {
+  margin-top: 7px;
+}
+
+.radio input {
+  display: none;
+}
+
+.radio input + span {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+}
+
+.radio input + span:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  border-radius: 50%;
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #133555;
+  background: #fff;
+}
+
+.radio input + span:after {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: #133555;
+  position: absolute;
+  border-radius: 50%;
+  top: 6px;
+  left: 4px;
+  opacity: 0;
+  transform: scale(0, 0);
+  transition: all 0.2s cubic-bezier(0.64, 0.57, 0.67, 1.53);
+}
+
+.radio input:checked + span:after {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+/* END CHECKBOX STYLE */
+
+.unsub a {
+    font-style: italic;
+    text-decoration: underline;
+    color: #133555;
+}
+
+/*------CLOSE ACCOUNT------*/
+.close-acc {
+    margin: auto auto 40px auto;
+    width: 100%;
+}
+
+.close-acc span {
+    font-style: italic;
+    color: #133555;
+}
+
+.close-acc span a {
+    font-style: italic;
+    text-decoration: underline;
+    color: #133555;
+}
+
+
+/*------CONNECTED TO GMAIL------*/
+.linked-acc .connected-g {
+    width: 100%;
+    height: auto;
+    color: #fff;
+    background: #f4403d;
+    background: -moz-linear-gradient(top, #f4403d 18%, #d33f34 100%);
+    background: -webkit-linear-gradient(top, #f4403d 18%,#d33f34 100%);
+    background: linear-gradient(to bottom, #f4403d 18%,#d33f34 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4403d', endColorstr='#d33f34',GradientType=0 );
+    outline: none;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 12px;
+}
+
+.linked-acc .connected-g p {
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    word-break: break-word;
+}
+
+.linked-acc .connected-g .gmaps {
+    margin: auto;
+    width: 100%;
+}
+
+.linked-acc .connected-g .gmaps i {
+    font-size: 22px;
+    text-align: center;
+}
+
+.linked-acc .close-g {
+    margin: 10px 0 0 8px;
+    width: 100%;
+}
+
+.linked-acc .close-g i {
+    vertical-align: middle;
+    background: #133555;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*------EDITED------*/
+.title-bd-accset h2, h3 {
+    color: #133555;
+}
+
+.wrapper-coloumns .changepass {
+    margin-top: 20px;
+}
+
+.wrapper-coloumns .changepass a {
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

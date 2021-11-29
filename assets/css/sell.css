@@ -1,0 +1,187 @@
+/*------------ SELL PAGE ------------*/
+
+/*------HEADER------*/
+.sell-space {
+    width: 100%;
+    height: auto;
+    background: url(../img/bgheader.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    text-align: center;
+    padding: 56px;
+    background-attachment: fixed;
+}
+
+.sell-space .wrapper-title {
+    width: 58%;
+    text-align: center;
+    margin: auto;
+}
+
+.sell-space h1 {
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    font-size: 32px;
+}
+
+/*------FACT------*/
+.fact-sell {
+    background: #133555;
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+}
+
+.fact-sell h2 {
+    color: #fff;
+}
+
+.fact-sell p {
+    color: #fff;
+}
+
+.btn-book {
+    color: #133555;
+    background: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 224px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.wrapper-img-fact {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.wrapper-img-fact img {
+    width: 100%;
+}
+
+/*------YOU CAN EXPECT------*/
+.expect-sell {
+    padding: 40px 0;
+    width: 100%;
+    margin: auto;
+}
+
+.expect-sell h2 {
+    text-align: center;
+    color: black;
+}
+
+.expect-sell .line-title {
+    width: 120px;
+    height: 2px;
+    text-align: center;
+    margin: auto;
+    background: black;
+}
+
+.expect-sell .three-icons {
+    margin-top: 20px;
+}
+
+.expect-sell .wrapp-icon {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 20px auto;
+    transition: all 300ms ease-in-out;
+    box-shadow: 4px 4px 22px rgba(150, 150, 150, 0.10);
+    padding-top: 84px;
+    border-radius: 4px;
+}
+
+.title-wrapp {
+    margin: 20px auto;
+    width: 50%;
+}
+
+.title-wrapp .icon-capt {
+    font-weight: 500;
+    font-size: 16px;
+    color: #133555;
+}
+
+/*------BOOK AN APPOINTMENT------*/
+.book-appoint {
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+    background: #eef1f6;
+    margin: 20px auto auto auto
+}
+
+.card-book {
+    background: #fff;
+    border-radius: 6px;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapp-book-img img {
+    width: 100%;
+    height: 228px;
+    object-fit: cover;
+    border-radius: 4px 4px 0 0;
+}
+
+.wrapp-book-capt {
+    margin: 20px auto;
+    padding: 0 0 20px 0;
+    text-align: center;
+}
+
+.wrapp-book-capt h3 {
+    font-size: 24px;
+}
+
+.btn-book-2 {
+    color: #fff;
+    background: #133555;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 224px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>FAQ</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/select2.min.css">
+        <link rel="stylesheet" href="assets/css/general.css">
+        <link rel="stylesheet" href="assets/css/responsive/resp-general.css">
+        <link rel="stylesheet" href="assets/css/faq.css">
+        <link rel="stylesheet" href="assets/css/responsive/resp-faq.css">
+        <link rel="stylesheet" href="assets/easy-autocomplete/autocomplete.css">
+        <link rel="stylesheet" href="assets/easy-autocomplete/autocomplete-themes.css">
+    </head>
+    
+    <body>
+        
+        <!------ NAVBAR ------>
+        <nav>
+            <div class="close-dropdown"></div>
+            <div class="close-dropdown-2"></div>
+            <div class="close-dropdown-3"></div>
+            <div class="close-dropdown-4"></div>
+            <div id="mynavbar" class="mynavbar navbar-fixed-top">
+                <div class="toggle-nav">
+                    <div class="span1" id="one"></div>
+                    <div class="span2" id="two"></div>
+                    <div class="span3" id="three"></div>
+                </div>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/img/logo.png">
+                    </a>
+                </div>
+                <div class="wrapper-resp-nav">
+                    <div class="wrapper-profile dropdown">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="display-name" data-toggle="collapse" data-target="#DropRspnsv">
+                                    <div class="wrapper-name">
+                                        <span class="name">Alexanderousy</span>
+                                    </div>
+                                    <i class="fas fa-chevron-down"></i>
+                                    <div class="ico-profile">
+                                        <a href="#">
+                                            <img src="assets/img/icons/profile.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-content profile">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                            <div class="bottom-bl"></div>
+                       </div>
+                       <div id="DropRspnsv" class="dropdown-rspnsv collapse">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                       </div>
+                    </div>
+                    <div class="wrapper-profile resp dropdown">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="display-name">
+                                    <div class="ico-profile">
+                                        <a href="#">
+                                            <img src="assets/img/icons/profile.png">
+                                        </a>
+                                    </div>
+                                    <div class="wrapper-name">
+                                        <span class="name">Alexanderousy</span>
+                                    </div>
+                                    <div class="chev-profile" data-toggle="collapse" data-target="#DropRspnsvProfile">
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-content profile">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                            <div class="bottom-bl"></div>
+                       </div>
+                       <div id="DropRspnsvProfile" class="dropdown-rspnsv profile collapse">
+                            <div class="arrow-up"></div>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="account-setting.html">Account Setting</a>
+                            <a href="index.html">Sign out</a>
+                       </div>
+                    </div>
+                    <div class="wrapper-spt">
+                        <div class="opt-language">
+                            <div class="dropdown drop-lang">
+                                <button class="dropbtn lang">ID 
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                                <div class="dropdown-content lang">
+                                    <div class="arrow-up"></div>
+                                    <a href="#"><img src="assets/img/icons/indonesia.png"> ID</a>
+                                    <a href="#"><img src="assets/img/icons/united-kingdom.png"> EN</a>
+                                    <div class="bottom-bl"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-call">
+                            <img src="assets/img/icons/whatsapp.png">
+                            <span class="phone-call"><a href="#">+62 821 1717 7710</a></span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="dropdown">
+                               <button class="dropbtn office" data-toggle="collapse" data-target="#DropRspnsvOffice"><span class="nav-office" onclick="location.href='index-office.html'">OFFICE</span> 
+                                   <i class="fas fa-chevron-down"></i>
+                               </button>
+                               <div class="dropdown-content office">
+                                    <div class="arrow-up"></div>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell & Lease Your Space</a>
+                                    <div class="bottom-bl"></div>
+                               </div>
+                               <div id="DropRspnsvOffice" class="dropdown-rspnsv collapse">
+                                    <div class="arrow-up"></div>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell & Lease Your Space</a>
+                               </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                               <button class="dropbtn apartment" data-toggle="collapse" data-target="#DropRspnsvApart"><span class="nav-apart" onclick="location.href='index-apartment.html'">APARTMENTS</span> 
+                                   <i class="fas fa-chevron-down"></i>
+                               </button>
+                               <div class="dropdown-content apartment">
+                                 <div class="arrow-up"></div>
+                                    <a href="#">Buy Apartment</a>
+                                    <a href="apartment-detail-lease.html">Lease Apartment</a>
+                                    <a href="#">Sell & Lease Your Unit</a>
+                                 <div class="bottom-bl"></div>
+                               </div>
+                                <div id="DropRspnsvApart" class="dropdown-rspnsv collapse">
+                                    <div class="arrow-up"></div>
+                                    <a href="#">Buy Apartment</a>
+                                    <a href="apartment-detail-lease.html">Lease Apartment</a>
+                                    <a href="#">Sell & Lease Your Unit</a>
+                               </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="li-news" href="#">NEWS</a>
+                        </li>
+                    </ul>
+                    <div class="opt-language rspv">
+                        <div class="dropdown drop-lang">
+                            <button class="dropbtn lang" data-toggle="collapse" data-target="#DropRspnsvLang">ID 
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="dropdown-content lang">
+                                <div class="arrow-up"></div>
+                                <a href="#"><img src="assets/img/icons/indonesia.png"> ID</a>
+                                <a href="#"><img src="assets/img/icons/united-kingdom.png"> EN</a>
+                                <div class="bottom-bl"></div>
+                            </div>
+                            <div id="DropRspnsvLang" class="dropdown-rspnsv-lang collapse">
+                                <div class="arrow-up"></div>
+                                <a href="#"><img src="assets/img/icons/indonesia.png"> ID</a>
+                                <a href="#"><img src="assets/img/icons/united-kingdom.png"> EN</a>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="main-call rspv">
+                        <img src="assets/img/icons/whatsapp.png">
+                        <span class="phone-call"><a href="#">+62 821 1717 7710</a></span>
+                    </div>
+                </div>
+                <div class="wrapper-search-nav">
+                    <div class="search-navbar">
+                        <form autocomplete="off">
+                          <div class="">
+                            <input id="" class="myinput example-heroes1" type="text" name="myCountry" placeholder="">
+                            <div class="ico-srch">
+                                <i class="fas fa-search"></i>
+                            </div>
+                          </div>
+                        </form>
+                        <button class="btn-buys">BUY</button>
+                        <button class="btn-leases">LEASE</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <!------ BREADCRUMB ------>
+        <div id="bc-faq" class="bc-faq">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="wrapper-bc-faq">
+                            <p><i class="fas fa-circle"></i> <a href="index.html">Home</a> > <a href="faq.html">FAQ</a></p>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ BODY FAQ ------>
+        <div id="body-faq" class="body-faq">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="title-bd-faq bord-btm">
+                                    <h2>FAQ</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrapper-faq bord-btm">
+                            <div class="faq-one" data-toggle="collapse" data-target="#AswOne">
+                                <div class="row">
+                                    <div class="col-10">
+                                        <div class="q-one">
+                                            <p>What is SpaceStock?</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="cvrn-faq-one">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="AswOne" class="asw-one collapse">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>We don’t announce new markets until we are ready to serve customers. You can sign up to receive an
+                                        email from us when we expand to any area you are interested in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq-two bord-bt" data-toggle="collapse" data-target="#AswTwo">
+                                <div class="row">
+                                    <div class="col-10">
+                                        <div class="q-two">
+                                            <p>Which areas does SpaceStock currently serve?</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="cvrn-faq-two">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="AswTwo" class="asw-two collapse">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>We don’t announce new markets until we are ready to serve customers. You can sign up to receive an
+                                        email from us when we expand to any area you are interested in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq-three bord-bt" data-toggle="collapse" data-target="#AswThree">
+                                <div class="row">
+                                    <div class="col-10">
+                                        <div class="q-three">
+                                            <p>Where is SpaceStock going to expand to next?</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="cvrn-faq-three">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="AswThree" class="asw-three collapse">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>We don’t announce new markets until we are ready to serve customers. You can sign up to receive an
+                                        email from us when we expand to any area you are interested in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq-four bord-bt" data-toggle="collapse" data-target="#AswFour">
+                                <div class="row">
+                                    <div class="col-10">
+                                        <div class="q-four">
+                                            <p>Where does the name SpaceStock come from?</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="cvrn-faq-four">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="AswFour" class="asw-four collapse">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>We don’t announce new markets until we are ready to serve customers. You can sign up to receive an
+                                        email from us when we expand to any area you are interested in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq-five bord-bt" data-toggle="collapse" data-target="#AswFive">
+                                <div class="row">
+                                    <div class="col-10">
+                                        <div class="q-five">
+                                            <p>How long has SpaceStock been around?</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="cvrn-faq-five">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="AswFive" class="asw-five collapse">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>We don’t announce new markets until we are ready to serve customers. You can sign up to receive an
+                                        email from us when we expand to any area you are interested in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq-six bord-bt" data-toggle="collapse" data-target="#AswSix">
+                                <div class="row">
+                                    <div class="col-10">
+                                        <div class="q-six">
+                                            <p>Can I buy a spaces with SpaceStock?</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="cvrn-faq-six">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="AswSix" class="asw-six collapse">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>We don’t announce new markets until we are ready to serve customers. You can sign up to receive an
+                                        email from us when we expand to any area you are interested in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq-seven bord-bt" data-toggle="collapse" data-target="#AswSeven">
+                                <div class="row">
+                                    <div class="col-10">
+                                        <div class="q-seven">
+                                            <p>Can I sell a spaces with SpaceStock?</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="cvrn-faq-seven">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="AswSeven" class="asw-seven collapse">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>We don’t announce new markets until we are ready to serve customers. You can sign up to receive an
+                                        email from us when we expand to any area you are interested in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq-eight bord-bt" data-toggle="collapse" data-target="#AswEight">
+                                <div class="row">
+                                    <div class="col-10">
+                                        <div class="q-eight">
+                                            <p>Can I lease a spaces with SpaceStock?</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="cvrn-faq-eight">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="AswEight" class="asw-eight collapse">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>We don’t announce new markets until we are ready to serve customers. You can sign up to receive an
+                                        email from us when we expand to any area you are interested in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq-nine bord-bt" data-toggle="collapse" data-target="#AswNine">
+                                <div class="row">
+                                    <div class="col-10">
+                                        <div class="q-nine">
+                                            <p>What is the SpaceStock commission refund?</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="cvrn-faq-nine">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="AswNine" class="asw-nine collapse">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>We don’t announce new markets until we are ready to serve customers. You can sign up to receive an
+                                        email from us when we expand to any area you are interested in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq-ten bord-bt" data-toggle="collapse" data-target="#AswTen">
+                                <div class="row">
+                                    <div class="col-10">
+                                        <div class="q-ten">
+                                            <p>How much does SpaceStock charge sellers?</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="cvrn-faq-ten">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="AswTen" class="asw-ten collapse">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>We don’t announce new markets until we are ready to serve customers. You can sign up to receive an
+                                        email from us when we expand to any area you are interested in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq-eleven bord-bt" data-toggle="collapse" data-target="#AswEleven">
+                                <div class="row">
+                                    <div class="col-10">
+                                        <div class="q-eleven">
+                                            <p>How can I ask question about SpaceStock or the market?</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="cvrn-faq-eleven">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="AswEleven" class="asw-eleven collapse">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>We don’t announce new markets until we are ready to serve customers. You can sign up to receive an
+                                        email from us when we expand to any area you are interested in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq-twelve bord-bt" data-toggle="collapse" data-target="#AswTwelve">
+                                <div class="row">
+                                    <div class="col-10">
+                                        <div class="q-twelve">
+                                            <p>How does SpaceStock make money?</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="cvrn-faq-twelve">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="AswTwelve" class="asw-twelve collapse">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>We don’t announce new markets until we are ready to serve customers. You can sign up to receive an
+                                        email from us when we expand to any area you are interested in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <div class="title-more bord-btm">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <span class="more">More About</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="faq-list">
+                            <div class="row">
+                                <div class="col-2">
+                                    <i class="fas fa-circle"></i>
+                                </div>
+                                <div class="col-10 pad-le-faq">
+                                    <p><a href="terms-and-condition.html">Terms & Condition</a></p>
+                                </div>
+                            </div>
+                            <div class="row martp-min12">
+                                <div class="col-2">
+                                    <i class="fas fa-circle"></i>
+                                </div>
+                                <div class="col-10 pad-le-faq">
+                                    <p><a href="privacy-poilcy.html">Privacy Policy</a></p>
+                                </div>
+                            </div>
+                            <div class="row martp-min12">
+                                <div class="col-2">
+                                    <i class="fas fa-circle"></i>
+                                </div>
+                                <div class="col-10 pad-le-faq">
+                                    <p><a href="faq.html">FAQ</a></p>
+                                </div>
+                            </div>
+                            <div class="row martp-min12">
+                                <div class="col-2">
+                                    <i class="fas fa-circle"></i>
+                                </div>
+                                <div class="col-10 pad-le-faq">
+                                    <p><a href="building-directory.html">Building Directory</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="title-news bord-btm">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <span class="news">News</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-blog">
+                            <img src="assets/img/blog3.jpg">
+                            <div class="container">
+                                <h3>Architectural Atta Hallilintar $25 Mansion Going Skrrt</h3>
+                                <span class="date">Aug, 27 2018</span>
+                                <div class="border-dot"></div>
+                                <div class="blog">
+                                    <div class="row">
+                                        <div class="col-md-5 col-sm-12 pad-ri-blog">
+                                            <img src="assets/img/blog1.jpg">
+                                        </div>
+                                        <div class="col-md-7 col-sm-12 pad-le-blog">
+                                            <h4>AD Magazine Kicking Off Of Newest Them Article in 2019</h4>
+                                            <span class="date">Aug, 27 2018</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border-dot-mar20"></div>
+                                <div class="blog">
+                                    <div class="row">
+                                        <div class="col-md-5 col-sm-12 pad-ri-blog">
+                                            <img src="assets/img/blog1.jpg">
+                                        </div>
+                                        <div class="col-md-7 col-sm-12 pad-le-blog">
+                                            <h4>AD Magazine Kicking Off Of Newest Them Article in 2019</h4>
+                                            <span class="date">Aug, 27 2018</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ FOOTER ------>
+        <div id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12">
+                        <img class="foot-logo" src="assets/img/logo.png">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12">
+                                <div class="foot-uper">
+                                    <h6>OFFICE</h6>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell/Lease Your Space</a>
+                                </div>
+                                <div class="space-info disp-768">
+                                    <div class="row">
+                                        <div class="col-2 flex-o pad-ri">
+                                            <img src="assets/img/icons/loct.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">Graha MIR lt. 9, Jl. Pemuda No. 9, Rawamangun,
+                                            Jakarta Timur, Daerah Khusus Ibukota Jakarta</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 flex-o pad-ri">
+                                            <img src="assets/img/icons/call.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">Customer Service:  021-2956 9852</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 flex-o pad-ri">
+                                            <img src="assets/img/icons/mail.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">info@spacestock.com</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 flex-o pad-ri">
+                                            <img src="assets/img/icons/whatsapp.png">
+                                        </div>
+                                        <div class="col-10">
+                                            <span class="info-text">+62 821 1717 7710</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="foot-bottom">
+                                    <h6>FOLLOW US</h6>
+                                    <a href="#"><img src="assets/img/icons/twitter.png"></a>
+                                    <a href="#"><img src="assets/img/icons/instagram.png"></a>
+                                    <a href="#"><img src="assets/img/icons/linkedin.png"></a>
+                                    <a href="#"><img src="assets/img/icons/fb.png" class="last-socmed"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-6 rspv">
+                                 <div class="foot-uper">
+                                    <h6>OFFICE</h6>
+                                    <a href="#">Buy Office</a>
+                                    <a href="#">Lease Office</a>
+                                    <a href="#">Sell/Lease Your Space</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-6">
+                                <div class="foot-apart">
+                                    <h6>APARTMENTS</h6>
+                                    <a href="#">Buy Apartment</a>
+                                    <a href="#">Lease Apartment</a>
+                                    <a href="#">Sell/Lease Your Unit</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="foot-help">
+                                    <h6>HELP</h6>
+                                    <a href="terms-and-condition.html">Terms & Condition</a>
+                                    <a href="privacy-poilcy.html">Privacy Policy</a>
+                                    <a href="faq.html">FAQ</a>
+                                    <a href="contact-us.html">Contact Us</a>
+                                    <a href="#">Blog</a>
+                                    <a href="building-directory.html">Building Directory</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 rspv">
+                                <div class="foot-bottom">
+                                    <h6>FOLLOW US</h6>
+                                    <a href="#"><img src="assets/img/icons/twitter.png"></a>
+                                    <a href="#"><img src="assets/img/icons/instagram.png"></a>
+                                    <a href="#"><img src="assets/img/icons/linkedin.png"></a>
+                                    <a href="#"><img src="assets/img/icons/fb.png" class="last-socmed"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="foot-info">
+                            <img src="assets/img/logo.png">
+                            <div class="space-info">
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/loct.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">Graha MIR lt. 9, Jl. Pemuda No. 9, Rawamangun,
+                                        Jakarta Timur, Daerah Khusus Ibukota Jakarta</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/call.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">Customer Service:  021-2956 9852</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/mail.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">info@spacestock.com</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2 flex-o">
+                                        <img src="assets/img/icons/whatsapp.png">
+                                    </div>
+                                    <div class="col-10 pad-le">
+                                        <span class="info-text">+62 821 1717 7710</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------ FOOTER 2 ------>
+        <div id="footer2" class="footer2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="last-foot">
+                            <p>2018 © PT. Paragon Sewa Kantor | All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/select2.full.min.js"></script>
+        <script src="assets/js/general.js"></script>
+        <script src="assets/easy-autocomplete/jquery.easy-autocomplete.js"></script>
+        <script>
+        var options = {
+            data: 
+            {
+	"marvel": [
+		{"character": "Superman", "realName": "Jakarta Selatan"},
+		{"character": "Batman", "realName": "Bruce Wayne"},
+		{"character": "Wonder Woman", "realName": "Diana Prince"}
+	],
+	"dc-comics": [
+		{"character": "Daredevil", "realName": "Matt Murdock"},
+		{"character": "Captain America", "realName": "Steven Rogers"},
+		{"character": "Spider-Man", "realName": "Peter Parker"}
+	]
+}
+            ,
+            categories: [{
+                listLocation: "marvel",
+                maxNumberOfElements: 4,
+                header: "Most Recent Search"
+            }, {
+                listLocation: "dc-comics",
+                maxNumberOfElements: 4,
+                header: "Office"
+            }],
+
+            getValue: function(element) {
+                return element.character;
+            },
+
+            template: {
+                type: "description",
+                fields: {
+                    description: "realName"
+                }
+            },
+
+            list: {
+                maxNumberOfElements: 8,
+                match: {
+                    enabled: true
+                },
+                sort: {
+                    enabled: true
+                }
+            },
+
+            theme: "square"
+        };
+
+        $(".example-heroes1").easyAutocomplete(options);</script>
+        <script>
+    </body>
+</html>

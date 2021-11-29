@@ -1,0 +1,148 @@
+/*------GENERAL IN THIS PAGE------*/
+@media (max-width: 768px) {
+        .pad-le-book {
+        padding-left: 15px;
+    }
+    
+        .pad-ri-book {
+        padding-right: 15px;
+    }
+}
+
+/*------HEADER------*/
+@media (max-width: 768px) {
+    .header-appoint h1 {
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 378px) {
+    .header-appoint h1 {
+        font-size: 24px;
+    }
+}
+
+/*------BRIEFLY CONTENT------*/
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+    .adv-search .wrapper-tab .tab-space .semi {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+    
+    .adv-search .wrapper-tab .tab-space .semi.delbor {
+        border-right: 1px solid #133555;
+    }
+    
+    .adv-search .wrapper-tab .tab-space .non {
+        border-left: 1px solid #133555;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        margin-top: 10px;
+    }
+    
+    .bd-appoint-1 .col-2.maxwi {
+        max-width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .adv-search .wrapper-tab .tab-space .non {
+        margin-top: 10px;
+    }
+    
+    .adv-search .wrapper-tab .tab-space .semi {
+        margin-top: 10px;
+        border-left: 1px solid #133555;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+    
+    .adv-search .wrapper-tab .tab-space .full {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+    
+    .adv-search .wrapper-tab .tab-space .full.delbor {
+        border-right: 1px solid #133555;
+    }
+    
+    .bd-appoint-1 .col-2.maxwi {
+        max-width: 100% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper-tab .input-group label {
+        margin-top: 20px;
+    }
+    
+    .form-appoint {
+        margin: 20px auto auto auto;
+    }
+    
+    .bd-appoint-1 .col-2.maxwi {
+        max-width: 0 !important;
+    }
+    
+    .bd-appoint-1 .wrapper-number {
+        float: left;
+        width: 100%;
+    }
+    
+    .bd-appoint-1 h6.number {
+        float: left;
+    }
+    
+    .title-1 .col-2 {
+        max-width: 8.666667% !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .title-1 .col-2 {
+        max-width: 10.666667% !important;
+    }
+}
+
+@media (max-width: 440px) {
+    .adv-search .wrapper-tab .tab-space .all, .adv-search .wrapper-tab .tab-space .full, .adv-search .wrapper-tab .tab-space .semi, .adv-search .wrapper-tab .tab-space .non {
+        padding: 10px 4px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 378px) {
+    .bd-appoint-1 h2 {
+        font-size: 24px;
+    }
+    
+    .title-1 .col-2 {
+        max-width: 13.666667% !important;
+    }
+    
+    .bd-appoint-1 h6.number {
+        margin: 1px 0 0 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

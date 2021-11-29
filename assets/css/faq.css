@@ -1,0 +1,180 @@
+/*------------ FAQ ------------*/
+
+/*------GLOBAL IN THIS PAGE ONLY------*/
+.five {
+    font-weight: 500;
+}
+
+.pad-ri-faq {
+    padding-right: 2px;
+}
+
+.pad-le-faq {
+    padding-left: 2px;
+    margin-top: 3px;
+}
+
+.pad-ri-blog {
+    padding-right: 6px;
+}
+
+.pad-le-blog {
+    padding-left: 6px;
+}
+
+.martp-min12 {
+    margin-top: -12px;
+}
+
+.border-dot {
+    border-bottom: 1px solid #ddd;
+    border-bottom-style: dashed;
+    margin: 14px auto;
+}
+
+.border-dot-mar20 {
+    border-bottom: 1px solid #ddd;
+    border-bottom-style: dashed;
+    margin: auto auto 20px auto;
+}
+
+.bord-bt {
+    border-top: 1px solid #ddd;
+    padding: 20px 0 0 0;
+}
+
+/*------BREADCRUMB------*/
+.bc-faq .wrapper-bc-faq {
+    margin: 20px 0;
+}
+
+.bc-faq .wrapper-bc-faq p, .bc-faq .wrapper-bc-faq a {
+    color: #133555;
+}
+
+.bc-faq .wrapper-bc-faq i {
+    margin: auto 4px;
+    text-align: center;
+    font-size: smaller;
+}
+
+.title-bd-faq .bord-btm {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+/*------BODY LEFT FAQ------*/
+
+.faq-list .col-2 {
+    flex: 0 0 0.666667% !important;
+}
+
+i.fa-circle {
+    font-size: 12px;
+}
+
+.faq-one, .faq-two, .faq-three, .faq-four, .faq-five, .faq-six, .faq-seven, .faq-eight, .faq-nine, .faq-ten, .faq-eleven, .faq-twelve {
+    width: 100%;
+    cursor: pointer;
+}
+
+.cvrn-faq-one, .cvrn-faq-two, .cvrn-faq-three, .cvrn-faq-four, .cvrn-faq-five, .cvrn-faq-six, .cvrn-faq-seven, .cvrn-faq-eight, .cvrn-faq-nine, .cvrn-faq-ten, .cvrn-faq-eleven, .cvrn-faq-twelve {
+    float: right;
+}
+
+.cvrn-faq-one i, .cvrn-faq-two i, .cvrn-faq-three i, .cvrn-faq-four i, .cvrn-faq-five i, .cvrn-faq-six i, .cvrn-faq-seven i, .cvrn-faq-eight i, .cvrn-faq-nine i, .cvrn-faq-ten i, .cvrn-faq-eleven i, .cvrn-faq-twelve i {
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.cvrn-faq-one i.active, .cvrn-faq-two i.active, .cvrn-faq-three i.active, .cvrn-faq-four i.active, .cvrn-faq-five i.active, .cvrn-faq-six i.active, .cvrn-faq-seven i.active, .cvrn-faq-eight i.active, .cvrn-faq-nine i.active, .cvrn-faq-ten i.active, .cvrn-faq-eleven i.active, .cvrn-faq-twelve i.active {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    transition: all 300ms ease-in-out;
+}
+
+/*------BODY RIGHT FAQ------*/
+.title-more {
+    padding-bottom: 14px;
+}
+
+
+.title-more span.more {
+    font-size: 20px;
+}
+
+.faq-list a {
+    color: black;
+    text-decoration: underline;
+}
+
+.title-news {
+    padding-bottom: 14px;
+}
+
+
+.title-news span.news {
+    font-size: 20px;
+}
+
+.card-blog {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.card-blog img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.card-blog h3 {
+    font-size: 22px;
+}
+
+.card-blog .date {
+    font-size: 14px;
+    font-weight: 400;
+    color: #929292;
+}
+
+.card-blog .blog img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    
+}
+
+.card-blog .blog h4 {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

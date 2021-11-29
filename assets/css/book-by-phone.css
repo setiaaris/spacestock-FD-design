@@ -1,0 +1,100 @@
+/*------HEADER------*/
+.header-office {
+    width: 100%;
+    height: 190px;
+    margin: auto;
+    background: url('../img/bgheader.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 40px;
+    background-attachment: fixed;
+}
+
+.header-office span {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    margin: auto;
+    font-weight: 500;
+    font-size: 34px;
+}
+
+.header-btn {
+    margin: 10px auto;
+}
+
+.header-btn .btn-office {
+    background: #133555;
+    outline: none;
+    border: 1px solid #133555;
+    color: #fff;
+    border-radius: 4px;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    margin: auto 4px;
+}
+
+.header-btn .btn-apart {
+    background: none;
+    outline: none;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 4px;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    margin: auto 4px;
+}
+.bbp h1{
+    color: #fff;
+    padding: 0 18vw;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.book-phone-form{
+    padding: 50px 60px;
+    padding-bottom: 0;
+}
+.book-phone-form h2{
+    color: #143654;
+}
+.book-phone-form label{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.book-phone-form .form-control{
+    background-color: #f2f2f2;
+    border: none;
+}
+.label-warning{
+    color: #d30c1c;
+    margin-top: 30px;
+    line-height: 18px;
+}
+.book-phone-form .gutter-top{
+    margin-top: 20px;
+}
+small.blue-txt{
+    font-size: 14px;
+    color: #143654;
+    font-weight: 500;
+}
+button.btn-call{
+    display: block;
+    margin: auto;
+    background: #143654;
+    padding: 10px 90px;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.agreement-p {
+    text-align: center;
+    margin-top: 15px;
+    padding: 0 100px;
+    color: #999999;
+}
